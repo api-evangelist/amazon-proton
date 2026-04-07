@@ -8,11 +8,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Platform Engineering
+  - AWS
   - DevOps
   - Infrastructure as Code
+  - Platform Engineering
   - Serverless
-  - AWS
 url: >-
   https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -28,9 +28,9 @@ apis:
     humanURL: https://aws.amazon.com/proton/
     baseURL: https://proton.amazonaws.com
     tags:
-      - Platform Engineering
       - DevOps
       - Infrastructure as Code
+      - Platform Engineering
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
