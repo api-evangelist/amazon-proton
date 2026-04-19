@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instances-filter-schema.json",
+  "title": "ListServiceInstancesFilter",
+  "description": "A filtering criterion to scope down the result list of the <a>ListServiceInstances</a> action.",
+  "type": "object",
+  "properties": {
+    "key": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ListServiceInstancesFilterBy"
+        },
+        {
+          "description": "The name of a filtering criterion."
+        }
+      ]
+    },
+    "value": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ListServiceInstancesFilterValue"
+        },
+        {
+          "description": "<p>A value to filter by.</p> <p>With the date/time keys (<code>*At{Before,After}</code>), the value is a valid <a href=\"https://datatracker.ietf.org/doc/html/rfc3339.html\">RFC 3339</a> string with no UTC offset and with an optional fractional precision (for example, <code>1985-04-12T23:20:50.52Z</code>).</p>"
+        }
+      ]
+    }
+  }
+}

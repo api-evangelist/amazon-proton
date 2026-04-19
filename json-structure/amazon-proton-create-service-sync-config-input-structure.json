@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-sync-config-input-structure.json",
+  "name": "CreateServiceSyncConfigInput",
+  "description": "CreateServiceSyncConfigInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "branch": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The repository branch for your Proton Ops file."
+        }
+      ]
+    },
+    "filePath": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/OpsFilePath"
+        },
+        {
+          "description": "The path to the Proton Ops file."
+        }
+      ]
+    },
+    "repositoryName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name."
+        }
+      ]
+    },
+    "repositoryProvider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The provider type for your repository."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service the Proton Ops file is for."
+        }
+      ]
+    }
+  },
+  "required": [
+    "branch",
+    "filePath",
+    "repositoryName",
+    "repositoryProvider",
+    "serviceName"
+  ]
+}

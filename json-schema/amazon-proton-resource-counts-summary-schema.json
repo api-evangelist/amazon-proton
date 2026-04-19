@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-counts-summary-schema.json",
+  "title": "ResourceCountsSummary",
+  "description": "Summary counts of each Proton resource types.",
+  "type": "object",
+  "properties": {
+    "behindMajor": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Integer"
+        },
+        {
+          "description": "The number of resources of this type in the Amazon Web Services account that need a major template version update."
+        }
+      ]
+    },
+    "behindMinor": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Integer"
+        },
+        {
+          "description": "The number of resources of this type in the Amazon Web Services account that need a minor template version update."
+        }
+      ]
+    },
+    "failed": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Integer"
+        },
+        {
+          "description": "The number of resources of this type in the Amazon Web Services account that failed to deploy."
+        }
+      ]
+    },
+    "total": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Integer"
+        },
+        {
+          "description": "The total number of resources of this type in the Amazon Web Services account."
+        }
+      ]
+    },
+    "upToDate": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Integer"
+        },
+        {
+          "description": "The number of resources of this type in the Amazon Web Services account that are up-to-date with their template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "total"
+  ]
+}

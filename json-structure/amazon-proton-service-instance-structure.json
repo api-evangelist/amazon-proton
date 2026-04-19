@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-instance-structure.json",
+  "name": "ServiceInstance",
+  "description": "Detailed data of an Proton service instance resource.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceInstanceArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the service instance."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the service instance was created."
+        }
+      ]
+    },
+    "deploymentStatus": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DeploymentStatus"
+        },
+        {
+          "description": "The service instance deployment status."
+        }
+      ]
+    },
+    "deploymentStatusMessage": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/StatusMessage"
+        },
+        {
+          "description": "The message associated with the service instance deployment status."
+        }
+      ]
+    },
+    "environmentName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment that the service instance was deployed into."
+        }
+      ]
+    },
+    "lastClientRequestToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The last client request token received."
+        }
+      ]
+    },
+    "lastDeploymentAttemptedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when a deployment of the service instance was last attempted."
+        }
+      ]
+    },
+    "lastDeploymentSucceededAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the service instance was last deployed successfully."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service instance."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that the service instance belongs to."
+        }
+      ]
+    },
+    "spec": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SpecContents"
+        },
+        {
+          "description": "The service spec that was used to create the service instance."
+        }
+      ]
+    },
+    "templateMajorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The major version of the service template that was used to create the service instance."
+        }
+      ]
+    },
+    "templateMinorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The minor version of the service template that was used to create the service instance."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service template that was used to create the service instance."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "createdAt",
+    "deploymentStatus",
+    "environmentName",
+    "lastDeploymentAttemptedAt",
+    "lastDeploymentSucceededAt",
+    "name",
+    "serviceName",
+    "templateMajorVersion",
+    "templateMinorVersion",
+    "templateName"
+  ]
+}

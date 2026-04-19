@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-deployment-status-schema.json",
+  "title": "DeploymentStatus",
+  "description": "DeploymentStatus schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "IN_PROGRESS",
+    "FAILED",
+    "SUCCEEDED",
+    "DELETE_IN_PROGRESS",
+    "DELETE_FAILED",
+    "DELETE_COMPLETE",
+    "CANCELLING",
+    "CANCELLED"
+  ]
+}

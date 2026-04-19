@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-sync-attempt-schema.json",
+  "title": "ResourceSyncAttempt",
+  "description": "Detail data for a resource sync attempt activated by a push to a repository.",
+  "type": "object",
+  "properties": {
+    "events": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceSyncEvents"
+        },
+        {
+          "description": "An array of events with detail data."
+        }
+      ]
+    },
+    "initialRevision": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Revision"
+        },
+        {
+          "description": "Detail data for the initial repository commit, path and push."
+        }
+      ]
+    },
+    "startedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the sync attempt started."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceSyncStatus"
+        },
+        {
+          "description": "The status of the sync attempt."
+        }
+      ]
+    },
+    "target": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The resource that is synced to."
+        }
+      ]
+    },
+    "targetRevision": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Revision"
+        },
+        {
+          "description": "Detail data for the target revision."
+        }
+      ]
+    }
+  },
+  "required": [
+    "events",
+    "initialRevision",
+    "startedAt",
+    "status",
+    "target",
+    "targetRevision"
+  ]
+}

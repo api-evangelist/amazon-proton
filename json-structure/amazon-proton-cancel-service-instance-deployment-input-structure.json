@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-service-instance-deployment-input-structure.json",
+  "name": "CancelServiceInstanceDeploymentInput",
+  "description": "CancelServiceInstanceDeploymentInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceInstanceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service instance with the deployment to cancel."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service with the service instance deployment to cancel."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceInstanceName",
+    "serviceName"
+  ]
+}

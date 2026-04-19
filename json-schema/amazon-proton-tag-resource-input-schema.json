@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-tag-resource-input-schema.json",
+  "title": "TagResourceInput",
+  "description": "TagResourceInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "resourceArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the Proton resource to apply customer tags to."
+        }
+      ]
+    },
+    "tags": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TagList"
+        },
+        {
+          "description": "A list of customer tags to apply to the Proton resource."
+        }
+      ]
+    }
+  },
+  "required": [
+    "resourceArn",
+    "tags"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-services-output-structure.json",
+  "name": "ListServicesOutput",
+  "description": "ListServicesOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next service in the array of services, after the current requested list of services."
+        }
+      ]
+    },
+    "services": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceSummaryList"
+        },
+        {
+          "description": "An array of services with summaries of detail data."
+        }
+      ]
+    }
+  },
+  "required": [
+    "services"
+  ]
+}

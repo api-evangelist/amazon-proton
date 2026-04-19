@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-component-summary-schema.json",
+  "title": "ComponentSummary",
+  "description": "<p>Summary data of an Proton component resource.</p> <p>For more information about components, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/ag-components.html\">Proton components</a> in the <i>Proton User Guide</i>.</p>",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ComponentArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the component."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the component was created."
+        }
+      ]
+    },
+    "deploymentStatus": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DeploymentStatus"
+        },
+        {
+          "description": "The component deployment status."
+        }
+      ]
+    },
+    "deploymentStatusMessage": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/StatusMessage"
+        },
+        {
+          "description": "The message associated with the component deployment status."
+        }
+      ]
+    },
+    "environmentName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the Proton environment that this component is associated with."
+        }
+      ]
+    },
+    "lastDeploymentAttemptedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when a deployment of the component was last attempted."
+        }
+      ]
+    },
+    "lastDeploymentSucceededAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the component was last deployed successfully."
+        }
+      ]
+    },
+    "lastModifiedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the component was last modified."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the component."
+        }
+      ]
+    },
+    "serviceInstanceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service instance that this component is attached to. Provided when a component is attached to a service instance."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that <code>serviceInstanceName</code> is associated with. Provided when a component is attached to a service instance."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "createdAt",
+    "deploymentStatus",
+    "environmentName",
+    "lastModifiedAt",
+    "name"
+  ]
+}

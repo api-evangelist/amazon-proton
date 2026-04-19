@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-template-version-status-structure.json",
+  "name": "TemplateVersionStatus",
+  "description": "TemplateVersionStatus schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "REGISTRATION_IN_PROGRESS",
+    "REGISTRATION_FAILED",
+    "DRAFT",
+    "PUBLISHED"
+  ]
+}

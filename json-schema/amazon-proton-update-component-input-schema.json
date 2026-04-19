@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-component-input-schema.json",
+  "title": "UpdateComponentInput",
+  "description": "UpdateComponentInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "clientToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ClientToken"
+        },
+        {
+          "description": "The client token for the updated component."
+        }
+      ]
+    },
+    "deploymentType": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ComponentDeploymentUpdateType"
+        },
+        {
+          "description": "<p>The deployment type. It defines the mode for updating a component, as follows:</p> <dl> <dt/> <dd> <p> <code>NONE</code> </p> <p>In this mode, a deployment <i>doesn't</i> occur. Only the requested metadata parameters are updated. You can only specify <code>description</code> in this mode.</p> </dd> <dt/> <dd> <p> <code>CURRENT_VERSION</code> </p> <p>In this mode, the component is deployed and updated with the new <code>serviceSpec</code>, <code>templateSource</code>, and/or <code>type</code> that you provide. Only requested parameters are updated.</p> </dd> </dl>"
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "An optional customer-provided description of the component."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the component to update."
+        }
+      ]
+    },
+    "serviceInstanceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceNameOrEmpty"
+        },
+        {
+          "description": "The name of the service instance that you want to attach this component to. Don't specify to keep the component's current service instance attachment. Specify an empty string to detach the component from the service instance it's attached to. Specify non-empty values for both <code>serviceInstanceName</code> and <code>serviceName</code> or for neither of them."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceNameOrEmpty"
+        },
+        {
+          "description": "The name of the service that <code>serviceInstanceName</code> is associated with. Don't specify to keep the component's current service instance attachment. Specify an empty string to detach the component from the service instance it's attached to. Specify non-empty values for both <code>serviceInstanceName</code> and <code>serviceName</code> or for neither of them."
+        }
+      ]
+    },
+    "serviceSpec": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SpecContents"
+        },
+        {
+          "description": "The service spec that you want the component to use to access service inputs. Set this only when the component is attached to a service instance."
+        }
+      ]
+    },
+    "templateFile": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateFileContents"
+        },
+        {
+          "description": "<p>A path to the Infrastructure as Code (IaC) file describing infrastructure that a custom component provisions.</p> <note> <p>Components support a single IaC file, even if you use Terraform as your template language.</p> </note>"
+        }
+      ]
+    }
+  },
+  "required": [
+    "deploymentType",
+    "name"
+  ]
+}

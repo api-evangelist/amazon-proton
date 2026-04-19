@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-service-instances-sort-by-structure.json",
+  "name": "ListServiceInstancesSortBy",
+  "description": "ListServiceInstancesSortBy schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "name",
+    "deploymentStatus",
+    "templateName",
+    "serviceName",
+    "environmentName",
+    "lastDeploymentAttemptedAt",
+    "createdAt"
+  ]
+}

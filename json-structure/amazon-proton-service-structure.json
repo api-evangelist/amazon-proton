@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-structure.json",
+  "name": "Service",
+  "description": "Detailed data of an Proton service resource.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the service."
+        }
+      ]
+    },
+    "branchName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The name of the code repository branch that holds the code that's deployed in Proton."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the service was created."
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the service."
+        }
+      ]
+    },
+    "lastModifiedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the service was last modified."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service."
+        }
+      ]
+    },
+    "pipeline": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServicePipeline"
+        },
+        {
+          "description": "The service pipeline detail data."
+        }
+      ]
+    },
+    "repositoryConnectionArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the repository connection. For more information, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/setting-up-for-service.html#setting-up-vcontrol\">Setting up an AWS CodeStar connection</a> in the <i>Proton User Guide</i>."
+        }
+      ]
+    },
+    "repositoryId": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryId"
+        },
+        {
+          "description": "The ID of the source code repository."
+        }
+      ]
+    },
+    "spec": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SpecContents"
+        },
+        {
+          "description": "The formatted specification that defines the service."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceStatus"
+        },
+        {
+          "description": "The status of the service."
+        }
+      ]
+    },
+    "statusMessage": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/StatusMessage"
+        },
+        {
+          "description": "A service status message."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "createdAt",
+    "lastModifiedAt",
+    "name",
+    "spec",
+    "status",
+    "templateName"
+  ]
+}

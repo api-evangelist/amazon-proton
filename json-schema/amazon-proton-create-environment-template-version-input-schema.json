@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-environment-template-version-input-schema.json",
+  "title": "CreateEnvironmentTemplateVersionInput",
+  "description": "CreateEnvironmentTemplateVersionInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "clientToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ClientToken"
+        },
+        {
+          "description": "When included, if two identical requests are made with the same client token, Proton returns the environment template version that the first request created."
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the new version of an environment template."
+        }
+      ]
+    },
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "<p>To create a new minor version of the environment template, include <code>major Version</code>.</p> <p>To create a new major and minor version of the environment template, exclude <code>major Version</code>.</p>"
+        }
+      ]
+    },
+    "source": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionSourceInput"
+        },
+        {
+          "description": "An object that includes the template bundle S3 bucket path and name for the new version of an template."
+        }
+      ]
+    },
+    "tags": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TagList"
+        },
+        {
+          "description": "<p>An optional list of metadata items that you can associate with the Proton environment template version. A tag is a key-value pair.</p> <p>For more information, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/resources.html\">Proton resources and tagging</a> in the <i>Proton User Guide</i>.</p>"
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "source",
+    "templateName"
+  ]
+}

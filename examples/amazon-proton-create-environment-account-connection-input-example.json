@@ -1,0 +1,9 @@
+{
+  "clientToken": "example-clientToken",
+  "codebuildRoleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "componentRoleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "environmentName": "my-environment",
+  "managementAccountId": "env-210",
+  "roleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "tags": "example-tags"
+}

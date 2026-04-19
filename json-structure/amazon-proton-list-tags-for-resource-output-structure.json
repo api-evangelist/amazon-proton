@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-tags-for-resource-output-structure.json",
+  "name": "ListTagsForResourceOutput",
+  "description": "ListTagsForResourceOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "A token that indicates the location of the next resource tag in the array of resource tags, after the current requested list of resource tags."
+        }
+      ]
+    },
+    "tags": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TagList"
+        },
+        {
+          "description": "A list of resource tags with detail data."
+        }
+      ]
+    }
+  },
+  "required": [
+    "tags"
+  ]
+}

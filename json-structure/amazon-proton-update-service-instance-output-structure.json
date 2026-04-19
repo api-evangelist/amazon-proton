@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-instance-output-structure.json",
+  "name": "UpdateServiceInstanceOutput",
+  "description": "UpdateServiceInstanceOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceInstance": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceInstance"
+        },
+        {
+          "description": "The service instance summary data that's returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceInstance"
+  ]
+}

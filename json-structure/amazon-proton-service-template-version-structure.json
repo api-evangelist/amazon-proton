@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-template-version-structure.json",
+  "name": "ServiceTemplateVersion",
+  "description": "Detailed data of an Proton service template version resource.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceTemplateVersionArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the version of a service template."
+        }
+      ]
+    },
+    "compatibleEnvironmentTemplates": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/CompatibleEnvironmentTemplateList"
+        },
+        {
+          "description": "An array of compatible environment template names for the major version of a service template."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the version of a service template was created."
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the version of a service template."
+        }
+      ]
+    },
+    "lastModifiedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the version of a service template was last modified."
+        }
+      ]
+    },
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The latest major version that's associated with the version of a service template."
+        }
+      ]
+    },
+    "minorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The minor version of a service template."
+        }
+      ]
+    },
+    "recommendedMinorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The recommended minor version of the service template."
+        }
+      ]
+    },
+    "schema": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateSchema"
+        },
+        {
+          "description": "The schema of the version of a service template."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionStatus"
+        },
+        {
+          "description": "The service template version status."
+        }
+      ]
+    },
+    "statusMessage": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/StatusMessage"
+        },
+        {
+          "description": "A service template version status message."
+        }
+      ]
+    },
+    "supportedComponentSources": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceTemplateSupportedComponentSourceInputList"
+        },
+        {
+          "description": "<p>An array of supported component sources. Components with supported sources can be attached to service instances based on this service template version.</p> <p>For more information about components, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/ag-components.html\">Proton components</a> in the <i>Proton User Guide</i>.</p>"
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the version of a service template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "compatibleEnvironmentTemplates",
+    "createdAt",
+    "lastModifiedAt",
+    "majorVersion",
+    "minorVersion",
+    "status",
+    "templateName"
+  ]
+}

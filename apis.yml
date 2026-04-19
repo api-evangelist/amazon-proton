@@ -1,74 +1,117 @@
-aid: amazon-proton
 name: Amazon Proton
-description: >-
-  AWS Proton is a managed service for platform engineers that helps them
-  publish standardized container and serverless application templates to empower
-  developers. It provides automated infrastructure provisioning and manages
-  deployment pipelines for all your applications.
+description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipelines for all your applications, enabling self-service developer workflows with platform-team guardrails.
+url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/apis.yml
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
 tags:
   - AWS
   - DevOps
   - Infrastructure as Code
   - Platform Engineering
   - Serverless
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/apis.yml
+  - Templates
+  - Self-Service
+  - CI/CD
 created: '2026-03-16'
-modified: '2026-03-16'
-specificationVersion: '0.19'
+modified: '2026-04-19'
 apis:
-  - aid: amazon-proton:aws-proton-api
-    name: AWS Proton API
-    description: >-
-      The AWS Proton API provides programmatic access to create and manage
-      environment templates, service templates, environments, services, and
-      components for standardized application deployments.
+  - name: AWS Proton API
+    description: The AWS Proton API provides programmatic access to create and manage environment templates, service templates, environments, services, components, and deployment pipelines for standardized application deployments with automated infrastructure provisioning.
     humanURL: https://aws.amazon.com/proton/
     baseURL: https://proton.amazonaws.com
     tags:
       - DevOps
       - Infrastructure as Code
       - Platform Engineering
+      - Templates
+      - Environments
+      - Services
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
       - type: OpenAPI
-        url: https://api.apis.guru/v2/specs/amazonaws.com/proton/2020-07-20/openapi.yaml
-      - type: Getting Started
+        url: openapi/amazon-proton-openapi-original.yaml
+      - type: GettingStarted
         url: https://aws.amazon.com/proton/getting-started/
       - type: Pricing
         url: https://aws.amazon.com/proton/pricing/
       - type: FAQ
         url: https://aws.amazon.com/proton/faqs/
+      - type: Authentication
+        url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
+      - type: RateLimits
+        url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 common:
   - type: Portal
     url: https://aws.amazon.com/proton/
-  - type: Website
-    url: https://aws.amazon.com/proton/
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://aws.amazon.com/service-terms/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://aws.amazon.com/privacy/
   - type: Support
     url: https://aws.amazon.com/premiumsupport/
   - type: Blog
     url: https://aws.amazon.com/blogs/containers/tag/aws-proton/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/aws
   - type: Console
     url: https://console.aws.amazon.com/proton/
-  - type: Sign Up
+  - type: SignUp
     url: https://portal.aws.amazon.com/billing/signup
-  - type: Login
-    url: https://signin.aws.amazon.com/
-  - type: Status
+  - type: StatusPage
     url: https://health.aws.amazon.com/health/status
-  - type: Contact
-    url: https://aws.amazon.com/contact-us/
+  - type: SpectralRules
+    url: rules/amazon-proton-spectral-rules.yml
+  - type: NaftikoCapability
+    url: capabilities/platform-engineering.yaml
+  - type: Vocabulary
+    url: vocabulary/amazon-proton-vocabulary.yaml
+  - type: Features
+    data:
+      - name: Environment Templates
+        description: Create standardized environment templates with infrastructure-as-code definitions for platform engineers to publish.
+      - name: Service Templates
+        description: Define reusable service templates that developers can use for self-service application deployments.
+      - name: Automated Provisioning
+        description: Automatically provision and manage infrastructure for environments and services using CloudFormation or Terraform.
+      - name: CI/CD Pipeline Management
+        description: Manage deployment pipelines for services with automatic updates when templates change.
+      - name: Template Versioning
+        description: Version control environment and service templates with major and minor version support.
+      - name: Components
+        description: Create infrastructure components that can be shared across services and environments.
+      - name: Repository Connections
+        description: Connect to GitHub and Bitbucket repositories for template source and service pipeline definitions.
+      - name: Drift Detection
+        description: Detect and remediate configuration drift in deployed environments and services.
+  - type: UseCases
+    data:
+      - name: Developer Self-Service
+        description: Enable developers to deploy containerized and serverless applications without deep infrastructure knowledge.
+      - name: Platform Standardization
+        description: Enforce organizational standards for infrastructure, security, and compliance through templates.
+      - name: Multi-Account Deployment
+        description: Deploy standardized environments and services across multiple AWS accounts.
+      - name: Microservices Orchestration
+        description: Manage the infrastructure for complex microservices architectures with consistent templates.
+      - name: Serverless Workflows
+        description: Deploy Lambda-based serverless applications with standardized infrastructure patterns.
+  - type: Integrations
+    data:
+      - name: AWS CloudFormation
+        description: Use CloudFormation as the IaC engine for provisioning environment and service infrastructure.
+      - name: HashiCorp Terraform
+        description: Use Terraform as an alternative IaC engine for environment and service provisioning.
+      - name: AWS CodePipeline
+        description: Automatically create CI/CD pipelines for services using CodePipeline.
+      - name: GitHub
+        description: Connect GitHub repositories as sources for environment templates and service pipeline definitions.
+      - name: AWS CodeCommit
+        description: Use CodeCommit repositories for template and configuration management.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+    url: https://apievangelist.com
+include: []

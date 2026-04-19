@@ -1,0 +1,16 @@
+{
+  "arn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "createdAt": "example-createdAt",
+  "deploymentStatus": "ACTIVE",
+  "deploymentStatusMessage": "ACTIVE",
+  "environmentName": "my-environment",
+  "lastClientRequestToken": "example-lastClientRequestToken",
+  "lastDeploymentAttemptedAt": "example-lastDeploymentAttemptedAt",
+  "lastDeploymentSucceededAt": "example-lastDeploymentSucceededAt",
+  "name": "my-environment",
+  "serviceName": "my-environment",
+  "spec": "example-spec",
+  "templateMajorVersion": "standard-env-template",
+  "templateMinorVersion": "standard-env-template",
+  "templateName": "my-environment"
+}

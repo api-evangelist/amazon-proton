@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-output-structure.json",
+  "name": "UpdateEnvironmentOutput",
+  "description": "UpdateEnvironmentOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environment": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Environment"
+        },
+        {
+          "description": "The environment detail data that's returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "environment"
+  ]
+}

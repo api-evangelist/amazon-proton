@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-sync-config-schema.json",
+  "title": "ServiceSyncConfig",
+  "description": "Detailed data of the service sync configuration.",
+  "type": "object",
+  "properties": {
+    "branch": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The name of the code repository branch that holds the service code Proton will sync with."
+        }
+      ]
+    },
+    "filePath": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/OpsFilePath"
+        },
+        {
+          "description": "The file path to the service sync configuration file."
+        }
+      ]
+    },
+    "repositoryName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The name of the code repository that holds the service code Proton will sync with."
+        }
+      ]
+    },
+    "repositoryProvider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The name of the repository provider that holds the repository Proton will sync with."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that the service instance is added to."
+        }
+      ]
+    }
+  },
+  "required": [
+    "branch",
+    "filePath",
+    "repositoryName",
+    "repositoryProvider",
+    "serviceName"
+  ]
+}

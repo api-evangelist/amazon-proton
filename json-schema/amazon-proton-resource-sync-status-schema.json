@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-resource-sync-status-schema.json",
+  "title": "ResourceSyncStatus",
+  "description": "ResourceSyncStatus schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "INITIATED",
+    "IN_PROGRESS",
+    "SUCCEEDED",
+    "FAILED"
+  ]
+}

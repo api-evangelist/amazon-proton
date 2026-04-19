@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-sync-type-structure.json",
+  "name": "SyncType",
+  "description": "SyncType schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "TEMPLATE_SYNC",
+    "SERVICE_SYNC"
+  ]
+}

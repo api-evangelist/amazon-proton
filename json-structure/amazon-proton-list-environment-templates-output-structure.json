@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-templates-output-structure.json",
+  "name": "ListEnvironmentTemplatesOutput",
+  "description": "ListEnvironmentTemplatesOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next environment template in the array of environment templates, after the current requested list of environment templates."
+        }
+      ]
+    },
+    "templates": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentTemplateSummaryList"
+        },
+        {
+          "description": "An array of environment templates with detail data."
+        }
+      ]
+    }
+  },
+  "required": [
+    "templates"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-template-sync-config-input-schema.json",
+  "title": "DeleteTemplateSyncConfigInput",
+  "description": "DeleteTemplateSyncConfigInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The template name."
+        }
+      ]
+    },
+    "templateType": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateType"
+        },
+        {
+          "description": "The template type."
+        }
+      ]
+    }
+  },
+  "required": [
+    "templateName",
+    "templateType"
+  ]
+}

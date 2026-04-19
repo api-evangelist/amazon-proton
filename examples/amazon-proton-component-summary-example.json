@@ -1,0 +1,13 @@
+{
+  "arn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "createdAt": "example-createdAt",
+  "deploymentStatus": "ACTIVE",
+  "deploymentStatusMessage": "ACTIVE",
+  "environmentName": "my-environment",
+  "lastDeploymentAttemptedAt": "example-lastDeploymentAttemptedAt",
+  "lastDeploymentSucceededAt": "example-lastDeploymentSucceededAt",
+  "lastModifiedAt": "example-lastModifiedAt",
+  "name": "my-environment",
+  "serviceInstanceName": "my-environment",
+  "serviceName": "my-environment"
+}

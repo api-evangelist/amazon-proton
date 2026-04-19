@@ -1,0 +1,151 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Amazon Proton
+  description: Vocabulary for Amazon Proton API covering environment templates, service templates, environments, services, and platform engineering operations.
+  created: "2026-04-19"
+  modified: "2026-04-19"
+
+operational:
+  apis:
+    - namespace: amazon-proton
+      version: "2020-07-20"
+      baseUrl: https://proton.{region}.amazonaws.com
+      status: active
+      description: Amazon Proton platform engineering and deployment automation API
+
+  resources:
+    - name: environment-templates
+      api: amazon-proton
+      operations: [CreateEnvironmentTemplate, ListEnvironmentTemplates, GetEnvironmentTemplate, UpdateEnvironmentTemplate, DeleteEnvironmentTemplate]
+    - name: service-templates
+      api: amazon-proton
+      operations: [CreateServiceTemplate, ListServiceTemplates, GetServiceTemplate, UpdateServiceTemplate, DeleteServiceTemplate]
+    - name: environments
+      api: amazon-proton
+      operations: [CreateEnvironment, ListEnvironments, GetEnvironment, UpdateEnvironment, DeleteEnvironment]
+    - name: services
+      api: amazon-proton
+      operations: [CreateService, ListServices, GetService, UpdateService, DeleteService]
+    - name: components
+      api: amazon-proton
+      operations: [CreateComponent, ListComponents, GetComponent, UpdateComponent, DeleteComponent]
+    - name: repositories
+      api: amazon-proton
+      operations: [CreateRepository, ListRepositories, GetRepository, DeleteRepository]
+
+  actions:
+    - verb: create
+      httpMethod: POST
+      pattern: write
+      count: 12
+    - verb: list
+      httpMethod: GET
+      pattern: read
+      count: 15
+    - verb: get
+      httpMethod: GET
+      pattern: read
+      count: 12
+    - verb: update
+      httpMethod: PATCH
+      pattern: write
+      count: 10
+    - verb: delete
+      httpMethod: DELETE
+      pattern: destructive
+      count: 10
+
+  schemas:
+    core:
+      - Environment
+      - Service
+      - EnvironmentTemplate
+      - ServiceTemplate
+      - Component
+    versioning:
+      - EnvironmentTemplateVersion
+      - ServiceTemplateVersion
+    configuration:
+      - CompatibleEnvironmentTemplate
+
+  enums:
+    provisioning-status:
+      - IN_PROGRESS
+      - FAILED
+      - SUCCEEDED
+      - DELETE_IN_PROGRESS
+      - DELETE_FAILED
+      - DELETE_COMPLETE
+    deployment-update-types:
+      - NONE
+      - CURRENT_VERSION
+      - MINOR_VERSION
+      - MAJOR_VERSION
+
+  authentication:
+    schemes:
+      - AWS Signature Version 4 (SigV4)
+    description: All requests signed with SigV4 using proton signing name
+
+capability:
+  workflows:
+    - name: Platform Engineering
+      file: capabilities/platform-engineering.yaml
+      description: Platform engineering template and deployment workflow
+      apisUsed:
+        - Amazon Proton API
+      personas:
+        - Platform Engineer
+        - Application Developer
+
+  personas:
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Creates and manages environment and service templates for standardized deployments
+      workflows:
+        - Platform Engineering
+    - id: application-developer
+      name: Application Developer
+      description: Deploys services using self-service templates provided by platform engineers
+      workflows:
+        - Platform Engineering
+
+  domains:
+    - DevOps
+    - Platform Engineering
+    - Infrastructure as Code
+
+  namespaces:
+    - name: amazon-proton
+      type: consumed
+      baseUri: https://proton.{region}.amazonaws.com
+    - name: platform-engineering-api
+      type: rest
+      port: 8080
+    - name: platform-engineering-mcp
+      type: mcp
+      port: 9090
+
+  binds:
+    - AWS_ACCESS_KEY_ID
+    - AWS_SECRET_ACCESS_KEY
+    - AWS_REGION
+
+crossReference:
+  - resource: environment-templates
+    operations: [CreateEnvironmentTemplate, ListEnvironmentTemplates, GetEnvironmentTemplate]
+    workflows: [Platform Engineering]
+    personas: [Platform Engineer]
+  - resource: environments
+    operations: [CreateEnvironment, ListEnvironments, GetEnvironment]
+    workflows: [Platform Engineering]
+    personas: [Platform Engineer, Application Developer]
+  - resource: service-templates
+    operations: [CreateServiceTemplate, ListServiceTemplates, GetServiceTemplate]
+    workflows: [Platform Engineering]
+    personas: [Platform Engineer]
+  - resource: services
+    operations: [CreateService, ListServices, GetService]
+    workflows: [Platform Engineering]
+    personas: [Application Developer]

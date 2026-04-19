@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-template-type-structure.json",
+  "name": "TemplateType",
+  "description": "TemplateType schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "ENVIRONMENT",
+    "SERVICE"
+  ]
+}

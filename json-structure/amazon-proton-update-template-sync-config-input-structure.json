@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-template-sync-config-input-structure.json",
+  "name": "UpdateTemplateSyncConfigInput",
+  "description": "UpdateTemplateSyncConfigInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "branch": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The repository branch for your template."
+        }
+      ]
+    },
+    "repositoryName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name (for example, <code>myrepos/myrepo</code>)."
+        }
+      ]
+    },
+    "repositoryProvider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The repository provider."
+        }
+      ]
+    },
+    "subdirectory": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Subdirectory"
+        },
+        {
+          "description": "A subdirectory path to your template bundle version. When included, limits the template bundle search to this repository directory."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The synced template name."
+        }
+      ]
+    },
+    "templateType": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateType"
+        },
+        {
+          "description": "The synced template type."
+        }
+      ]
+    }
+  },
+  "required": [
+    "branch",
+    "repositoryName",
+    "repositoryProvider",
+    "templateName",
+    "templateType"
+  ]
+}

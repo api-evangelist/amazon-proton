@@ -1,0 +1,4 @@
+{
+  "resourceArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "tagKeys": "example-tagKeys"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-untag-resource-input-schema.json",
+  "title": "UntagResourceInput",
+  "description": "UntagResourceInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "resourceArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the resource to remove customer tags from."
+        }
+      ]
+    },
+    "tagKeys": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TagKeyList"
+        },
+        {
+          "description": "A list of customer tag keys that indicate the customer tags to be removed from the resource."
+        }
+      ]
+    }
+  },
+  "required": [
+    "resourceArn",
+    "tagKeys"
+  ]
+}

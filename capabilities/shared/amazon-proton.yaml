@@ -1,0 +1,278 @@
+naftiko: "1.0.0-alpha1"
+
+info:
+  label: Amazon Proton API
+  description: Platform engineering API for creating standardized templates, environments, and services for automated infrastructure provisioning and deployment pipelines.
+  tags:
+    - Amazon
+    - AWS
+    - DevOps
+    - Platform Engineering
+    - Infrastructure as Code
+    - Templates
+    - Serverless
+  created: "2026-04-19"
+  modified: "2026-04-19"
+
+binds:
+  - namespace: env
+    keys:
+      AWS_ACCESS_KEY_ID: AWS_ACCESS_KEY_ID
+      AWS_SECRET_ACCESS_KEY: AWS_SECRET_ACCESS_KEY
+      AWS_REGION: AWS_REGION
+
+capability:
+  consumes:
+    - type: http
+      namespace: amazon-proton
+      baseUri: https://proton.{region}.amazonaws.com
+      description: Amazon Proton platform engineering and deployment automation API
+      authentication:
+        type: apikey
+        key: Authorization
+        value: "{{AWS_ACCESS_KEY_ID}}"
+        placement: header
+      resources:
+        - name: environment-templates
+          path: /environment-templates
+          description: Manage environment templates
+          operations:
+            - name: list-environment-templates
+              method: GET
+              description: List environment templates
+              outputRawFormat: json
+              outputParameters:
+                - name: result
+                  type: object
+                  value: "$."
+            - name: create-environment-template
+              method: POST
+              description: Create a new environment template
+              outputRawFormat: json
+              outputParameters:
+                - name: result
+                  type: object
+                  value: "$."
+              body:
+                type: json
+                data:
+                  name: "{{tools.name}}"
+                  description: "{{tools.description}}"
+
+        - name: environments
+          path: /environments
+          description: Manage deployed environments
+          operations:
+            - name: list-environments
+              method: GET
+              description: List environments
+              outputRawFormat: json
+              outputParameters:
+                - name: result
+                  type: object
+                  value: "$."
+            - name: create-environment
+              method: POST
+              description: Create a new environment from a template
+              outputRawFormat: json
+              outputParameters:
+                - name: result
+                  type: object
+                  value: "$."
+              body:
+                type: json
+                data:
+                  name: "{{tools.name}}"
+                  templateName: "{{tools.template_name}}"
+                  templateMajorVersion: "{{tools.template_version}}"
+                  spec: "{{tools.spec}}"
+
+        - name: service-templates
+          path: /service-templates
+          description: Manage service templates
+          operations:
+            - name: list-service-templates
+              method: GET
+              description: List service templates
+              outputRawFormat: json
+              outputParameters:
+                - name: result
+                  type: object
+                  value: "$."
+            - name: create-service-template
+              method: POST
+              description: Create a new service template
+              outputRawFormat: json
+              outputParameters:
+                - name: result
+                  type: object
+                  value: "$."
+              body:
+                type: json
+                data:
+                  name: "{{tools.name}}"
+                  description: "{{tools.description}}"
+
+        - name: services
+          path: /services
+          description: Manage deployed services
+          operations:
+            - name: list-services
+              method: GET
+              description: List services
+              outputRawFormat: json
+              outputParameters:
+                - name: result
+                  type: object
+                  value: "$."
+            - name: create-service
+              method: POST
+              description: Create a new service from a service template
+              outputRawFormat: json
+              outputParameters:
+                - name: result
+                  type: object
+                  value: "$."
+              body:
+                type: json
+                data:
+                  name: "{{tools.name}}"
+                  templateName: "{{tools.template_name}}"
+                  spec: "{{tools.spec}}"
+
+  exposes:
+    - type: rest
+      port: 8100
+      namespace: amazon-proton-rest
+      resources:
+        - path: /v1/environment-templates
+          name: environment-templates
+          operations:
+            - method: GET
+              name: list-environment-templates
+              description: List environment templates
+              call: "amazon-proton.list-environment-templates"
+              outputParameters:
+                - type: object
+                  mapping: "$."
+        - path: /v1/environments
+          name: environments
+          operations:
+            - method: GET
+              name: list-environments
+              description: List environments
+              call: "amazon-proton.list-environments"
+              outputParameters:
+                - type: object
+                  mapping: "$."
+        - path: /v1/service-templates
+          name: service-templates
+          operations:
+            - method: GET
+              name: list-service-templates
+              description: List service templates
+              call: "amazon-proton.list-service-templates"
+              outputParameters:
+                - type: object
+                  mapping: "$."
+        - path: /v1/services
+          name: services
+          operations:
+            - method: GET
+              name: list-services
+              description: List services
+              call: "amazon-proton.list-services"
+              outputParameters:
+                - type: object
+                  mapping: "$."
+
+    - type: mcp
+      port: 9100
+      namespace: amazon-proton-mcp
+      transport: http
+      tools:
+        - name: list-environment-templates
+          description: List environment templates for platform standardization
+          hints:
+            readOnly: true
+            openWorld: true
+          call: "amazon-proton.list-environment-templates"
+          outputParameters:
+            - type: object
+              mapping: "$."
+
+        - name: create-environment-template
+          description: Create a new standardized environment template
+          hints:
+            readOnly: false
+            destructive: false
+          call: "amazon-proton.create-environment-template"
+          outputParameters:
+            - type: object
+              mapping: "$."
+
+        - name: list-environments
+          description: List deployed environments
+          hints:
+            readOnly: true
+            openWorld: true
+          call: "amazon-proton.list-environments"
+          outputParameters:
+            - type: object
+              mapping: "$."
+
+        - name: create-environment
+          description: Create a new environment from a template
+          hints:
+            readOnly: false
+            destructive: false
+          call: "amazon-proton.create-environment"
+          with:
+            name: "tools.name"
+            template_name: "tools.template_name"
+          outputParameters:
+            - type: object
+              mapping: "$."
+
+        - name: list-service-templates
+          description: List service templates for developer self-service
+          hints:
+            readOnly: true
+            openWorld: true
+          call: "amazon-proton.list-service-templates"
+          outputParameters:
+            - type: object
+              mapping: "$."
+
+        - name: create-service-template
+          description: Create a new standardized service template
+          hints:
+            readOnly: false
+            destructive: false
+          call: "amazon-proton.create-service-template"
+          outputParameters:
+            - type: object
+              mapping: "$."
+
+        - name: list-services
+          description: List deployed services
+          hints:
+            readOnly: true
+            openWorld: true
+          call: "amazon-proton.list-services"
+          outputParameters:
+            - type: object
+              mapping: "$."
+
+        - name: create-service
+          description: Create a new service from a service template
+          hints:
+            readOnly: false
+            destructive: false
+          call: "amazon-proton.create-service"
+          with:
+            name: "tools.name"
+            template_name: "tools.template_name"
+          outputParameters:
+            - type: object
+              mapping: "$."

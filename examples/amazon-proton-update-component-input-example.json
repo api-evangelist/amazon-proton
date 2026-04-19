@@ -1,0 +1,10 @@
+{
+  "clientToken": "example-clientToken",
+  "deploymentType": "example-deploymentType",
+  "description": "example-description",
+  "name": "my-environment",
+  "serviceInstanceName": "my-environment",
+  "serviceName": "my-environment",
+  "serviceSpec": "example-serviceSpec",
+  "templateFile": "standard-env-template"
+}

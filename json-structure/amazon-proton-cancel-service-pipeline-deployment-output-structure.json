@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-service-pipeline-deployment-output-structure.json",
+  "name": "CancelServicePipelineDeploymentOutput",
+  "description": "CancelServicePipelineDeploymentOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "pipeline": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServicePipeline"
+        },
+        {
+          "description": "The service pipeline detail data that's returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "pipeline"
+  ]
+}

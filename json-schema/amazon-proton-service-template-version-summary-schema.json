@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-service-template-version-summary-schema.json",
+  "title": "ServiceTemplateVersionSummary",
+  "description": "Summary data of an Proton service template version resource.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceTemplateVersionArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the version of a service template."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the version of a service template was created."
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the version of a service template."
+        }
+      ]
+    },
+    "lastModifiedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the version of a service template was last modified."
+        }
+      ]
+    },
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The latest major version that's associated with the version of a service template."
+        }
+      ]
+    },
+    "minorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The minor version of a service template."
+        }
+      ]
+    },
+    "recommendedMinorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The recommended minor version of the service template."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionStatus"
+        },
+        {
+          "description": "The service template minor version status."
+        }
+      ]
+    },
+    "statusMessage": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/StatusMessage"
+        },
+        {
+          "description": "A service template minor version status message."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "createdAt",
+    "lastModifiedAt",
+    "majorVersion",
+    "minorVersion",
+    "status",
+    "templateName"
+  ]
+}

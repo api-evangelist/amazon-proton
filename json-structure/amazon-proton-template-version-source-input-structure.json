@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-template-version-source-input-structure.json",
+  "name": "TemplateVersionSourceInput",
+  "description": "Template version source data.",
+  "type": "object",
+  "properties": {
+    "s3": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/S3ObjectSource"
+        },
+        {
+          "description": "An S3 source object that includes the template bundle S3 path and name for a template minor version."
+        }
+      ]
+    }
+  }
+}

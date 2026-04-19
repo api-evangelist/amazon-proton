@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-pipeline-output-schema.json",
+  "title": "UpdateServicePipelineOutput",
+  "description": "UpdateServicePipelineOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "pipeline": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServicePipeline"
+        },
+        {
+          "description": "The pipeline details that are returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "pipeline"
+  ]
+}

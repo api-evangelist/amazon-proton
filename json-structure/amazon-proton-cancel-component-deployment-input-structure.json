@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-component-deployment-input-structure.json",
+  "name": "CancelComponentDeploymentInput",
+  "description": "CancelComponentDeploymentInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "componentName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the component with the deployment to cancel."
+        }
+      ]
+    }
+  },
+  "required": [
+    "componentName"
+  ]
+}

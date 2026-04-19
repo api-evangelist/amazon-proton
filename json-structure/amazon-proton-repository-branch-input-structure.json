@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-branch-input-structure.json",
+  "name": "RepositoryBranchInput",
+  "description": "Detail input data for a linked repository branch.",
+  "type": "object",
+  "properties": {
+    "branch": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The repository branch."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name."
+        }
+      ]
+    },
+    "provider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The repository provider."
+        }
+      ]
+    }
+  },
+  "required": [
+    "branch",
+    "name",
+    "provider"
+  ]
+}

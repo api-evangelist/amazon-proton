@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-sync-attempt-structure.json",
+  "name": "RepositorySyncAttempt",
+  "description": "Detail data for a repository sync attempt activated by a push to a repository.",
+  "type": "object",
+  "properties": {
+    "events": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositorySyncEvents"
+        },
+        {
+          "description": "Detail data for sync attempt events."
+        }
+      ]
+    },
+    "startedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the sync attempt started."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositorySyncStatus"
+        },
+        {
+          "description": "The sync attempt status."
+        }
+      ]
+    }
+  },
+  "required": [
+    "events",
+    "startedAt",
+    "status"
+  ]
+}

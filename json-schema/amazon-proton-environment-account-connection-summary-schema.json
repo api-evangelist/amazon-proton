@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-account-connection-summary-schema.json",
+  "title": "EnvironmentAccountConnectionSummary",
+  "description": "Summary data of an Proton environment account connection resource.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentAccountConnectionArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the environment account connection."
+        }
+      ]
+    },
+    "componentRoleArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "<p>The Amazon Resource Name (ARN) of the IAM service role that Proton uses when provisioning directly defined components in the associated environment account. It determines the scope of infrastructure that a component can provision in the account.</p> <p>The environment account connection must have a <code>componentRoleArn</code> to allow directly defined components to be associated with any environments running in the account.</p> <p>For more information about components, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/ag-components.html\">Proton components</a> in the <i>Proton User Guide</i>.</p>"
+        }
+      ]
+    },
+    "environmentAccountId": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/AwsAccountId"
+        },
+        {
+          "description": "The ID of the environment account that's connected to the environment account connection."
+        }
+      ]
+    },
+    "environmentName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment that's associated with the environment account connection."
+        }
+      ]
+    },
+    "id": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentAccountConnectionId"
+        },
+        {
+          "description": "The ID of the environment account connection."
+        }
+      ]
+    },
+    "lastModifiedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the environment account connection was last modified."
+        }
+      ]
+    },
+    "managementAccountId": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/AwsAccountId"
+        },
+        {
+          "description": "The ID of the management account that's connected to the environment account connection."
+        }
+      ]
+    },
+    "requestedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the environment account connection request was made."
+        }
+      ]
+    },
+    "roleArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The IAM service role that's associated with the environment account connection."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentAccountConnectionStatus"
+        },
+        {
+          "description": "The status of the environment account connection."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "environmentAccountId",
+    "environmentName",
+    "id",
+    "lastModifiedAt",
+    "managementAccountId",
+    "requestedAt",
+    "roleArn",
+    "status"
+  ]
+}

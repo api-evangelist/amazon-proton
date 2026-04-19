@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-component-deployment-update-type-schema.json",
+  "title": "ComponentDeploymentUpdateType",
+  "description": "ComponentDeploymentUpdateType schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "NONE",
+    "CURRENT_VERSION"
+  ]
+}

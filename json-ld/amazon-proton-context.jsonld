@@ -1,0 +1,759 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "proton": "https://proton.amazonaws.com/schema/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "CreateEnvironmentTemplateOutput": "proton:CreateEnvironmentTemplateOutput",
+    "environmentTemplate": {
+      "@id": "proton:environmentTemplate",
+      "@type": "xsd:string"
+    },
+    "CreateServiceSyncConfigOutput": "proton:CreateServiceSyncConfigOutput",
+    "serviceSyncConfig": {
+      "@id": "proton:serviceSyncConfig",
+      "@type": "xsd:string"
+    },
+    "RepositorySyncDefinition": "proton:RepositorySyncDefinition",
+    "branch": {
+      "@id": "proton:branch",
+      "@type": "xsd:string"
+    },
+    "directory": {
+      "@id": "proton:directory",
+      "@type": "xsd:string"
+    },
+    "parent": {
+      "@id": "proton:parent",
+      "@type": "xsd:string"
+    },
+    "target": {
+      "@id": "proton:target",
+      "@type": "xsd:string"
+    },
+    "DeleteEnvironmentAccountConnectionInput": "proton:DeleteEnvironmentAccountConnectionInput",
+    "id": {
+      "@id": "proton:id",
+      "@type": "xsd:string"
+    },
+    "ServiceInstance": "proton:ServiceInstance",
+    "arn": {
+      "@id": "proton:arn",
+      "@type": "xsd:string"
+    },
+    "createdAt": {
+      "@id": "proton:createdAt",
+      "@type": "xsd:string"
+    },
+    "deploymentStatus": {
+      "@id": "proton:deploymentStatus",
+      "@type": "xsd:string"
+    },
+    "deploymentStatusMessage": {
+      "@id": "proton:deploymentStatusMessage",
+      "@type": "xsd:string"
+    },
+    "environmentName": {
+      "@id": "proton:environmentName",
+      "@type": "xsd:string"
+    },
+    "lastClientRequestToken": {
+      "@id": "proton:lastClientRequestToken",
+      "@type": "xsd:string"
+    },
+    "lastDeploymentAttemptedAt": {
+      "@id": "proton:lastDeploymentAttemptedAt",
+      "@type": "xsd:string"
+    },
+    "lastDeploymentSucceededAt": {
+      "@id": "proton:lastDeploymentSucceededAt",
+      "@type": "xsd:string"
+    },
+    "name": "schema:name",
+    "serviceName": {
+      "@id": "proton:serviceName",
+      "@type": "xsd:string"
+    },
+    "spec": {
+      "@id": "proton:spec",
+      "@type": "xsd:string"
+    },
+    "templateMajorVersion": {
+      "@id": "proton:templateMajorVersion",
+      "@type": "xsd:string"
+    },
+    "templateMinorVersion": {
+      "@id": "proton:templateMinorVersion",
+      "@type": "xsd:string"
+    },
+    "templateName": {
+      "@id": "proton:templateName",
+      "@type": "xsd:string"
+    },
+    "ServiceTemplateVersionSummary": "proton:ServiceTemplateVersionSummary",
+    "description": "schema:description",
+    "lastModifiedAt": {
+      "@id": "proton:lastModifiedAt",
+      "@type": "xsd:string"
+    },
+    "majorVersion": {
+      "@id": "proton:majorVersion",
+      "@type": "xsd:string"
+    },
+    "minorVersion": {
+      "@id": "proton:minorVersion",
+      "@type": "xsd:string"
+    },
+    "recommendedMinorVersion": {
+      "@id": "proton:recommendedMinorVersion",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "proton:status",
+      "@type": "xsd:string"
+    },
+    "statusMessage": {
+      "@id": "proton:statusMessage",
+      "@type": "xsd:string"
+    },
+    "GetEnvironmentTemplateInput": "proton:GetEnvironmentTemplateInput",
+    "ResourceCountsSummary": "proton:ResourceCountsSummary",
+    "behindMajor": {
+      "@id": "proton:behindMajor",
+      "@type": "xsd:string"
+    },
+    "behindMinor": {
+      "@id": "proton:behindMinor",
+      "@type": "xsd:string"
+    },
+    "failed": {
+      "@id": "proton:failed",
+      "@type": "xsd:string"
+    },
+    "total": {
+      "@id": "proton:total",
+      "@type": "xsd:string"
+    },
+    "upToDate": {
+      "@id": "proton:upToDate",
+      "@type": "xsd:string"
+    },
+    "ListEnvironmentTemplateVersionsInput": "proton:ListEnvironmentTemplateVersionsInput",
+    "maxResults": {
+      "@id": "proton:maxResults",
+      "@type": "xsd:string"
+    },
+    "nextToken": {
+      "@id": "proton:nextToken",
+      "@type": "xsd:string"
+    },
+    "RejectEnvironmentAccountConnectionOutput": "proton:RejectEnvironmentAccountConnectionOutput",
+    "environmentAccountConnection": {
+      "@id": "proton:environmentAccountConnection",
+      "@type": "xsd:string"
+    },
+    "DeleteEnvironmentTemplateVersionInput": "proton:DeleteEnvironmentTemplateVersionInput",
+    "ServicePipeline": "proton:ServicePipeline",
+    "CreateRepositoryInput": "proton:CreateRepositoryInput",
+    "connectionArn": {
+      "@id": "proton:connectionArn",
+      "@type": "xsd:string"
+    },
+    "encryptionKey": {
+      "@id": "proton:encryptionKey",
+      "@type": "xsd:string"
+    },
+    "provider": {
+      "@id": "proton:provider",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "proton:tags",
+      "@type": "xsd:string"
+    },
+    "CancelServiceInstanceDeploymentInput": "proton:CancelServiceInstanceDeploymentInput",
+    "serviceInstanceName": {
+      "@id": "proton:serviceInstanceName",
+      "@type": "xsd:string"
+    },
+    "ListServiceInstanceOutputsOutput": "proton:ListServiceInstanceOutputsOutput",
+    "outputs": {
+      "@id": "proton:outputs",
+      "@type": "xsd:string"
+    },
+    "DeleteEnvironmentOutput": "proton:DeleteEnvironmentOutput",
+    "environment": {
+      "@id": "proton:environment",
+      "@type": "xsd:string"
+    },
+    "DeleteComponentOutput": "proton:DeleteComponentOutput",
+    "component": {
+      "@id": "proton:component",
+      "@type": "xsd:string"
+    },
+    "GetEnvironmentTemplateOutput": "proton:GetEnvironmentTemplateOutput",
+    "Output": "proton:Output",
+    "key": {
+      "@id": "proton:key",
+      "@type": "xsd:string"
+    },
+    "valueString": {
+      "@id": "proton:valueString",
+      "@type": "xsd:string"
+    },
+    "ListServiceInstanceProvisionedResourcesInput": "proton:ListServiceInstanceProvisionedResourcesInput",
+    "UpdateComponentOutput": "proton:UpdateComponentOutput",
+    "GetComponentInput": "proton:GetComponentInput",
+    "DeleteServiceInput": "proton:DeleteServiceInput",
+    "ResourceSyncAttempt": "proton:ResourceSyncAttempt",
+    "events": {
+      "@id": "proton:events",
+      "@type": "xsd:string"
+    },
+    "initialRevision": {
+      "@id": "proton:initialRevision",
+      "@type": "xsd:string"
+    },
+    "startedAt": {
+      "@id": "proton:startedAt",
+      "@type": "xsd:string"
+    },
+    "targetRevision": {
+      "@id": "proton:targetRevision",
+      "@type": "xsd:string"
+    },
+    "UpdateComponentInput": "proton:UpdateComponentInput",
+    "clientToken": {
+      "@id": "proton:clientToken",
+      "@type": "xsd:string"
+    },
+    "deploymentType": {
+      "@id": "proton:deploymentType",
+      "@type": "xsd:string"
+    },
+    "serviceSpec": {
+      "@id": "proton:serviceSpec",
+      "@type": "xsd:string"
+    },
+    "templateFile": {
+      "@id": "proton:templateFile",
+      "@type": "xsd:string"
+    },
+    "ListServicePipelineOutputsOutput": "proton:ListServicePipelineOutputsOutput",
+    "GetServiceSyncBlockerSummaryOutput": "proton:GetServiceSyncBlockerSummaryOutput",
+    "serviceSyncBlockerSummary": {
+      "@id": "proton:serviceSyncBlockerSummary",
+      "@type": "xsd:string"
+    },
+    "ListEnvironmentOutputsInput": "proton:ListEnvironmentOutputsInput",
+    "CreateEnvironmentAccountConnectionInput": "proton:CreateEnvironmentAccountConnectionInput",
+    "codebuildRoleArn": {
+      "@id": "proton:codebuildRoleArn",
+      "@type": "xsd:string"
+    },
+    "componentRoleArn": {
+      "@id": "proton:componentRoleArn",
+      "@type": "xsd:string"
+    },
+    "managementAccountId": {
+      "@id": "proton:managementAccountId",
+      "@type": "xsd:string"
+    },
+    "roleArn": {
+      "@id": "proton:roleArn",
+      "@type": "xsd:string"
+    },
+    "GetServiceOutput": "proton:GetServiceOutput",
+    "service": {
+      "@id": "proton:service",
+      "@type": "xsd:string"
+    },
+    "EnvironmentTemplateSummary": "proton:EnvironmentTemplateSummary",
+    "displayName": {
+      "@id": "proton:displayName",
+      "@type": "xsd:string"
+    },
+    "provisioning": {
+      "@id": "proton:provisioning",
+      "@type": "xsd:string"
+    },
+    "recommendedVersion": {
+      "@id": "proton:recommendedVersion",
+      "@type": "xsd:string"
+    },
+    "ListServicePipelineOutputsInput": "proton:ListServicePipelineOutputsInput",
+    "ListServiceInstanceProvisionedResourcesOutput": "proton:ListServiceInstanceProvisionedResourcesOutput",
+    "provisionedResources": {
+      "@id": "proton:provisionedResources",
+      "@type": "xsd:string"
+    },
+    "RepositorySyncAttempt": "proton:RepositorySyncAttempt",
+    "UpdateServiceSyncConfigInput": "proton:UpdateServiceSyncConfigInput",
+    "filePath": {
+      "@id": "proton:filePath",
+      "@type": "xsd:string"
+    },
+    "repositoryName": {
+      "@id": "proton:repositoryName",
+      "@type": "xsd:string"
+    },
+    "repositoryProvider": {
+      "@id": "proton:repositoryProvider",
+      "@type": "xsd:string"
+    },
+    "ListServiceTemplateVersionsInput": "proton:ListServiceTemplateVersionsInput",
+    "UntagResourceInput": "proton:UntagResourceInput",
+    "resourceArn": {
+      "@id": "proton:resourceArn",
+      "@type": "xsd:string"
+    },
+    "tagKeys": {
+      "@id": "proton:tagKeys",
+      "@type": "xsd:string"
+    },
+    "UpdateServiceInput": "proton:UpdateServiceInput",
+    "Tag": "proton:Tag",
+    "value": {
+      "@id": "proton:value",
+      "@type": "xsd:string"
+    },
+    "GetEnvironmentTemplateVersionOutput": "proton:GetEnvironmentTemplateVersionOutput",
+    "environmentTemplateVersion": {
+      "@id": "proton:environmentTemplateVersion",
+      "@type": "xsd:string"
+    },
+    "DeleteRepositoryOutput": "proton:DeleteRepositoryOutput",
+    "repository": {
+      "@id": "proton:repository",
+      "@type": "xsd:string"
+    },
+    "UpdateServiceOutput": "proton:UpdateServiceOutput",
+    "CreateServiceInstanceOutput": "proton:CreateServiceInstanceOutput",
+    "serviceInstance": {
+      "@id": "proton:serviceInstance",
+      "@type": "xsd:string"
+    },
+    "ListEnvironmentProvisionedResourcesInput": "proton:ListEnvironmentProvisionedResourcesInput",
+    "ListEnvironmentAccountConnectionsOutput": "proton:ListEnvironmentAccountConnectionsOutput",
+    "environmentAccountConnections": {
+      "@id": "proton:environmentAccountConnections",
+      "@type": "xsd:string"
+    },
+    "UpdateServiceTemplateInput": "proton:UpdateServiceTemplateInput",
+    "UpdateEnvironmentAccountConnectionInput": "proton:UpdateEnvironmentAccountConnectionInput",
+    "CompatibleEnvironmentTemplate": "proton:CompatibleEnvironmentTemplate",
+    "ListRepositorySyncDefinitionsInput": "proton:ListRepositorySyncDefinitionsInput",
+    "syncType": {
+      "@id": "proton:syncType",
+      "@type": "xsd:string"
+    },
+    "CreateTemplateSyncConfigInput": "proton:CreateTemplateSyncConfigInput",
+    "subdirectory": {
+      "@id": "proton:subdirectory",
+      "@type": "xsd:string"
+    },
+    "templateType": {
+      "@id": "proton:templateType",
+      "@type": "xsd:string"
+    },
+    "GetAccountSettingsOutput": "proton:GetAccountSettingsOutput",
+    "accountSettings": {
+      "@id": "proton:accountSettings",
+      "@type": "xsd:string"
+    },
+    "GetServiceTemplateOutput": "proton:GetServiceTemplateOutput",
+    "serviceTemplate": {
+      "@id": "proton:serviceTemplate",
+      "@type": "xsd:string"
+    },
+    "SyncBlocker": "proton:SyncBlocker",
+    "contexts": {
+      "@id": "proton:contexts",
+      "@type": "xsd:string"
+    },
+    "createdReason": {
+      "@id": "proton:createdReason",
+      "@type": "xsd:string"
+    },
+    "resolvedAt": {
+      "@id": "proton:resolvedAt",
+      "@type": "xsd:string"
+    },
+    "resolvedReason": {
+      "@id": "proton:resolvedReason",
+      "@type": "xsd:string"
+    },
+    "type": {
+      "@id": "proton:type",
+      "@type": "xsd:string"
+    },
+    "UpdateEnvironmentTemplateVersionInput": "proton:UpdateEnvironmentTemplateVersionInput",
+    "DeleteEnvironmentTemplateInput": "proton:DeleteEnvironmentTemplateInput",
+    "RejectEnvironmentAccountConnectionInput": "proton:RejectEnvironmentAccountConnectionInput",
+    "ServiceSyncConfig": "proton:ServiceSyncConfig",
+    "ListServiceInstancesInput": "proton:ListServiceInstancesInput",
+    "filters": {
+      "@id": "proton:filters",
+      "@type": "xsd:string"
+    },
+    "sortBy": {
+      "@id": "proton:sortBy",
+      "@type": "xsd:string"
+    },
+    "sortOrder": {
+      "@id": "proton:sortOrder",
+      "@type": "xsd:string"
+    },
+    "ListEnvironmentProvisionedResourcesOutput": "proton:ListEnvironmentProvisionedResourcesOutput",
+    "UpdateServiceSyncBlockerOutput": "proton:UpdateServiceSyncBlockerOutput",
+    "serviceSyncBlocker": {
+      "@id": "proton:serviceSyncBlocker",
+      "@type": "xsd:string"
+    },
+    "ServiceSummary": "proton:ServiceSummary",
+    "DeleteEnvironmentInput": "proton:DeleteEnvironmentInput",
+    "ComponentSummary": "proton:ComponentSummary",
+    "EnvironmentAccountConnection": "proton:EnvironmentAccountConnection",
+    "environmentAccountId": {
+      "@id": "proton:environmentAccountId",
+      "@type": "xsd:string"
+    },
+    "requestedAt": {
+      "@id": "proton:requestedAt",
+      "@type": "xsd:string"
+    },
+    "ListServicePipelineProvisionedResourcesOutput": "proton:ListServicePipelineProvisionedResourcesOutput",
+    "ResourceSyncEvent": "proton:ResourceSyncEvent",
+    "event": {
+      "@id": "proton:event",
+      "@type": "xsd:string"
+    },
+    "externalId": {
+      "@id": "proton:externalId",
+      "@type": "xsd:string"
+    },
+    "time": {
+      "@id": "proton:time",
+      "@type": "xsd:string"
+    },
+    "CreateComponentInput": "proton:CreateComponentInput",
+    "manifest": {
+      "@id": "proton:manifest",
+      "@type": "xsd:string"
+    },
+    "ListRepositoriesOutput": "proton:ListRepositoriesOutput",
+    "repositories": {
+      "@id": "proton:repositories",
+      "@type": "xsd:string"
+    },
+    "ListServicesOutput": "proton:ListServicesOutput",
+    "services": {
+      "@id": "proton:services",
+      "@type": "xsd:string"
+    },
+    "ListRepositorySyncDefinitionsOutput": "proton:ListRepositorySyncDefinitionsOutput",
+    "syncDefinitions": {
+      "@id": "proton:syncDefinitions",
+      "@type": "xsd:string"
+    },
+    "UpdateServiceTemplateVersionInput": "proton:UpdateServiceTemplateVersionInput",
+    "compatibleEnvironmentTemplates": {
+      "@id": "proton:compatibleEnvironmentTemplates",
+      "@type": "xsd:string"
+    },
+    "supportedComponentSources": {
+      "@id": "proton:supportedComponentSources",
+      "@type": "xsd:string"
+    },
+    "ListComponentsOutput": "proton:ListComponentsOutput",
+    "components": {
+      "@id": "proton:components",
+      "@type": "xsd:string"
+    },
+    "CreateServiceSyncConfigInput": "proton:CreateServiceSyncConfigInput",
+    "CreateEnvironmentOutput": "proton:CreateEnvironmentOutput",
+    "UpdateServiceTemplateOutput": "proton:UpdateServiceTemplateOutput",
+    "UpdateAccountSettingsOutput": "proton:UpdateAccountSettingsOutput",
+    "CreateEnvironmentAccountConnectionOutput": "proton:CreateEnvironmentAccountConnectionOutput",
+    "GetRepositoryInput": "proton:GetRepositoryInput",
+    "AcceptEnvironmentAccountConnectionOutput": "proton:AcceptEnvironmentAccountConnectionOutput",
+    "UpdateEnvironmentTemplateInput": "proton:UpdateEnvironmentTemplateInput",
+    "GetRepositorySyncStatusInput": "proton:GetRepositorySyncStatusInput",
+    "GetRepositorySyncStatusOutput": "proton:GetRepositorySyncStatusOutput",
+    "latestSync": {
+      "@id": "proton:latestSync",
+      "@type": "xsd:string"
+    },
+    "CancelEnvironmentDeploymentOutput": "proton:CancelEnvironmentDeploymentOutput",
+    "DeleteTemplateSyncConfigOutput": "proton:DeleteTemplateSyncConfigOutput",
+    "templateSyncConfig": {
+      "@id": "proton:templateSyncConfig",
+      "@type": "xsd:string"
+    },
+    "UpdateEnvironmentInput": "proton:UpdateEnvironmentInput",
+    "environmentAccountConnectionId": {
+      "@id": "proton:environmentAccountConnectionId",
+      "@type": "xsd:string"
+    },
+    "protonServiceRoleArn": {
+      "@id": "proton:protonServiceRoleArn",
+      "@type": "xsd:string"
+    },
+    "provisioningRepository": {
+      "@id": "proton:provisioningRepository",
+      "@type": "xsd:string"
+    },
+    "Service": "proton:Service",
+    "branchName": {
+      "@id": "proton:branchName",
+      "@type": "xsd:string"
+    },
+    "pipeline": {
+      "@id": "proton:pipeline",
+      "@type": "xsd:string"
+    },
+    "repositoryConnectionArn": {
+      "@id": "proton:repositoryConnectionArn",
+      "@type": "xsd:string"
+    },
+    "repositoryId": {
+      "@id": "proton:repositoryId",
+      "@type": "xsd:string"
+    },
+    "CreateServiceInput": "proton:CreateServiceInput",
+    "ListTagsForResourceInput": "proton:ListTagsForResourceInput",
+    "UpdateEnvironmentTemplateOutput": "proton:UpdateEnvironmentTemplateOutput",
+    "UpdateEnvironmentTemplateVersionOutput": "proton:UpdateEnvironmentTemplateVersionOutput",
+    "ListEnvironmentTemplatesOutput": "proton:ListEnvironmentTemplatesOutput",
+    "templates": {
+      "@id": "proton:templates",
+      "@type": "xsd:string"
+    },
+    "ServiceTemplateSummary": "proton:ServiceTemplateSummary",
+    "pipelineProvisioning": {
+      "@id": "proton:pipelineProvisioning",
+      "@type": "xsd:string"
+    },
+    "ServiceInstanceSummary": "proton:ServiceInstanceSummary",
+    "CancelEnvironmentDeploymentInput": "proton:CancelEnvironmentDeploymentInput",
+    "UpdateServiceInstanceInput": "proton:UpdateServiceInstanceInput",
+    "GetServiceSyncBlockerSummaryInput": "proton:GetServiceSyncBlockerSummaryInput",
+    "CancelServicePipelineDeploymentOutput": "proton:CancelServicePipelineDeploymentOutput",
+    "ListServiceInstancesFilter": "proton:ListServiceInstancesFilter",
+    "UpdateEnvironmentOutput": "proton:UpdateEnvironmentOutput",
+    "ListEnvironmentOutputsOutput": "proton:ListEnvironmentOutputsOutput",
+    "GetServiceInstanceSyncStatusOutput": "proton:GetServiceInstanceSyncStatusOutput",
+    "desiredState": {
+      "@id": "proton:desiredState",
+      "@type": "xsd:string"
+    },
+    "latestSuccessfulSync": {
+      "@id": "proton:latestSuccessfulSync",
+      "@type": "xsd:string"
+    },
+    "CompatibleEnvironmentTemplateInput": "proton:CompatibleEnvironmentTemplateInput",
+    "ProvisionedResource": "proton:ProvisionedResource",
+    "identifier": {
+      "@id": "proton:identifier",
+      "@type": "xsd:string"
+    },
+    "provisioningEngine": {
+      "@id": "proton:provisioningEngine",
+      "@type": "xsd:string"
+    },
+    "ListServiceTemplateVersionsOutput": "proton:ListServiceTemplateVersionsOutput",
+    "templateVersions": {
+      "@id": "proton:templateVersions",
+      "@type": "xsd:string"
+    },
+    "DeleteServiceTemplateVersionOutput": "proton:DeleteServiceTemplateVersionOutput",
+    "serviceTemplateVersion": {
+      "@id": "proton:serviceTemplateVersion",
+      "@type": "xsd:string"
+    },
+    "CancelComponentDeploymentInput": "proton:CancelComponentDeploymentInput",
+    "componentName": {
+      "@id": "proton:componentName",
+      "@type": "xsd:string"
+    },
+    "UpdateServiceSyncConfigOutput": "proton:UpdateServiceSyncConfigOutput",
+    "UpdateAccountSettingsInput": "proton:UpdateAccountSettingsInput",
+    "deletePipelineProvisioningRepository": {
+      "@id": "proton:deletePipelineProvisioningRepository",
+      "@type": "xsd:string"
+    },
+    "pipelineCodebuildRoleArn": {
+      "@id": "proton:pipelineCodebuildRoleArn",
+      "@type": "xsd:string"
+    },
+    "pipelineProvisioningRepository": {
+      "@id": "proton:pipelineProvisioningRepository",
+      "@type": "xsd:string"
+    },
+    "pipelineServiceRoleArn": {
+      "@id": "proton:pipelineServiceRoleArn",
+      "@type": "xsd:string"
+    },
+    "GetServiceSyncConfigInput": "proton:GetServiceSyncConfigInput",
+    "ListRepositoriesInput": "proton:ListRepositoriesInput",
+    "EnvironmentAccountConnectionSummary": "proton:EnvironmentAccountConnectionSummary",
+    "CreateRepositoryOutput": "proton:CreateRepositoryOutput",
+    "GetRepositoryOutput": "proton:GetRepositoryOutput",
+    "GetServiceInstanceInput": "proton:GetServiceInstanceInput",
+    "GetServiceInstanceOutput": "proton:GetServiceInstanceOutput",
+    "GetTemplateSyncStatusInput": "proton:GetTemplateSyncStatusInput",
+    "templateVersion": {
+      "@id": "proton:templateVersion",
+      "@type": "xsd:string"
+    },
+    "EnvironmentTemplateVersion": "proton:EnvironmentTemplateVersion",
+    "ListEnvironmentsInput": "proton:ListEnvironmentsInput",
+    "environmentTemplates": {
+      "@id": "proton:environmentTemplates",
+      "@type": "xsd:string"
+    },
+    "ListComponentOutputsInput": "proton:ListComponentOutputsInput",
+    "UpdateServiceSyncBlockerInput": "proton:UpdateServiceSyncBlockerInput",
+    "ServiceTemplate": "proton:ServiceTemplate",
+    "CancelComponentDeploymentOutput": "proton:CancelComponentDeploymentOutput",
+    "CreateServiceTemplateOutput": "proton:CreateServiceTemplateOutput",
+    "UpdateServicePipelineOutput": "proton:UpdateServicePipelineOutput",
+    "DeleteTemplateSyncConfigInput": "proton:DeleteTemplateSyncConfigInput",
+    "GetEnvironmentAccountConnectionOutput": "proton:GetEnvironmentAccountConnectionOutput",
+    "EnvironmentTemplate": "proton:EnvironmentTemplate",
+    "CreateServiceTemplateInput": "proton:CreateServiceTemplateInput",
+    "DeleteEnvironmentTemplateOutput": "proton:DeleteEnvironmentTemplateOutput",
+    "ListComponentsInput": "proton:ListComponentsInput",
+    "DeleteServiceSyncConfigOutput": "proton:DeleteServiceSyncConfigOutput",
+    "UpdateTemplateSyncConfigOutput": "proton:UpdateTemplateSyncConfigOutput",
+    "GetComponentOutput": "proton:GetComponentOutput",
+    "AccountSettings": "proton:AccountSettings",
+    "EnvironmentTemplateFilter": "proton:EnvironmentTemplateFilter",
+    "S3ObjectSource": "proton:S3ObjectSource",
+    "bucket": {
+      "@id": "proton:bucket",
+      "@type": "xsd:string"
+    },
+    "TemplateSyncConfig": "proton:TemplateSyncConfig",
+    "SyncBlockerContext": "proton:SyncBlockerContext",
+    "GetEnvironmentOutput": "proton:GetEnvironmentOutput",
+    "Component": "proton:Component",
+    "RepositorySyncEvent": "proton:RepositorySyncEvent",
+    "GetEnvironmentTemplateVersionInput": "proton:GetEnvironmentTemplateVersionInput",
+    "ListServicePipelineProvisionedResourcesInput": "proton:ListServicePipelineProvisionedResourcesInput",
+    "ListComponentProvisionedResourcesOutput": "proton:ListComponentProvisionedResourcesOutput",
+    "UpdateServiceTemplateVersionOutput": "proton:UpdateServiceTemplateVersionOutput",
+    "RepositorySummary": "proton:RepositorySummary",
+    "CreateServiceTemplateVersionInput": "proton:CreateServiceTemplateVersionInput",
+    "source": {
+      "@id": "proton:source",
+      "@type": "xsd:string"
+    },
+    "ListEnvironmentTemplateVersionsOutput": "proton:ListEnvironmentTemplateVersionsOutput",
+    "ListEnvironmentAccountConnectionsInput": "proton:ListEnvironmentAccountConnectionsInput",
+    "requestedBy": {
+      "@id": "proton:requestedBy",
+      "@type": "xsd:string"
+    },
+    "statuses": {
+      "@id": "proton:statuses",
+      "@type": "xsd:string"
+    },
+    "DeleteServiceTemplateInput": "proton:DeleteServiceTemplateInput",
+    "DeleteServiceTemplateVersionInput": "proton:DeleteServiceTemplateVersionInput",
+    "ListComponentOutputsOutput": "proton:ListComponentOutputsOutput",
+    "ListTagsForResourceOutput": "proton:ListTagsForResourceOutput",
+    "AcceptEnvironmentAccountConnectionInput": "proton:AcceptEnvironmentAccountConnectionInput",
+    "UpdateTemplateSyncConfigInput": "proton:UpdateTemplateSyncConfigInput",
+    "TemplateVersionSourceInput": "proton:TemplateVersionSourceInput",
+    "s3": {
+      "@id": "proton:s3",
+      "@type": "xsd:string"
+    },
+    "ListServiceInstanceOutputsInput": "proton:ListServiceInstanceOutputsInput",
+    "ListEnvironmentTemplatesInput": "proton:ListEnvironmentTemplatesInput",
+    "CountsSummary": "proton:CountsSummary",
+    "environments": {
+      "@id": "proton:environments",
+      "@type": "xsd:string"
+    },
+    "pipelines": {
+      "@id": "proton:pipelines",
+      "@type": "xsd:string"
+    },
+    "serviceInstances": {
+      "@id": "proton:serviceInstances",
+      "@type": "xsd:string"
+    },
+    "serviceTemplates": {
+      "@id": "proton:serviceTemplates",
+      "@type": "xsd:string"
+    },
+    "CreateTemplateSyncConfigOutput": "proton:CreateTemplateSyncConfigOutput",
+    "CreateComponentOutput": "proton:CreateComponentOutput",
+    "ServiceSyncBlockerSummary": "proton:ServiceSyncBlockerSummary",
+    "latestBlockers": {
+      "@id": "proton:latestBlockers",
+      "@type": "xsd:string"
+    },
+    "DeleteComponentInput": "proton:DeleteComponentInput",
+    "GetServiceTemplateInput": "proton:GetServiceTemplateInput",
+    "UpdateServicePipelineInput": "proton:UpdateServicePipelineInput",
+    "GetServiceTemplateVersionOutput": "proton:GetServiceTemplateVersionOutput",
+    "EnvironmentTemplateVersionSummary": "proton:EnvironmentTemplateVersionSummary",
+    "ListEnvironmentsOutput": "proton:ListEnvironmentsOutput",
+    "GetEnvironmentAccountConnectionInput": "proton:GetEnvironmentAccountConnectionInput",
+    "DeleteServiceTemplateOutput": "proton:DeleteServiceTemplateOutput",
+    "RepositoryBranchInput": "proton:RepositoryBranchInput",
+    "GetServiceInput": "proton:GetServiceInput",
+    "DeleteRepositoryInput": "proton:DeleteRepositoryInput",
+    "CreateEnvironmentTemplateVersionInput": "proton:CreateEnvironmentTemplateVersionInput",
+    "Environment": "proton:Environment",
+    "UpdateEnvironmentAccountConnectionOutput": "proton:UpdateEnvironmentAccountConnectionOutput",
+    "Repository": "proton:Repository",
+    "TagResourceInput": "proton:TagResourceInput",
+    "ListServiceTemplatesOutput": "proton:ListServiceTemplatesOutput",
+    "ListServiceInstancesOutput": "proton:ListServiceInstancesOutput",
+    "GetTemplateSyncConfigOutput": "proton:GetTemplateSyncConfigOutput",
+    "GetTemplateSyncConfigInput": "proton:GetTemplateSyncConfigInput",
+    "GetServiceTemplateVersionInput": "proton:GetServiceTemplateVersionInput",
+    "NotifyResourceDeploymentStatusChangeInput": "proton:NotifyResourceDeploymentStatusChangeInput",
+    "deploymentId": {
+      "@id": "proton:deploymentId",
+      "@type": "xsd:string"
+    },
+    "CreateServiceOutput": "proton:CreateServiceOutput",
+    "ServiceTemplateVersion": "proton:ServiceTemplateVersion",
+    "GetServiceSyncConfigOutput": "proton:GetServiceSyncConfigOutput",
+    "CreateServiceInstanceInput": "proton:CreateServiceInstanceInput",
+    "Revision": "proton:Revision",
+    "sha": {
+      "@id": "proton:sha",
+      "@type": "xsd:string"
+    },
+    "CreateEnvironmentTemplateInput": "proton:CreateEnvironmentTemplateInput",
+    "DeleteServiceSyncConfigInput": "proton:DeleteServiceSyncConfigInput",
+    "ListServicesInput": "proton:ListServicesInput",
+    "CreateEnvironmentTemplateVersionOutput": "proton:CreateEnvironmentTemplateVersionOutput",
+    "CancelServiceInstanceDeploymentOutput": "proton:CancelServiceInstanceDeploymentOutput",
+    "GetEnvironmentInput": "proton:GetEnvironmentInput",
+    "GetResourcesSummaryOutput": "proton:GetResourcesSummaryOutput",
+    "counts": {
+      "@id": "proton:counts",
+      "@type": "xsd:string"
+    },
+    "UpdateServiceInstanceOutput": "proton:UpdateServiceInstanceOutput",
+    "GetServiceInstanceSyncStatusInput": "proton:GetServiceInstanceSyncStatusInput",
+    "CreateServiceTemplateVersionOutput": "proton:CreateServiceTemplateVersionOutput",
+    "CreateEnvironmentInput": "proton:CreateEnvironmentInput",
+    "ListComponentProvisionedResourcesInput": "proton:ListComponentProvisionedResourcesInput",
+    "CancelServicePipelineDeploymentInput": "proton:CancelServicePipelineDeploymentInput",
+    "DeleteEnvironmentTemplateVersionOutput": "proton:DeleteEnvironmentTemplateVersionOutput",
+    "ListServiceTemplatesInput": "proton:ListServiceTemplatesInput",
+    "DeleteEnvironmentAccountConnectionOutput": "proton:DeleteEnvironmentAccountConnectionOutput",
+    "DeleteServiceOutput": "proton:DeleteServiceOutput",
+    "EnvironmentSummary": "proton:EnvironmentSummary",
+    "GetTemplateSyncStatusOutput": "proton:GetTemplateSyncStatusOutput",
+    "RepositoryBranch": "proton:RepositoryBranch"
+  }
+}

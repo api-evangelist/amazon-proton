@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-deployment-status-structure.json",
+  "name": "DeploymentStatus",
+  "description": "DeploymentStatus schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "IN_PROGRESS",
+    "FAILED",
+    "SUCCEEDED",
+    "DELETE_IN_PROGRESS",
+    "DELETE_FAILED",
+    "DELETE_COMPLETE",
+    "CANCELLING",
+    "CANCELLED"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-pipeline-structure.json",
+  "name": "ServicePipeline",
+  "description": "Detailed data of an Proton service instance pipeline resource.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the service pipeline."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the service pipeline was created."
+        }
+      ]
+    },
+    "deploymentStatus": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DeploymentStatus"
+        },
+        {
+          "description": "The deployment status of the service pipeline."
+        }
+      ]
+    },
+    "deploymentStatusMessage": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/StatusMessage"
+        },
+        {
+          "description": "A service pipeline deployment status message."
+        }
+      ]
+    },
+    "lastDeploymentAttemptedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when a deployment of the service pipeline was last attempted."
+        }
+      ]
+    },
+    "lastDeploymentSucceededAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the service pipeline was last deployed successfully."
+        }
+      ]
+    },
+    "spec": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SpecContents"
+        },
+        {
+          "description": "The service spec that was used to create the service pipeline."
+        }
+      ]
+    },
+    "templateMajorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The major version of the service template that was used to create the service pipeline."
+        }
+      ]
+    },
+    "templateMinorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The minor version of the service template that was used to create the service pipeline."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service template that was used to create the service pipeline."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "createdAt",
+    "deploymentStatus",
+    "lastDeploymentAttemptedAt",
+    "lastDeploymentSucceededAt",
+    "templateMajorVersion",
+    "templateMinorVersion",
+    "templateName"
+  ]
+}

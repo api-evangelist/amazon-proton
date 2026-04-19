@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-template-supported-component-source-type-structure.json",
+  "name": "ServiceTemplateSupportedComponentSourceType",
+  "description": "ServiceTemplateSupportedComponentSourceType schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "DIRECTLY_DEFINED"
+  ]
+}

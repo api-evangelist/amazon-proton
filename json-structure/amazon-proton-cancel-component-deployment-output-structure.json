@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-cancel-component-deployment-output-structure.json",
+  "name": "CancelComponentDeploymentOutput",
+  "description": "CancelComponentDeploymentOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "component": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Component"
+        },
+        {
+          "description": "The detailed data of the component with the deployment that is being canceled."
+        }
+      ]
+    }
+  },
+  "required": [
+    "component"
+  ]
+}

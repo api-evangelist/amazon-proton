@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-revision-structure.json",
+  "name": "Revision",
+  "description": "Revision detail data for a commit and push that activates a sync attempt",
+  "type": "object",
+  "properties": {
+    "branch": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The repository branch."
+        }
+      ]
+    },
+    "directory": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The repository directory changed by a commit and push that activated the sync attempt."
+        }
+      ]
+    },
+    "repositoryName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name."
+        }
+      ]
+    },
+    "repositoryProvider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The repository provider."
+        }
+      ]
+    },
+    "sha": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SHA"
+        },
+        {
+          "description": "The secure hash algorithm (SHA) hash for the revision."
+        }
+      ]
+    }
+  },
+  "required": [
+    "branch",
+    "directory",
+    "repositoryName",
+    "repositoryProvider",
+    "sha"
+  ]
+}

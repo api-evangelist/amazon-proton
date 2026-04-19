@@ -1,0 +1,5 @@
+{
+  "serviceInstanceName": "my-environment",
+  "serviceName": "my-environment",
+  "serviceSyncBlocker": "example-serviceSyncBlocker"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-environment-template-output-structure.json",
+  "name": "DeleteEnvironmentTemplateOutput",
+  "description": "DeleteEnvironmentTemplateOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environmentTemplate": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentTemplate"
+        },
+        {
+          "description": "The detailed data of the environment template being deleted."
+        }
+      ]
+    }
+  }
+}

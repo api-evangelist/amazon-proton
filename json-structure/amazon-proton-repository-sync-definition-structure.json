@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-repository-sync-definition-structure.json",
+  "name": "RepositorySyncDefinition",
+  "description": "A repository sync definition.",
+  "type": "object",
+  "properties": {
+    "branch": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The repository branch."
+        }
+      ]
+    },
+    "directory": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The directory in the repository."
+        }
+      ]
+    },
+    "parent": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The resource that is synced from."
+        }
+      ]
+    },
+    "target": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The resource that is synced to."
+        }
+      ]
+    }
+  },
+  "required": [
+    "branch",
+    "directory",
+    "parent",
+    "target"
+  ]
+}

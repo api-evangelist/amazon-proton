@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-sync-config-input-structure.json",
+  "name": "GetServiceSyncConfigInput",
+  "description": "GetServiceSyncConfigInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that you want to get the service sync configuration for."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceName"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "arn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "codebuildRoleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "componentRoleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "environmentAccountId": "env-194",
+  "environmentName": "my-environment",
+  "id": "env-500",
+  "lastModifiedAt": "example-lastModifiedAt",
+  "managementAccountId": "env-599",
+  "requestedAt": "example-requestedAt",
+  "roleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "status": "ACTIVE"
+}

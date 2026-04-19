@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-input-structure.json",
+  "name": "UpdateServiceInput",
+  "description": "UpdateServiceInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "The edited service description."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service to edit."
+        }
+      ]
+    },
+    "spec": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SpecContents"
+        },
+        {
+          "description": "Lists the service instances to add and the existing service instances to remain. Omit the existing service instances to delete from the list. <i>Don't</i> include edits to the existing service instances or pipeline. For more information, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/ag-svc-update.html\">Edit a service</a> in the <i>Proton User Guide</i>."
+        }
+      ]
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

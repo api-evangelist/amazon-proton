@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-compatible-environment-template-input-structure.json",
+  "name": "CompatibleEnvironmentTemplateInput",
+  "description": "Compatible environment template data.",
+  "type": "object",
+  "properties": {
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The major version of the compatible environment template."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The compatible environment template name."
+        }
+      ]
+    }
+  },
+  "required": [
+    "majorVersion",
+    "templateName"
+  ]
+}

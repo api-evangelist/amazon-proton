@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-service-template-structure.json",
+  "name": "ServiceTemplate",
+  "description": "Detailed data of an Proton service template resource.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceTemplateArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the service template."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the service template was created."
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the service template."
+        }
+      ]
+    },
+    "displayName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DisplayName"
+        },
+        {
+          "description": "The service template name as displayed in the developer interface."
+        }
+      ]
+    },
+    "encryptionKey": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The customer provided service template encryption key that's used to encrypt data."
+        }
+      ]
+    },
+    "lastModifiedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the service template was last modified."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service template."
+        }
+      ]
+    },
+    "pipelineProvisioning": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Provisioning"
+        },
+        {
+          "description": "If <code>pipelineProvisioning</code> is <code>true</code>, a service pipeline is included in the service template. Otherwise, a service pipeline <i>isn't</i> included in the service template."
+        }
+      ]
+    },
+    "recommendedVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/FullTemplateVersionNumber"
+        },
+        {
+          "description": "The recommended version of the service template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "createdAt",
+    "lastModifiedAt",
+    "name"
+  ]
+}

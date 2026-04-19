@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-template-version-input-structure.json",
+  "name": "DeleteServiceTemplateVersionInput",
+  "description": "DeleteServiceTemplateVersionInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The service template major version to delete."
+        }
+      ]
+    },
+    "minorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The service template minor version to delete."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "majorVersion",
+    "minorVersion",
+    "templateName"
+  ]
+}

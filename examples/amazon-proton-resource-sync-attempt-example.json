@@ -1,0 +1,8 @@
+{
+  "events": "example-events",
+  "initialRevision": "example-initialRevision",
+  "startedAt": "example-startedAt",
+  "status": "ACTIVE",
+  "target": "example-target",
+  "targetRevision": "example-targetRevision"
+}

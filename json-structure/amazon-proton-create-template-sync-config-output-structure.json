@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-template-sync-config-output-structure.json",
+  "name": "CreateTemplateSyncConfigOutput",
+  "description": "CreateTemplateSyncConfigOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "templateSyncConfig": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateSyncConfig"
+        },
+        {
+          "description": "The template sync configuration detail data that's returned by Proton."
+        }
+      ]
+    }
+  }
+}

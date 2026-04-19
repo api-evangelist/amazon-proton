@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-repository-input-structure.json",
+  "name": "GetRepositoryInput",
+  "description": "GetRepositoryInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name, for example <code>myrepos/myrepo</code>."
+        }
+      ]
+    },
+    "provider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The repository provider."
+        }
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "provider"
+  ]
+}

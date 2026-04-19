@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-provisioned-resources-input-structure.json",
+  "name": "ListEnvironmentProvisionedResourcesInput",
+  "description": "ListEnvironmentProvisionedResourcesInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environmentName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The environment name."
+        }
+      ]
+    },
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EmptyNextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next environment provisioned resource in the array of environment provisioned resources, after the list of environment provisioned resources that was previously requested."
+        }
+      ]
+    }
+  },
+  "required": [
+    "environmentName"
+  ]
+}

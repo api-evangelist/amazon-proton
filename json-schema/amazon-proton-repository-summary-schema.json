@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-summary-schema.json",
+  "title": "RepositorySummary",
+  "description": "Summary data of a linked repository\u2014a repository that has been registered with Proton.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the linked repository."
+        }
+      ]
+    },
+    "connectionArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the of your connection that connects Proton to your repository."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name."
+        }
+      ]
+    },
+    "provider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The repository provider."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "connectionArn",
+    "name",
+    "provider"
+  ]
+}

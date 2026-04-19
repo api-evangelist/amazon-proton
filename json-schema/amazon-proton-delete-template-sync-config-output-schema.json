@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-template-sync-config-output-schema.json",
+  "title": "DeleteTemplateSyncConfigOutput",
+  "description": "DeleteTemplateSyncConfigOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "templateSyncConfig": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateSyncConfig"
+        },
+        {
+          "description": "The template sync configuration detail data that's returned by Proton."
+        }
+      ]
+    }
+  }
+}

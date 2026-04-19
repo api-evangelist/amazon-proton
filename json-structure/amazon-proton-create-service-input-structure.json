@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-service-input-structure.json",
+  "name": "CreateServiceInput",
+  "description": "CreateServiceInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "branchName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The name of the code repository branch that holds the code that's deployed in Proton. <i>Don't</i> include this parameter if your service template <i>doesn't</i> include a service pipeline."
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the Proton service."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The service name."
+        }
+      ]
+    },
+    "repositoryConnectionArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the repository connection. For more information, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/setting-up-for-service.html#setting-up-vcontrol\">Setting up an AWS CodeStar connection</a> in the <i>Proton User Guide</i>. <i>Don't</i> include this parameter if your service template <i>doesn't</i> include a service pipeline."
+        }
+      ]
+    },
+    "repositoryId": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryId"
+        },
+        {
+          "description": "The ID of the code repository. <i>Don't</i> include this parameter if your service template <i>doesn't</i> include a service pipeline."
+        }
+      ]
+    },
+    "spec": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SpecContents"
+        },
+        {
+          "description": "A link to a spec file that provides inputs as defined in the service template bundle schema file. The spec file is in YAML format. <i>Don\u2019t</i> include pipeline inputs in the spec if your service template <i>doesn\u2019t</i> include a service pipeline. For more information, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/ag-create-svc.html\">Create a service</a> in the <i>Proton User Guide</i>."
+        }
+      ]
+    },
+    "tags": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TagList"
+        },
+        {
+          "description": "<p>An optional list of metadata items that you can associate with the Proton service. A tag is a key-value pair.</p> <p>For more information, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/resources.html\">Proton resources and tagging</a> in the <i>Proton User Guide</i>.</p>"
+        }
+      ]
+    },
+    "templateMajorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The major version of the service template that was used to create the service."
+        }
+      ]
+    },
+    "templateMinorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The minor version of the service template that was used to create the service."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service template that's used to create the service."
+        }
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "spec",
+    "templateMajorVersion",
+    "templateName"
+  ]
+}

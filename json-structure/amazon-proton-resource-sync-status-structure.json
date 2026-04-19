@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-resource-sync-status-structure.json",
+  "name": "ResourceSyncStatus",
+  "description": "ResourceSyncStatus schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "INITIATED",
+    "IN_PROGRESS",
+    "SUCCEEDED",
+    "FAILED"
+  ]
+}

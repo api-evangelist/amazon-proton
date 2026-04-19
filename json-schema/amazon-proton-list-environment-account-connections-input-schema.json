@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-environment-account-connections-input-schema.json",
+  "title": "ListEnvironmentAccountConnectionsInput",
+  "description": "ListEnvironmentAccountConnectionsInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environmentName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The environment name that's associated with each listed environment account connection."
+        }
+      ]
+    },
+    "maxResults": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/MaxPageResults"
+        },
+        {
+          "description": "The maximum number of environment account connections to list."
+        }
+      ]
+    },
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next environment account connection in the array of environment account connections, after the list of environment account connections that was previously requested."
+        }
+      ]
+    },
+    "requestedBy": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentAccountConnectionRequesterAccountType"
+        },
+        {
+          "description": "The type of account making the <code>ListEnvironmentAccountConnections</code> request."
+        }
+      ]
+    },
+    "statuses": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentAccountConnectionStatusList"
+        },
+        {
+          "description": "The status details for each listed environment account connection."
+        }
+      ]
+    }
+  },
+  "required": [
+    "requestedBy"
+  ]
+}

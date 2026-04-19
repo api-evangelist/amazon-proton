@@ -1,0 +1,6 @@
+{
+  "codebuildRoleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "componentRoleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "id": "env-703",
+  "roleArn": "arn:aws:proton:us-east-1:123456789:environment/my-env"
+}

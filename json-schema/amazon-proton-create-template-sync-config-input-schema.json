@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-template-sync-config-input-schema.json",
+  "title": "CreateTemplateSyncConfigInput",
+  "description": "CreateTemplateSyncConfigInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "branch": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The repository branch for your template."
+        }
+      ]
+    },
+    "repositoryName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name (for example, <code>myrepos/myrepo</code>)."
+        }
+      ]
+    },
+    "repositoryProvider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The provider type for your repository."
+        }
+      ]
+    },
+    "subdirectory": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Subdirectory"
+        },
+        {
+          "description": "A repository subdirectory path to your template bundle directory. When included, Proton limits the template bundle search to this repository directory."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of your registered template."
+        }
+      ]
+    },
+    "templateType": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateType"
+        },
+        {
+          "description": "The type of the registered template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "branch",
+    "repositoryName",
+    "repositoryProvider",
+    "templateName",
+    "templateType"
+  ]
+}

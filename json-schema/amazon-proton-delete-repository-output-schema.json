@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-repository-output-schema.json",
+  "title": "DeleteRepositoryOutput",
+  "description": "DeleteRepositoryOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "repository": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Repository"
+        },
+        {
+          "description": "The deleted repository link's detail data that's returned by Proton."
+        }
+      ]
+    }
+  }
+}

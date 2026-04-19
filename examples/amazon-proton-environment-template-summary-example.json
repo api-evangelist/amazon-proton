@@ -1,0 +1,10 @@
+{
+  "arn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "createdAt": "example-createdAt",
+  "description": "example-description",
+  "displayName": "my-environment",
+  "lastModifiedAt": "example-lastModifiedAt",
+  "name": "my-environment",
+  "provisioning": "example-provisioning",
+  "recommendedVersion": "1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-component-output-schema.json",
+  "title": "DeleteComponentOutput",
+  "description": "DeleteComponentOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "component": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Component"
+        },
+        {
+          "description": "The detailed data of the component being deleted."
+        }
+      ]
+    }
+  }
+}

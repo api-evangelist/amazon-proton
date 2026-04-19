@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-counts-summary-schema.json",
+  "title": "CountsSummary",
+  "description": "Summary counts of each Proton resource type.",
+  "type": "object",
+  "properties": {
+    "components": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceCountsSummary"
+        },
+        {
+          "description": "<p>The total number of components in the Amazon Web Services account.</p> <p>The semantics of the <code>components</code> field are different from the semantics of results for other infrastructure-provisioning resources. That's because at this time components don't have associated templates, therefore they don't have the concept of staleness. The <code>components</code> object will only contain <code>total</code> and <code>failed</code> members.</p>"
+        }
+      ]
+    },
+    "environmentTemplates": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceCountsSummary"
+        },
+        {
+          "description": "The total number of environment templates in the Amazon Web Services account. The <code>environmentTemplates</code> object will only contain <code>total</code> members."
+        }
+      ]
+    },
+    "environments": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceCountsSummary"
+        },
+        {
+          "description": "The staleness counts for Proton environments in the Amazon Web Services account. The <code>environments</code> object will only contain <code>total</code> members."
+        }
+      ]
+    },
+    "pipelines": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceCountsSummary"
+        },
+        {
+          "description": "The staleness counts for Proton pipelines in the Amazon Web Services account."
+        }
+      ]
+    },
+    "serviceInstances": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceCountsSummary"
+        },
+        {
+          "description": "The staleness counts for Proton service instances in the Amazon Web Services account."
+        }
+      ]
+    },
+    "serviceTemplates": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceCountsSummary"
+        },
+        {
+          "description": "The total number of service templates in the Amazon Web Services account. The <code>serviceTemplates</code> object will only contain <code>total</code> members."
+        }
+      ]
+    },
+    "services": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceCountsSummary"
+        },
+        {
+          "description": "The staleness counts for Proton services in the Amazon Web Services account."
+        }
+      ]
+    }
+  }
+}

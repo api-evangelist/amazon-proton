@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instances-input-schema.json",
+  "title": "ListServiceInstancesInput",
+  "description": "ListServiceInstancesInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "filters": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ListServiceInstancesFilterList"
+        },
+        {
+          "description": "An array of filtering criteria that scope down the result list. By default, all service instances in the Amazon Web Services account are returned."
+        }
+      ]
+    },
+    "maxResults": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/MaxPageResults"
+        },
+        {
+          "description": "The maximum number of service instances to list."
+        }
+      ]
+    },
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next service in the array of service instances, after the list of service instances that was previously requested."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that the service instance belongs to."
+        }
+      ]
+    },
+    "sortBy": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ListServiceInstancesSortBy"
+        },
+        {
+          "description": "<p>The field that the result list is sorted by.</p> <p>When you choose to sort by <code>serviceName</code>, service instances within each service are sorted by service instance name.</p> <p>Default: <code>serviceName</code> </p>"
+        }
+      ]
+    },
+    "sortOrder": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SortOrder"
+        },
+        {
+          "description": "<p>Result list sort order.</p> <p>Default: <code>ASCENDING</code> </p>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "description": "example-description",
+  "majorVersion": "1.0",
+  "minorVersion": "1.0",
+  "status": "ACTIVE",
+  "templateName": "my-environment"
+}

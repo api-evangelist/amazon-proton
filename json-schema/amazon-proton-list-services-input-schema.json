@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-services-input-schema.json",
+  "title": "ListServicesInput",
+  "description": "ListServicesInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "maxResults": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/MaxPageResults"
+        },
+        {
+          "description": "The maximum number of services to list."
+        }
+      ]
+    },
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next service in the array of services, after the list of services that was previously requested."
+        }
+      ]
+    }
+  }
+}

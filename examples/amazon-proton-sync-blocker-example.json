@@ -1,0 +1,10 @@
+{
+  "contexts": "example-contexts",
+  "createdAt": "example-createdAt",
+  "createdReason": "example-createdReason",
+  "id": "env-269",
+  "resolvedAt": "example-resolvedAt",
+  "resolvedReason": "example-resolvedReason",
+  "status": "ACTIVE",
+  "type": "example-type"
+}

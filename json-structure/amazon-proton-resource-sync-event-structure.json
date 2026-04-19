@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-resource-sync-event-structure.json",
+  "name": "ResourceSyncEvent",
+  "description": "Detail data for a resource sync event.",
+  "type": "object",
+  "properties": {
+    "event": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "A resource sync event."
+        }
+      ]
+    },
+    "externalId": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The external ID for the event."
+        }
+      ]
+    },
+    "time": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the event occurred."
+        }
+      ]
+    },
+    "type": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The type of event."
+        }
+      ]
+    }
+  },
+  "required": [
+    "event",
+    "time",
+    "type"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-template-version-input-schema.json",
+  "title": "UpdateEnvironmentTemplateVersionInput",
+  "description": "UpdateEnvironmentTemplateVersionInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of environment template version to update."
+        }
+      ]
+    },
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "To update a major version of an environment template, include <code>major Version</code>."
+        }
+      ]
+    },
+    "minorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "To update a minor version of an environment template, include <code>minorVersion</code>."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionStatus"
+        },
+        {
+          "description": "The status of the environment template minor version to update."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "majorVersion",
+    "minorVersion",
+    "templateName"
+  ]
+}

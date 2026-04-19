@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-template-filter-schema.json",
+  "title": "EnvironmentTemplateFilter",
+  "description": "A search filter for environment templates.",
+  "type": "object",
+  "properties": {
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "Include <code>majorVersion</code> to filter search for a major version."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "Include <code>templateName</code> to filter search for a template name."
+        }
+      ]
+    }
+  },
+  "required": [
+    "majorVersion",
+    "templateName"
+  ]
+}

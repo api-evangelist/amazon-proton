@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-sort-order-structure.json",
+  "name": "SortOrder",
+  "description": "SortOrder schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "ASCENDING",
+    "DESCENDING"
+  ]
+}

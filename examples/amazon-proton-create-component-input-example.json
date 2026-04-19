@@ -1,0 +1,12 @@
+{
+  "clientToken": "example-clientToken",
+  "description": "example-description",
+  "environmentName": "my-environment",
+  "manifest": "example-manifest",
+  "name": "my-environment",
+  "serviceInstanceName": "my-environment",
+  "serviceName": "my-environment",
+  "serviceSpec": "example-serviceSpec",
+  "tags": "example-tags",
+  "templateFile": "standard-env-template"
+}

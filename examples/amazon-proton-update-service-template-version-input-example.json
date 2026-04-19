@@ -1,0 +1,9 @@
+{
+  "compatibleEnvironmentTemplates": "standard-env-template",
+  "description": "example-description",
+  "majorVersion": "1.0",
+  "minorVersion": "1.0",
+  "status": "ACTIVE",
+  "supportedComponentSources": "example-supportedComponentSources",
+  "templateName": "my-environment"
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-tags-for-resource-input-schema.json",
+  "title": "ListTagsForResourceInput",
+  "description": "ListTagsForResourceInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "maxResults": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/MaxPageResults"
+        },
+        {
+          "description": "The maximum number of tags to list."
+        }
+      ]
+    },
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "A token that indicates the location of the next resource tag in the array of resource tags, after the list of resource tags that was previously requested."
+        }
+      ]
+    },
+    "resourceArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the resource for the listed tags."
+        }
+      ]
+    }
+  },
+  "required": [
+    "resourceArn"
+  ]
+}

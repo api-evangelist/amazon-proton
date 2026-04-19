@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-input-structure.json",
+  "name": "GetServiceInput",
+  "description": "GetServiceInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that you want to get the detailed data for."
+        }
+      ]
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-service-instance-outputs-output-schema.json",
+  "title": "ListServiceInstanceOutputsOutput",
+  "description": "ListServiceInstanceOutputsOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EmptyNextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next output in the array of outputs, after the current requested list of outputs."
+        }
+      ]
+    },
+    "outputs": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/OutputsList"
+        },
+        {
+          "description": "An array of service instance Infrastructure as Code (IaC) outputs."
+        }
+      ]
+    }
+  },
+  "required": [
+    "outputs"
+  ]
+}

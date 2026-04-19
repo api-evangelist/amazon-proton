@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-provisioned-resource-engine-structure.json",
+  "name": "ProvisionedResourceEngine",
+  "description": "List of provisioning engines",
+  "type": "string",
+  "enum": [
+    "CLOUDFORMATION",
+    "TERRAFORM"
+  ]
+}

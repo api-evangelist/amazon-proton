@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-repositories-output-structure.json",
+  "name": "ListRepositoriesOutput",
+  "description": "ListRepositoriesOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next repository in the array of repositories, after the current requested list of repositories. "
+        }
+      ]
+    },
+    "repositories": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositorySummaryList"
+        },
+        {
+          "description": "An array of repository links."
+        }
+      ]
+    }
+  },
+  "required": [
+    "repositories"
+  ]
+}

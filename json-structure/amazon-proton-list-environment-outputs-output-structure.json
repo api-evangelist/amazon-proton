@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-outputs-output-structure.json",
+  "name": "ListEnvironmentOutputsOutput",
+  "description": "ListEnvironmentOutputsOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EmptyNextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next environment output in the array of environment outputs, after the current requested list of environment outputs."
+        }
+      ]
+    },
+    "outputs": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/OutputsList"
+        },
+        {
+          "description": "An array of environment outputs with detail data."
+        }
+      ]
+    }
+  },
+  "required": [
+    "outputs"
+  ]
+}

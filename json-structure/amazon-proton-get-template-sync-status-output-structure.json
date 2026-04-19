@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-template-sync-status-output-structure.json",
+  "name": "GetTemplateSyncStatusOutput",
+  "description": "GetTemplateSyncStatusOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "desiredState": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Revision"
+        },
+        {
+          "description": "The template sync desired state that's returned by Proton."
+        }
+      ]
+    },
+    "latestSuccessfulSync": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceSyncAttempt"
+        },
+        {
+          "description": "The details of the last successful sync that's returned by Proton."
+        }
+      ]
+    },
+    "latestSync": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceSyncAttempt"
+        },
+        {
+          "description": "The details of the last sync that's returned by Proton."
+        }
+      ]
+    }
+  }
+}

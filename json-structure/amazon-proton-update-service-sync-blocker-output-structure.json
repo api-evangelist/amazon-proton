@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-sync-blocker-output-structure.json",
+  "name": "UpdateServiceSyncBlockerOutput",
+  "description": "UpdateServiceSyncBlockerOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceInstanceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service instance that you want to update the service sync blocker for."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that you want to update the service sync blocker for."
+        }
+      ]
+    },
+    "serviceSyncBlocker": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SyncBlocker"
+        },
+        {
+          "description": "The detailed data on the service sync blocker that was updated."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceName",
+    "serviceSyncBlocker"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-service-pipeline-deployment-input-schema.json",
+  "title": "CancelServicePipelineDeploymentInput",
+  "description": "CancelServicePipelineDeploymentInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service with the service pipeline deployment to cancel."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceName"
+  ]
+}

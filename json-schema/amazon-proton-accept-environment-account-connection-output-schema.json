@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-accept-environment-account-connection-output-schema.json",
+  "title": "AcceptEnvironmentAccountConnectionOutput",
+  "description": "AcceptEnvironmentAccountConnectionOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environmentAccountConnection": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentAccountConnection"
+        },
+        {
+          "description": "The environment account connection data that's returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "environmentAccountConnection"
+  ]
+}

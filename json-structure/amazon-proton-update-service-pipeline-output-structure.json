@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-pipeline-output-structure.json",
+  "name": "UpdateServicePipelineOutput",
+  "description": "UpdateServicePipelineOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "pipeline": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServicePipeline"
+        },
+        {
+          "description": "The pipeline details that are returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "pipeline"
+  ]
+}

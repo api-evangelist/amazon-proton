@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-instance-sync-status-output-schema.json",
+  "title": "GetServiceInstanceSyncStatusOutput",
+  "description": "GetServiceInstanceSyncStatusOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "desiredState": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Revision"
+        },
+        {
+          "description": "The service instance sync desired state that's returned by Proton"
+        }
+      ]
+    },
+    "latestSuccessfulSync": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceSyncAttempt"
+        },
+        {
+          "description": "The detailed data of the latest successful sync with the service instance."
+        }
+      ]
+    },
+    "latestSync": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceSyncAttempt"
+        },
+        {
+          "description": "The detailed data of the latest sync with the service instance."
+        }
+      ]
+    }
+  }
+}

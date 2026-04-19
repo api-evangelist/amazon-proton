@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-create-environment-template-input-structure.json",
+  "name": "CreateEnvironmentTemplateInput",
+  "description": "CreateEnvironmentTemplateInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the environment template."
+        }
+      ]
+    },
+    "displayName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DisplayName"
+        },
+        {
+          "description": "The environment template name as displayed in the developer interface."
+        }
+      ]
+    },
+    "encryptionKey": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "A customer provided encryption key that Proton uses to encrypt data."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment template."
+        }
+      ]
+    },
+    "provisioning": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Provisioning"
+        },
+        {
+          "description": "When included, indicates that the environment template is for customer provisioned and managed infrastructure."
+        }
+      ]
+    },
+    "tags": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TagList"
+        },
+        {
+          "description": "<p>An optional list of metadata items that you can associate with the Proton environment template. A tag is a key-value pair.</p> <p>For more information, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/resources.html\">Proton resources and tagging</a> in the <i>Proton User Guide</i>.</p>"
+        }
+      ]
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

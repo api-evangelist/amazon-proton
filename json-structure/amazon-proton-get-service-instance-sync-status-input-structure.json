@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-instance-sync-status-input-structure.json",
+  "name": "GetServiceInstanceSyncStatusInput",
+  "description": "GetServiceInstanceSyncStatusInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceInstanceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service instance that you want the sync status input for."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that the service instance belongs to."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceInstanceName",
+    "serviceName"
+  ]
+}

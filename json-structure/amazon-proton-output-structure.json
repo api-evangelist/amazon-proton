@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-output-structure.json",
+  "name": "Output",
+  "description": "An infrastructure as code defined resource output.",
+  "type": "object",
+  "properties": {
+    "key": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/OutputKey"
+        },
+        {
+          "description": "The output key."
+        }
+      ]
+    },
+    "valueString": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/OutputValueString"
+        },
+        {
+          "description": "The output value."
+        }
+      ]
+    }
+  }
+}

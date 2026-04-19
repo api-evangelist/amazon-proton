@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-repository-sync-status-output-structure.json",
+  "name": "GetRepositorySyncStatusOutput",
+  "description": "GetRepositorySyncStatusOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "latestSync": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositorySyncAttempt"
+        },
+        {
+          "description": "The repository sync status detail data that's returned by Proton."
+        }
+      ]
+    }
+  }
+}

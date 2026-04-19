@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-sync-blocker-context-schema.json",
+  "title": "SyncBlockerContext",
+  "description": "Detailed data of the context of the sync blocker.",
+  "type": "object",
+  "properties": {
+    "key": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The key for the sync blocker context."
+        }
+      ]
+    },
+    "value": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The value of the sync blocker context."
+        }
+      ]
+    }
+  },
+  "required": [
+    "key",
+    "value"
+  ]
+}

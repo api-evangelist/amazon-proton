@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-environment-summary-schema.json",
+  "title": "EnvironmentSummary",
+  "description": "Summary data of an Proton environment resource. An Proton environment is a set of resources shared across Proton services.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the environment."
+        }
+      ]
+    },
+    "componentRoleArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "<p>The Amazon Resource Name (ARN) of the IAM service role that Proton uses when provisioning directly defined components in this environment. It determines the scope of infrastructure that a component can provision.</p> <p>The environment must have a <code>componentRoleArn</code> to allow directly defined components to be associated with the environment.</p> <p>For more information about components, see <a href=\"https://docs.aws.amazon.com/proton/latest/userguide/ag-components.html\">Proton components</a> in the <i>Proton User Guide</i>.</p>"
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the environment was created."
+        }
+      ]
+    },
+    "deploymentStatus": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DeploymentStatus"
+        },
+        {
+          "description": "The environment deployment status."
+        }
+      ]
+    },
+    "deploymentStatusMessage": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/StatusMessage"
+        },
+        {
+          "description": "An environment deployment status message."
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "The description of the environment."
+        }
+      ]
+    },
+    "environmentAccountConnectionId": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentAccountConnectionId"
+        },
+        {
+          "description": "The ID of the environment account connection that the environment is associated with."
+        }
+      ]
+    },
+    "environmentAccountId": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/AwsAccountId"
+        },
+        {
+          "description": "The ID of the environment account that the environment infrastructure resources are provisioned in."
+        }
+      ]
+    },
+    "lastDeploymentAttemptedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when a deployment of the environment was last attempted."
+        }
+      ]
+    },
+    "lastDeploymentSucceededAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the environment was last deployed successfully."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment."
+        }
+      ]
+    },
+    "protonServiceRoleArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the Proton service role that allows Proton to make calls to other services on your behalf."
+        }
+      ]
+    },
+    "provisioning": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Provisioning"
+        },
+        {
+          "description": "When included, indicates that the environment template is for customer provisioned and managed infrastructure."
+        }
+      ]
+    },
+    "templateMajorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The major version of the environment template."
+        }
+      ]
+    },
+    "templateMinorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The minor version of the environment template."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "createdAt",
+    "deploymentStatus",
+    "lastDeploymentAttemptedAt",
+    "lastDeploymentSucceededAt",
+    "name",
+    "templateMajorVersion",
+    "templateMinorVersion",
+    "templateName"
+  ]
+}

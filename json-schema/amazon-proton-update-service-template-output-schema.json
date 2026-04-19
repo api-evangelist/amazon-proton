@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-template-output-schema.json",
+  "title": "UpdateServiceTemplateOutput",
+  "description": "UpdateServiceTemplateOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceTemplate": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceTemplate"
+        },
+        {
+          "description": "The service template detail data that's returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceTemplate"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-repository-sync-status-input-schema.json",
+  "title": "GetRepositorySyncStatusInput",
+  "description": "GetRepositorySyncStatusInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "branch": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/GitBranchName"
+        },
+        {
+          "description": "The repository branch."
+        }
+      ]
+    },
+    "repositoryName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name."
+        }
+      ]
+    },
+    "repositoryProvider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The repository provider."
+        }
+      ]
+    },
+    "syncType": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SyncType"
+        },
+        {
+          "description": "The repository sync type."
+        }
+      ]
+    }
+  },
+  "required": [
+    "branch",
+    "repositoryName",
+    "repositoryProvider",
+    "syncType"
+  ]
+}

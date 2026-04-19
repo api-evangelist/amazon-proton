@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-environment-template-output-schema.json",
+  "title": "UpdateEnvironmentTemplateOutput",
+  "description": "UpdateEnvironmentTemplateOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environmentTemplate": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentTemplate"
+        },
+        {
+          "description": "The environment template detail data that's returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "environmentTemplate"
+  ]
+}

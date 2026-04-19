@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-service-template-output-schema.json",
+  "title": "DeleteServiceTemplateOutput",
+  "description": "DeleteServiceTemplateOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceTemplate": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceTemplate"
+        },
+        {
+          "description": "The detailed data of the service template being deleted."
+        }
+      ]
+    }
+  }
+}

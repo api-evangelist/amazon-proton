@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-service-template-input-structure.json",
+  "name": "UpdateServiceTemplateInput",
+  "description": "UpdateServiceTemplateInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the service template update."
+        }
+      ]
+    },
+    "displayName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DisplayName"
+        },
+        {
+          "description": "The name of the service template to update that's displayed in the developer interface."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service template to update."
+        }
+      ]
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-delete-environment-template-version-input-schema.json",
+  "title": "DeleteEnvironmentTemplateVersionInput",
+  "description": "DeleteEnvironmentTemplateVersionInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The environment template major version to delete."
+        }
+      ]
+    },
+    "minorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The environment template minor version to delete."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "majorVersion",
+    "minorVersion",
+    "templateName"
+  ]
+}

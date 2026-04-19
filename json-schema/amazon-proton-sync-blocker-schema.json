@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-sync-blocker-schema.json",
+  "title": "SyncBlocker",
+  "description": "Detailed data of the sync blocker.",
+  "type": "object",
+  "properties": {
+    "contexts": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/SyncBlockerContexts"
+        },
+        {
+          "description": "The contexts for the sync blocker."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the sync blocker was created."
+        }
+      ]
+    },
+    "createdReason": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The reason why the sync blocker was created."
+        }
+      ]
+    },
+    "id": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The ID of the sync blocker."
+        }
+      ]
+    },
+    "resolvedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time the sync blocker was resolved."
+        }
+      ]
+    },
+    "resolvedReason": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The reason the sync blocker was resolved."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/BlockerStatus"
+        },
+        {
+          "description": "The status of the sync blocker."
+        }
+      ]
+    },
+    "type": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/BlockerType"
+        },
+        {
+          "description": "The type of the sync blocker."
+        }
+      ]
+    }
+  },
+  "required": [
+    "createdAt",
+    "createdReason",
+    "id",
+    "status",
+    "type"
+  ]
+}

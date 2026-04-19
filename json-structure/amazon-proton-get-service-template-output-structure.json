@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-template-output-structure.json",
+  "name": "GetServiceTemplateOutput",
+  "description": "GetServiceTemplateOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceTemplate": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceTemplate"
+        },
+        {
+          "description": "The detailed data of the requested service template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceTemplate"
+  ]
+}

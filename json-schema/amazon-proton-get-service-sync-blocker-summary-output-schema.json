@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-sync-blocker-summary-output-schema.json",
+  "title": "GetServiceSyncBlockerSummaryOutput",
+  "description": "GetServiceSyncBlockerSummaryOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceSyncBlockerSummary": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceSyncBlockerSummary"
+        },
+        {
+          "description": "The detailed data of the requested service sync blocker summary."
+        }
+      ]
+    }
+  }
+}

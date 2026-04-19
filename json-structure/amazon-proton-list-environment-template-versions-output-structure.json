@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-template-versions-output-structure.json",
+  "name": "ListEnvironmentTemplateVersionsOutput",
+  "description": "ListEnvironmentTemplateVersionsOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next major or minor version in the array of major or minor versions of an environment template, after the list of major or minor versions that was previously requested."
+        }
+      ]
+    },
+    "templateVersions": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentTemplateVersionSummaryList"
+        },
+        {
+          "description": "An array of major or minor versions of an environment template detail data."
+        }
+      ]
+    }
+  },
+  "required": [
+    "templateVersions"
+  ]
+}

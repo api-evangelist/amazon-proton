@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-template-summary-structure.json",
+  "name": "EnvironmentTemplateSummary",
+  "description": "The environment template data.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentTemplateArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the environment template."
+        }
+      ]
+    },
+    "createdAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the environment template was created."
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Description"
+        },
+        {
+          "description": "A description of the environment template."
+        }
+      ]
+    },
+    "displayName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DisplayName"
+        },
+        {
+          "description": "The name of the environment template as displayed in the developer interface."
+        }
+      ]
+    },
+    "lastModifiedAt": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Timestamp"
+        },
+        {
+          "description": "The time when the environment template was last modified."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment template."
+        }
+      ]
+    },
+    "provisioning": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Provisioning"
+        },
+        {
+          "description": "When included, indicates that the environment template is for customer provisioned and managed infrastructure."
+        }
+      ]
+    },
+    "recommendedVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/FullTemplateVersionNumber"
+        },
+        {
+          "description": "The recommended version of the environment template."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "createdAt",
+    "lastModifiedAt",
+    "name"
+  ]
+}

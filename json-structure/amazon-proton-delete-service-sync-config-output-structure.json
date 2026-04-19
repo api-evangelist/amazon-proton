@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-sync-config-output-structure.json",
+  "name": "DeleteServiceSyncConfigOutput",
+  "description": "DeleteServiceSyncConfigOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceSyncConfig": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceSyncConfig"
+        },
+        {
+          "description": "The detailed data for the service sync config."
+        }
+      ]
+    }
+  }
+}

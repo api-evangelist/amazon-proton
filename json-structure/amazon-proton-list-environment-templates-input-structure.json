@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-list-environment-templates-input-structure.json",
+  "name": "ListEnvironmentTemplatesInput",
+  "description": "ListEnvironmentTemplatesInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "maxResults": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/MaxPageResults"
+        },
+        {
+          "description": "The maximum number of environment templates to list."
+        }
+      ]
+    },
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next environment template in the array of environment templates, after the list of environment templates that was previously requested."
+        }
+      ]
+    }
+  }
+}

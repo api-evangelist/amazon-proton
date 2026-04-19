@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-resources-summary-output-structure.json",
+  "name": "GetResourcesSummaryOutput",
+  "description": "GetResourcesSummaryOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "counts": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/CountsSummary"
+        },
+        {
+          "description": "Summary counts of each Proton resource type."
+        }
+      ]
+    }
+  },
+  "required": [
+    "counts"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-provisioning-structure.json",
+  "name": "Provisioning",
+  "description": "Provisioning schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "CUSTOMER_MANAGED"
+  ]
+}

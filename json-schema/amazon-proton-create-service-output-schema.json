@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-create-service-output-schema.json",
+  "title": "CreateServiceOutput",
+  "description": "CreateServiceOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "service": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Service"
+        },
+        {
+          "description": "The service detail data that's returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "service"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-template-version-output-structure.json",
+  "name": "DeleteServiceTemplateVersionOutput",
+  "description": "DeleteServiceTemplateVersionOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceTemplateVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ServiceTemplateVersion"
+        },
+        {
+          "description": "The detailed data of the service template version being deleted."
+        }
+      ]
+    }
+  }
+}

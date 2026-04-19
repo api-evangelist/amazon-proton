@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-repository-schema.json",
+  "title": "Repository",
+  "description": "Detailed data of a linked repository\u2014a repository that has been registered with Proton.",
+  "type": "object",
+  "properties": {
+    "arn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryArn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the linked repository."
+        }
+      ]
+    },
+    "connectionArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of your AWS CodeStar connection that connects Proton to your repository provider account."
+        }
+      ]
+    },
+    "encryptionKey": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "Your customer Amazon Web Services KMS encryption key."
+        }
+      ]
+    },
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryName"
+        },
+        {
+          "description": "The repository name."
+        }
+      ]
+    },
+    "provider": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryProvider"
+        },
+        {
+          "description": "The repository provider."
+        }
+      ]
+    }
+  },
+  "required": [
+    "arn",
+    "connectionArn",
+    "name",
+    "provider"
+  ]
+}

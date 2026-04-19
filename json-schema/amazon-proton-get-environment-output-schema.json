@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-environment-output-schema.json",
+  "title": "GetEnvironmentOutput",
+  "description": "GetEnvironmentOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environment": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Environment"
+        },
+        {
+          "description": "The detailed data of the requested environment."
+        }
+      ]
+    }
+  },
+  "required": [
+    "environment"
+  ]
+}

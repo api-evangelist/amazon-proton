@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-delete-service-sync-config-input-structure.json",
+  "name": "DeleteServiceSyncConfigInput",
+  "description": "DeleteServiceSyncConfigInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that you want to delete the service sync configuration for."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceName"
+  ]
+}

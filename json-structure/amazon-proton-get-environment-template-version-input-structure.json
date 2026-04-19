@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-environment-template-version-input-structure.json",
+  "name": "GetEnvironmentTemplateVersionInput",
+  "description": "GetEnvironmentTemplateVersionInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "majorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "To get environment template major version detail data, include <code>major Version</code>."
+        }
+      ]
+    },
+    "minorVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "To get environment template minor version detail data, include <code>minorVersion</code>."
+        }
+      ]
+    },
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment template a version of which you want to get detailed data for."
+        }
+      ]
+    }
+  },
+  "required": [
+    "majorVersion",
+    "minorVersion",
+    "templateName"
+  ]
+}

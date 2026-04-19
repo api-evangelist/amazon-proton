@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-service-sync-blocker-input-schema.json",
+  "title": "UpdateServiceSyncBlockerInput",
+  "description": "UpdateServiceSyncBlockerInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "id": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The ID of the service sync blocker."
+        }
+      ]
+    },
+    "resolvedReason": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/String"
+        },
+        {
+          "description": "The reason the service sync blocker was resolved."
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "resolvedReason"
+  ]
+}

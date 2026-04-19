@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-service-sync-blocker-summary-input-structure.json",
+  "name": "GetServiceSyncBlockerSummaryInput",
+  "description": "GetServiceSyncBlockerSummaryInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "serviceInstanceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service instance that you want to get the service sync blocker summary for. If given bothe the instance name and the service name, only the instance is blocked."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that you want to get the service sync blocker summary for. If given only the service name, all instances are blocked."
+        }
+      ]
+    }
+  },
+  "required": [
+    "serviceName"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "nextToken": "example-nextToken",
+  "serviceInstanceName": "my-environment",
+  "serviceName": "my-environment"
+}

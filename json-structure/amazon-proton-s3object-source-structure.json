@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-s3object-source-structure.json",
+  "name": "S3ObjectSource",
+  "description": "Template bundle S3 bucket data.",
+  "type": "object",
+  "properties": {
+    "bucket": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/S3Bucket"
+        },
+        {
+          "description": "The name of the S3 bucket that contains a template bundle."
+        }
+      ]
+    },
+    "key": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/S3Key"
+        },
+        {
+          "description": "The path to the S3 bucket that contains a template bundle."
+        }
+      ]
+    }
+  },
+  "required": [
+    "bucket",
+    "key"
+  ]
+}

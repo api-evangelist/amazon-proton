@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-environment-account-connection-requester-account-type-structure.json",
+  "name": "EnvironmentAccountConnectionRequesterAccountType",
+  "description": "EnvironmentAccountConnectionRequesterAccountType schema from Amazon Proton API",
+  "type": "string",
+  "enum": [
+    "MANAGEMENT_ACCOUNT",
+    "ENVIRONMENT_ACCOUNT"
+  ]
+}

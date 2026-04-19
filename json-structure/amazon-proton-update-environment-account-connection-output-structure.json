@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-update-environment-account-connection-output-structure.json",
+  "name": "UpdateEnvironmentAccountConnectionOutput",
+  "description": "UpdateEnvironmentAccountConnectionOutput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environmentAccountConnection": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EnvironmentAccountConnection"
+        },
+        {
+          "description": "The environment account connection detail data that's returned by Proton."
+        }
+      ]
+    }
+  },
+  "required": [
+    "environmentAccountConnection"
+  ]
+}

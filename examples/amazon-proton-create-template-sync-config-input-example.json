@@ -1,0 +1,8 @@
+{
+  "branch": "example-branch",
+  "repositoryName": "my-environment",
+  "repositoryProvider": "env-605",
+  "subdirectory": "example-subdirectory",
+  "templateName": "my-environment",
+  "templateType": "standard-env-template"
+}

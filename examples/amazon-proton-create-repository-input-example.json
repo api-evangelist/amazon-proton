@@ -1,0 +1,7 @@
+{
+  "connectionArn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "encryptionKey": "example-encryptionKey",
+  "name": "my-environment",
+  "provider": "env-160",
+  "tags": "example-tags"
+}

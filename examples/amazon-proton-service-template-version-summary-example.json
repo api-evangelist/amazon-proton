@@ -1,0 +1,12 @@
+{
+  "arn": "arn:aws:proton:us-east-1:123456789:environment/my-env",
+  "createdAt": "example-createdAt",
+  "description": "example-description",
+  "lastModifiedAt": "example-lastModifiedAt",
+  "majorVersion": "1.0",
+  "minorVersion": "1.0",
+  "recommendedMinorVersion": "1.0",
+  "status": "ACTIVE",
+  "statusMessage": "ACTIVE",
+  "templateName": "my-environment"
+}

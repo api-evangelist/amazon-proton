@@ -1,0 +1,7 @@
+{
+  "behindMajor": "example-behindMajor",
+  "behindMinor": "example-behindMinor",
+  "failed": "example-failed",
+  "total": "example-total",
+  "upToDate": "example-upToDate"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-list-component-outputs-input-schema.json",
+  "title": "ListComponentOutputsInput",
+  "description": "ListComponentOutputsInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "componentName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the component whose outputs you want."
+        }
+      ]
+    },
+    "nextToken": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/EmptyNextToken"
+        },
+        {
+          "description": "A token that indicates the location of the next output in the array of outputs, after the list of outputs that was previously requested."
+        }
+      ]
+    }
+  },
+  "required": [
+    "componentName"
+  ]
+}

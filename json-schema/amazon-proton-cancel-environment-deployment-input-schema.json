@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-cancel-environment-deployment-input-schema.json",
+  "title": "CancelEnvironmentDeploymentInput",
+  "description": "CancelEnvironmentDeploymentInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "environmentName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the environment with the deployment to cancel."
+        }
+      ]
+    }
+  },
+  "required": [
+    "environmentName"
+  ]
+}

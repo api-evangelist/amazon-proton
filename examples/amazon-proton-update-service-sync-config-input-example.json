@@ -1,0 +1,7 @@
+{
+  "branch": "example-branch",
+  "filePath": "example-filePath",
+  "repositoryName": "my-environment",
+  "repositoryProvider": "env-703",
+  "serviceName": "my-environment"
+}

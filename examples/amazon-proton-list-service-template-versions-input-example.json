@@ -1,0 +1,6 @@
+{
+  "majorVersion": "1.0",
+  "maxResults": "example-maxResults",
+  "nextToken": "example-nextToken",
+  "templateName": "my-environment"
+}

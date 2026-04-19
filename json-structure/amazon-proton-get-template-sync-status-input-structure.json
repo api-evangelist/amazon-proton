@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-structure/amazon-proton-get-template-sync-status-input-structure.json",
+  "name": "GetTemplateSyncStatusInput",
+  "description": "GetTemplateSyncStatusInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "templateName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The template name."
+        }
+      ]
+    },
+    "templateType": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateType"
+        },
+        {
+          "description": "The template type."
+        }
+      ]
+    },
+    "templateVersion": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/TemplateVersionPart"
+        },
+        {
+          "description": "The template major version."
+        }
+      ]
+    }
+  },
+  "required": [
+    "templateName",
+    "templateType",
+    "templateVersion"
+  ]
+}

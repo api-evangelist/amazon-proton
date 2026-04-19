@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-get-service-instance-input-schema.json",
+  "title": "GetServiceInstanceInput",
+  "description": "GetServiceInstanceInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "name": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of a service instance that you want to get the detailed data for."
+        }
+      ]
+    },
+    "serviceName": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceName"
+        },
+        {
+          "description": "The name of the service that you want the service instance input for."
+        }
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "serviceName"
+  ]
+}

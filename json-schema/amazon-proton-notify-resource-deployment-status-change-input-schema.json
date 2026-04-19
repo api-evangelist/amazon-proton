@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-notify-resource-deployment-status-change-input-schema.json",
+  "title": "NotifyResourceDeploymentStatusChangeInput",
+  "description": "NotifyResourceDeploymentStatusChangeInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "deploymentId": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/DeploymentId"
+        },
+        {
+          "description": "The deployment ID for your provisioned resource."
+        }
+      ]
+    },
+    "outputs": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NotifyResourceDeploymentStatusChangeInputOutputsList"
+        },
+        {
+          "description": "The provisioned resource state change detail data that's returned by Proton."
+        }
+      ]
+    },
+    "resourceArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Arn"
+        },
+        {
+          "description": "The provisioned resource Amazon Resource Name (ARN)."
+        }
+      ]
+    },
+    "status": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/ResourceDeploymentStatus"
+        },
+        {
+          "description": "The status of your provisioned resource."
+        }
+      ]
+    },
+    "statusMessage": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/NotifyResourceDeploymentStatusChangeInputStatusMessageString"
+        },
+        {
+          "description": "The deployment status message for your provisioned resource."
+        }
+      ]
+    }
+  },
+  "required": [
+    "resourceArn"
+  ]
+}

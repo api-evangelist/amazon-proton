@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/json-schema/amazon-proton-update-account-settings-input-schema.json",
+  "title": "UpdateAccountSettingsInput",
+  "description": "UpdateAccountSettingsInput schema from Amazon Proton API",
+  "type": "object",
+  "properties": {
+    "deletePipelineProvisioningRepository": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/Boolean"
+        },
+        {
+          "description": "Set to <code>true</code> to remove a configured pipeline repository from the account settings. Don't set this field if you are updating the configured pipeline repository."
+        }
+      ]
+    },
+    "pipelineCodebuildRoleArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RoleArnOrEmptyString"
+        },
+        {
+          "description": "The Amazon Resource Name (ARN) of the service role you want to use for provisioning pipelines. Proton assumes this role for CodeBuild-based provisioning."
+        }
+      ]
+    },
+    "pipelineProvisioningRepository": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RepositoryBranchInput"
+        },
+        {
+          "description": "<p>A linked repository for pipeline provisioning. Specify it if you have environments configured for self-managed provisioning with services that include pipelines. A linked repository is a repository that has been registered with Proton. For more information, see <a>CreateRepository</a>.</p> <p>To remove a previously configured repository, set <code>deletePipelineProvisioningRepository</code> to <code>true</code>, and don't set <code>pipelineProvisioningRepository</code>.</p>"
+        }
+      ]
+    },
+    "pipelineServiceRoleArn": {
+      "allOf": [
+        {
+          "$ref": "#/components/schemas/RoleArnOrEmptyString"
+        },
+        {
+          "description": "<p>The Amazon Resource Name (ARN) of the service role you want to use for provisioning pipelines. Assumed by Proton for Amazon Web Services-managed provisioning, and by customer-owned automation for self-managed provisioning.</p> <p>To remove a previously configured ARN, specify an empty string.</p>"
+        }
+      ]
+    }
+  }
+}
