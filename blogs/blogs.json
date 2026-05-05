@@ -1,0 +1,13 @@
+{
+  "repo": "amazon-proton",
+  "feeds": [
+    {
+      "source": "https://aws.amazon.com/blogs/containers/tag/aws-proton/",
+      "feed_url": "https://aws.amazon.com/blogs/containers/tag/aws-proton/feed/",
+      "saved": 10,
+      "title": "aws proton \u2013 Containers"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:21:43Z"
+}

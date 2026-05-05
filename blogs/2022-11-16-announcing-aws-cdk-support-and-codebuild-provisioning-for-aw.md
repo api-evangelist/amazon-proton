@@ -1,0 +1,84 @@
+---
+title: "Announcing AWS CDK Support and CodeBuild Provisioning for AWS Proton"
+url: "https://aws.amazon.com/blogs/containers/announcing-aws-cdk-support-and-codebuild-provisioning-for-aws-proton/"
+date: "Wed, 16 Nov 2022 20:26:08 +0000"
+author: "Adam Keller"
+feed_url: "https://aws.amazon.com/blogs/containers/tag/aws-proton/feed/"
+---
+<h2>Introduction</h2> 
+<p>Today, <a href="https://docs.aws.amazon.com/proton/?icmpid=docs_homepage_mgmtgov">AWS Proton</a> announced CodeBuild provisioning, which allows customers to define a series of commands to determine how Infrastructure as Code (IaC) templates get deployed via AWS Proton. With CodeBuild provisioning, customers can use the IaC tool of their choice, such as the <a href="https://docs.aws.amazon.com/cdk/?icmpid=docs_homepage_sdktoolkits">AWS Cloud Development Kit</a> (AWS CDK) when defining templates. Previous to this feature release, customers were limited to <a href="https://docs.aws.amazon.com/cloudformation/?icmpid=docs_homepage_mgmtgov">AWS CloudFormation</a> or Hashicorp Terraform as their IaC tools, and were required to follow the opinionated workflows provided by AWS Proton for deploying resources. By using CodeBuild provisioning, customers have more control over their deployment logic for the IaC tooling that they choose.</p> 
+<p>Provisioning AWS Proton templates via the AWS CDK served as the catalyst for building this provisioning method, as it was one of our most widely requested features on our <a href="https://github.com/aws/aws-proton-public-roadmap/issues/21">roadmap</a>. It’s evident that customers want to build self-service developer portals for their end users while expressing their desired infrastructure definition using a familiar programming language, such as Python or Typescript. While the AWS CDK played a big role in launching this feature, it’s also important to note that this feature is not limited to the AWS CDK. It opens the door for customers that use IaC tooling (e.g., <a href="https://pulumi.com/blog/aws-proton-pulumi">Pulumi</a> or Terraform [outside of the supported mode today with pull request provisioning]) with their own custom steps for deployment.</p> 
+<p>Let’s walk through a demonstration of how we can take infrastructure that we’ve defined using the AWS CDK, and build a self-service interface with AWS Proton to deploy the resources with CodeBuild provisioning. As we walk through the process in this post, we’ll talk about AWS Proton concepts at a high level and provide links for further reading, if needed. If you want to get straight into the demo, then head down to the Walkthrough section of the post.</p> 
+<h3>Benefits of using AWS Proton and the AWS CDK together</h3> 
+<p>A common use case customers take advantage of when using the AWS CDK is creating reusable libraries called Constructs. This pattern enables teams to define a common set of patterns to be reused when defining infrastructure. To publish these libraries, this requires that customers version them. While this is a recommended practice for providing software, problems arise when customers try to gain insight into what version of software is being used across the organization. With AWS Proton’s built-in template versioning, customers can now have insight into what version of IaC software is deployed to, and where. Let’s take a look at a sample environment and service template bundles defined using the AWS CDK, and then walk through how to create and deploy from them in AWS Proton.</p> 
+<h2>Solution overview</h2> 
+<h3>Reviewing the template bundle</h3> 
+<p>A template bundle in Proton is comprised of IaC templates that define the desired state of resources in a generic/reusable manner, a schema file defining required/optional inputs, as well as a manifest which defines the mechanism for provisioning the IaC templates. The steps to provision and de-provision resources are defined in the manifest file. Below is an example of a manifest file for a AWS CDK deployment.</p> 
+<div class="hide-language"> 
+ <pre><code class="lang-bash">infrastructure:
+  templates:
+    - rendering_engine: codebuild
+      settings:
+        image: aws/codebuild/amazonlinux2-x86_64-standard:4.0
+        runtimes:
+          nodejs: 16
+        provision:
+          - npm install
+          - cdk deploy --require-approval never
+          - chmod +x ./cdk-to-proton.sh
+          - cat proton-outputs.json | ./cdk-to-proton.sh &gt; outputs.json
+          - aws proton notify-resource-deployment-status-change --resource-arn $RESOURCE_ARN --status IN_PROGRESS --outputs file://./outputs.json
+        deprovision:
+          - npm install
+          - cdk destroy --force
+</code></pre> 
+</div> 
+<p>We begin by setting the <code>rendering_engine</code> value to CodeBuild, and pass in the settings to meet our needs. Then we set the container image that we want to use for our CodeBuild job. In this example, we are leveraging Typescript for our <code>cdk</code> project. This means that we need to have nodejs installed, which we set under <code>runtimes</code>. Next, we define the steps to provision and de-provision our resources. The steps listed should be familiar to those who work with the AWS CDK as we are simply installing our dependencies and then deploying our IaC. When the user provisions their environment and/or service, AWS Proton needs a way to provide the input values to our cdk code. As a part of the provisioning process, AWS Proton provides a file (<code>proton-inputs.json</code>), which is where our code can render the input values as well as the shared environment outputs for when services are provisioned. Here is an example inputs file for one of our environment samples.</p> 
+<div class="hide-language"> 
+ <pre><code class="lang-aspnet">{
+  "environment": {
+    "name": "cdk-environment-demo",
+    "inputs": {
+      "ec2_capacity": false,
+      "ec2_instance_type": "t3.medium",
+      "allow_ecs_exec": false,
+      "enhanced_cluster_monitoring": false,
+      "service_discovery_namespace": "cdkdemo.svc.local"
+    }
+  }
+}
+</code></pre> 
+</div> 
+<p>Finally, we provide a helper script which takes the <code>cdk</code> outputs and organizes them in a format required to send to AWS Proton post deployment, which is the last step in the manifest above. For more information on working with CodeBuild provisioning, check out the documentation <a href="https://aws.amazon.com/proton">here</a>. Now that we understand how to define the deployment steps, let’s walkthrough creating a template, and then deploying a development environment from that template.</p> 
+<h2>Walkthrough</h2> 
+<p>We’re going to start by creating an environment template bundle and publishing our first version. This template bundle contains our <code>cdk</code> code which is where we define a virtual private cloud (VPC), <a href="https://docs.aws.amazon.com/ecs/?icmpid=docs_homepage_containers">Amazon Elastic Container Service</a> (Amazon ECS) Cluster as well as some optional resources based on schema inputs. The full template bundle example can be referenced <a href="https://github.com/aws-containers/proton-codebuild-provisioning-examples">here</a>. When we talk about <a href="https://docs.aws.amazon.com/proton/latest/userguide/ag-environments.html">environments</a> in AWS Proton, think of them as the resources that are shared across applications. Environments are commonly isolated by deployment environment (such as test, staging, and production) or may align to business verticals (i.e., finance-dev).</p> 
+<p>There are presently two ways to sync our templates with AWS Proton: point to an artifact template bundle stored in an <a href="https://docs.aws.amazon.com/s3/?icmpid=docs_homepage_featuredsvcs">Amazon Simple Storage Service</a> (Amazon S3) Bucket, or by pointing to a template repository in version control like GitHub with a feature called <a href="https://docs.aws.amazon.com/proton/latest/userguide/ag-template-sync-configs.html">Template Sync</a>. For this walkthrough, we’re going to package our environment templates and push them up to an Amazon S3 Bucket, but the recommended approach is to use Template Sync, which provides Git as the central source of truth and change control for your templates. Additionally, AWS Proton automatically stages templates for version bumps based on Git commits, which removes the need for any custom automation to be built by the customer.</p> 
+<p>In the sample repository, let’s navigate to the directory of the template that we want to publish to AWS Proton, <a href="https://github.com/aws-containers/proton-codebuild-provisioning-examples/tree/main/cdk/environment-templates/vpc-ecs-cluster/v1">cdk/environment-templates/vpc-ecs-cluster/v1</a> and run the following commands to package and push the template bundle to Amazon S3.</p> 
+<div class="hide-language"> 
+ <pre><code class="lang-c">tar -zcvf cdkDemoEnv.tar.gz infrastructure schema
+aws s3 cp cdkDemoEnv.tar.gz s3://proton-templates-demo-account/
+</code></pre> 
+</div> 
+<p>Next, let’s navigate to the AWS Proton console to upload and then publish our template bundle. Under Templates, select <strong>Environment templates</strong>. Then, select <strong>Create environment</strong> <strong>template</strong>:</p> 
+<p><img alt="Screenshot of the Proton console, creating new environment template" class="alignnone size-full wp-image-11135" height="438" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/15/proton1.jpg" width="1384" /></p> 
+<p>This is where we define the source of the template bundle as well as information about how we want to present the template to our end users in the self-service interface. Additionally, it’s a recommended practice to add any relevant information about the template in the template description section. Once we set our values, we will select <strong>Create environment template</strong>.</p> 
+<p><img alt="Screenshot: Proton console - creating environment template" class="alignnone size-full wp-image-11136" height="1101" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/15/proton2.jpg" width="787" /></p> 
+<p>We then progress to the next screen, which provides us an overview of our template bundle that we just created along with details about the template, including versioning. We select <strong>Publish v1.0</strong>, and we are ready to deploy our first environment.</p> 
+<p><img alt="Proton console view of pending template pending publishing" class="alignnone size-full wp-image-11137" height="759" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/15/proton3.jpg" width="1685" /></p> 
+<p>We should now see the <strong>Status</strong> showing as <strong>Published</strong>.</p> 
+<p><img alt="Proton console showing status as published for template bundle." class="alignnone size-full wp-image-11138" height="272" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/15/proton4.jpg" width="1634" /></p> 
+<p>The next step is to deploy an environment via the self-service interface. Navigate back to the sidebar and select Environments, then <strong>Create environment</strong>.</p> 
+<p><img alt="Proton console creating new environment screen" class="alignnone size-full wp-image-11139" height="407" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/15/proton5.jpg" width="1363" /></p> 
+<p>We are now presented with the available environment template to use. As we can see, for this demo I only have the single environment template to choose from which is our AWS CDK environment template. Select the radial button for our template, and choose <strong>Configure</strong>.</p> 
+<p><img alt="Proton console environment template selection" class="alignnone size-full wp-image-11140" height="696" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/15/proton6.jpg" width="1340" /></p> 
+<p>We start by setting up some prerequisite details about our environment. First, we select what account we want our environment to be deployed into. To configure multi-account access in AWS Proton, check out <a href="https://docs.aws.amazon.com/proton/latest/userguide/ag-env-account-connections.html">Environment account connections</a>. Next, we provide a friendly name of our environment along with a description. The next section is important as this is where we choose the <a href="https://docs.aws.amazon.com/iam/?icmpid=docs_homepage_security">AWS Identity and Access Management</a> (AWS IAM) role that the provisioning method assumes when deploying resources that are defined in the template. This is setup under the <strong>Codebuild provisioning role</strong> section and we need to select a role that the CodeBuild service can assume with the proper policies attached. For more information on the CodeBuild provisioning role, please refer to our <a href="https://docs.aws.amazon.com/proton/latest/userguide/ag-env-codebuild-provisioning-role-creation.html">documentation</a>. You may also notice that there is a section for an AWS-managed provisioning role. We would add a role here if we wanted to allow for other AWS Proton services to be deployed to this environment that are using <a href="https://docs.aws.amazon.com/proton/latest/userguide/ag-works-prov-methods.html#ag-works-prov-methods-direct">AWS-managed provisioning</a>. Finally, not only will these roles be used when AWS Proton deploys this environment, but any service that launches to this environment as well. Once all of the information is filled in, select <strong>Next</strong>.</p> 
+<p><img alt="Proton console setting up a new environment step one." class="alignnone size-large wp-image-11158" height="1024" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/16/protonenv-configura-631x1024.png" width="631" /></p> 
+<p>The next view is where we get to pass our configuration inputs to the template bundle. These inputs are defined in the <code>schema.yaml</code> file, which is included in our template bundle. We’ll stick with the defaults and add our service discovery namespace, then select <strong>Next</strong> and <strong>Create</strong>.</p> 
+<p><img alt="Proton console showing inputs required to deploy the environment created earlier in the post." class="alignnone size-full wp-image-11155" height="759" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/16/proton-env-inputs.png" width="875" /></p> 
+<p>What happens next is AWS Proton renders the template bundle into the deployable artifacts, launches a CodeBuild job with said artifacts, and runs the deployment steps that are defined in the manifest file. If this is the first time that we are launching using CodeBuild provisioning, then AWS Proton creates the CodeBuild job first. While AWS Proton is deploying our infrastructure resources, we can navigate to the <strong>CodeBuild provisioning</strong> tab and watch the progress of deployment status via the log events. If you want to further dive in and troubleshoot any issues with the job, you can select the CodeBuild job link, which redirects you to the CodeBuild job run in the console.</p> 
+<p><img alt="Proton console environment view showing codebuild provisioning logs" class="alignnone size-full wp-image-11150" height="1135" src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2022/11/15/proton9.jpg" width="1663" /></p> 
+<p>We’ve successfully deployed an AWS Proton environment using CodeBuild provisioning!</p> 
+<h2>Cleaning up</h2> 
+<p>To clean up the resources, navigate via the console to the environment that was created above (named <code>proton-blog-cdk-cb-demo</code>). In the upper right hand side select Actions, Delete. This will trigger the CodeBuild job which will run the deprovision steps defined in the manifest, which will delete the resources.</p> 
+<h2>Conclusion</h2> 
+<p>In this post, we showed you that with CodeBuild provisioning, you’re empowered to use the IaC tool of their choice while taking advantage of the features native to Proton, such as template versioning, self-service, CI/CD pipeline automation, and more. We look forward to hearing how our customers are leveraging this new functionality, and encourage you to reach out to us with any feedback and feature requests via our public <a href="https://github.com/aws/aws-proton-public-roadmap/projects/1">roadmap</a>. To get started, head over to our sample <a href="https://github.com/aws-containers/proton-codebuild-provisioning-examples">repository</a> for examples, as well as our <a href="https://docs.aws.amazon.com/proton/latest/userguide/Welcome.html">documentation</a> for a deeper dive into the functionality.</p>
