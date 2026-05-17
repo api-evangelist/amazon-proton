@@ -112,7 +112,7 @@ common:
     description: Connect GitHub repositories as sources for environment templates and service pipeline definitions.
   - name: AWS CodeCommit
     description: Use CodeCommit repositories for template and configuration management.
-- type: JSON-LD
+- type: JSONLD
   url: json-ld/amazon-proton-context.jsonld
 - type: JSONSchema
   url: json-schema/amazon-proton-accept-environment-account-connection-input-schema.json
