@@ -1,6 +1,7 @@
 name: Amazon Proton
-description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless application templates to empower developers. It provides automated 
-  infrastructure provisioning and manages deployment pipelines for all your applications, enabling self-service developer workflows with platform-team guardrails.
+description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless
+  application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipelines
+  for all your applications, enabling self-service developer workflows with platform-team guardrails.
 url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/apis.yml
 type: Index
 image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
@@ -14,11 +15,12 @@ tags:
 - Self-Service
 - CI/CD
 created: '2026-03-16'
-modified: '2026-04-19'
+modified: '2026-05-19'
 apis:
 - name: AWS Proton API
-  description: The AWS Proton API provides programmatic access to create and manage environment templates, service templates, environments, services, components, and deployment pipelines for 
-    standardized application deployments with automated infrastructure provisioning.
+  description: The AWS Proton API provides programmatic access to create and manage environment templates, service templates,
+    environments, services, components, and deployment pipelines for standardized application deployments with automated infrastructure
+    provisioning.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -43,6 +45,8 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
+  - type: NaftikoCapability
+    url: capabilities/amazon-proton.yaml
 common:
 - type: Portal
   url: https://aws.amazon.com/proton/
@@ -66,14 +70,13 @@ common:
   url: https://health.aws.amazon.com/health/status
 - type: SpectralRules
   url: rules/amazon-proton-spectral-rules.yml
-- type: NaftikoCapability
-  url: capabilities/platform-engineering.yaml
 - type: Vocabulary
   url: vocabulary/amazon-proton-vocabulary.yaml
 - type: Features
   data:
   - name: Environment Templates
-    description: Create standardized environment templates with infrastructure-as-code definitions for platform engineers to publish.
+    description: Create standardized environment templates with infrastructure-as-code definitions for platform engineers
+      to publish.
   - name: Service Templates
     description: Define reusable service templates that developers can use for self-service application deployments.
   - name: Automated Provisioning
@@ -1180,19 +1183,17 @@ common:
   url: examples/amazon-proton-update-service-template-input-example.json
 - type: Example
   url: examples/amazon-proton-update-service-template-version-input-example.json
-- type: NaftikoCapability
-  url: capabilities/shared/amazon-proton.yaml
 - type: Integrations
   url: https://aws.amazon.com/partners/
 integrations:
-  - name: Partner Programs
-  - name: Resources
-  - name: Success Stories
-  - name: Work with an AWS Partner
-  - name: AWS Marketplace
-  - name: AWS Partner Central
-  - name: Partner Paths
-  - name: co-sell with AWS
+- name: Partner Programs
+- name: Resources
+- name: Success Stories
+- name: Work with an AWS Partner
+- name: AWS Marketplace
+- name: AWS Partner Central
+- name: Partner Paths
+- name: co-sell with AWS
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

@@ -1,0 +1,4257 @@
+naftiko: 1.0.0-alpha2
+info:
+  label: AWS Proton
+  description: 'AWS Proton. 84 operations. Lead operation: Amazon Proton Accept Environment Account Connection. Self-contained
+    Naftiko capability covering one Amazon Proton business surface.'
+  tags:
+  - Amazon Proton
+  - AWS Proton
+  created: '2026-05-19'
+  modified: '2026-05-19'
+binds:
+- namespace: env
+  keys:
+    AMAZON_PROTON_API_KEY: AMAZON_PROTON_API_KEY
+capability:
+  consumes:
+  - type: http
+    namespace: amazon-proton
+    baseUri: http://proton.{region}.amazonaws.com
+    description: AWS Proton business capability. Self-contained, no shared references.
+    resources:
+    - name: '#X-Amz-Target=AwsProton20200720.AcceptEnvironmentAccountConnection'
+      path: /#X-Amz-Target=AwsProton20200720.AcceptEnvironmentAccountConnection
+      operations:
+      - name: acceptenvironmentaccountconnection
+        method: POST
+        description: Amazon Proton Accept Environment Account Connection
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CancelComponentDeployment'
+      path: /#X-Amz-Target=AwsProton20200720.CancelComponentDeployment
+      operations:
+      - name: cancelcomponentdeployment
+        method: POST
+        description: Amazon Proton Cancel Component Deployment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CancelEnvironmentDeployment'
+      path: /#X-Amz-Target=AwsProton20200720.CancelEnvironmentDeployment
+      operations:
+      - name: cancelenvironmentdeployment
+        method: POST
+        description: Amazon Proton Cancel Environment Deployment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CancelServiceInstanceDeployment'
+      path: /#X-Amz-Target=AwsProton20200720.CancelServiceInstanceDeployment
+      operations:
+      - name: cancelserviceinstancedeployment
+        method: POST
+        description: Amazon Proton Cancel Service Instance Deployment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CancelServicePipelineDeployment'
+      path: /#X-Amz-Target=AwsProton20200720.CancelServicePipelineDeployment
+      operations:
+      - name: cancelservicepipelinedeployment
+        method: POST
+        description: Amazon Proton Cancel Service Pipeline Deployment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateComponent'
+      path: /#X-Amz-Target=AwsProton20200720.CreateComponent
+      operations:
+      - name: createcomponent
+        method: POST
+        description: Amazon Proton Create Component
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateEnvironment'
+      path: /#X-Amz-Target=AwsProton20200720.CreateEnvironment
+      operations:
+      - name: createenvironment
+        method: POST
+        description: Amazon Proton Create Environment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateEnvironmentAccountConnection'
+      path: /#X-Amz-Target=AwsProton20200720.CreateEnvironmentAccountConnection
+      operations:
+      - name: createenvironmentaccountconnection
+        method: POST
+        description: Amazon Proton Create Environment Account Connection
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateEnvironmentTemplate'
+      path: /#X-Amz-Target=AwsProton20200720.CreateEnvironmentTemplate
+      operations:
+      - name: createenvironmenttemplate
+        method: POST
+        description: Amazon Proton Create Environment Template
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateEnvironmentTemplateVersion'
+      path: /#X-Amz-Target=AwsProton20200720.CreateEnvironmentTemplateVersion
+      operations:
+      - name: createenvironmenttemplateversion
+        method: POST
+        description: Amazon Proton Create Environment Template Version
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateRepository'
+      path: /#X-Amz-Target=AwsProton20200720.CreateRepository
+      operations:
+      - name: createrepository
+        method: POST
+        description: Amazon Proton Create Repository
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateService'
+      path: /#X-Amz-Target=AwsProton20200720.CreateService
+      operations:
+      - name: createservice
+        method: POST
+        description: Amazon Proton Create Service
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateServiceInstance'
+      path: /#X-Amz-Target=AwsProton20200720.CreateServiceInstance
+      operations:
+      - name: createserviceinstance
+        method: POST
+        description: Amazon Proton Create Service Instance
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateServiceSyncConfig'
+      path: /#X-Amz-Target=AwsProton20200720.CreateServiceSyncConfig
+      operations:
+      - name: createservicesyncconfig
+        method: POST
+        description: Amazon Proton Create Service Sync Config
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateServiceTemplate'
+      path: /#X-Amz-Target=AwsProton20200720.CreateServiceTemplate
+      operations:
+      - name: createservicetemplate
+        method: POST
+        description: Amazon Proton Create Service Template
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateServiceTemplateVersion'
+      path: /#X-Amz-Target=AwsProton20200720.CreateServiceTemplateVersion
+      operations:
+      - name: createservicetemplateversion
+        method: POST
+        description: Amazon Proton Create Service Template Version
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.CreateTemplateSyncConfig'
+      path: /#X-Amz-Target=AwsProton20200720.CreateTemplateSyncConfig
+      operations:
+      - name: createtemplatesyncconfig
+        method: POST
+        description: Amazon Proton Create Template Sync Config
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteComponent'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteComponent
+      operations:
+      - name: deletecomponent
+        method: POST
+        description: Amazon Proton Delete Component
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteEnvironment'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteEnvironment
+      operations:
+      - name: deleteenvironment
+        method: POST
+        description: Amazon Proton Delete Environment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteEnvironmentAccountConnection'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteEnvironmentAccountConnection
+      operations:
+      - name: deleteenvironmentaccountconnection
+        method: POST
+        description: Amazon Proton Delete Environment Account Connection
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteEnvironmentTemplate'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteEnvironmentTemplate
+      operations:
+      - name: deleteenvironmenttemplate
+        method: POST
+        description: Amazon Proton Delete Environment Template
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteEnvironmentTemplateVersion'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteEnvironmentTemplateVersion
+      operations:
+      - name: deleteenvironmenttemplateversion
+        method: POST
+        description: Amazon Proton Delete Environment Template Version
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteRepository'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteRepository
+      operations:
+      - name: deleterepository
+        method: POST
+        description: Amazon Proton Delete Repository
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteService'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteService
+      operations:
+      - name: deleteservice
+        method: POST
+        description: Amazon Proton Delete Service
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteServiceSyncConfig'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteServiceSyncConfig
+      operations:
+      - name: deleteservicesyncconfig
+        method: POST
+        description: Amazon Proton Delete Service Sync Config
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteServiceTemplate'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteServiceTemplate
+      operations:
+      - name: deleteservicetemplate
+        method: POST
+        description: Amazon Proton Delete Service Template
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteServiceTemplateVersion'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteServiceTemplateVersion
+      operations:
+      - name: deleteservicetemplateversion
+        method: POST
+        description: Amazon Proton Delete Service Template Version
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.DeleteTemplateSyncConfig'
+      path: /#X-Amz-Target=AwsProton20200720.DeleteTemplateSyncConfig
+      operations:
+      - name: deletetemplatesyncconfig
+        method: POST
+        description: Amazon Proton Delete Template Sync Config
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetAccountSettings'
+      path: /#X-Amz-Target=AwsProton20200720.GetAccountSettings
+      operations:
+      - name: getaccountsettings
+        method: POST
+        description: Amazon Proton Get Account Settings
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetComponent'
+      path: /#X-Amz-Target=AwsProton20200720.GetComponent
+      operations:
+      - name: getcomponent
+        method: POST
+        description: Amazon Proton Get Component
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetEnvironment'
+      path: /#X-Amz-Target=AwsProton20200720.GetEnvironment
+      operations:
+      - name: getenvironment
+        method: POST
+        description: Amazon Proton Get Environment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetEnvironmentAccountConnection'
+      path: /#X-Amz-Target=AwsProton20200720.GetEnvironmentAccountConnection
+      operations:
+      - name: getenvironmentaccountconnection
+        method: POST
+        description: Amazon Proton Get Environment Account Connection
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetEnvironmentTemplate'
+      path: /#X-Amz-Target=AwsProton20200720.GetEnvironmentTemplate
+      operations:
+      - name: getenvironmenttemplate
+        method: POST
+        description: Amazon Proton Get Environment Template
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetEnvironmentTemplateVersion'
+      path: /#X-Amz-Target=AwsProton20200720.GetEnvironmentTemplateVersion
+      operations:
+      - name: getenvironmenttemplateversion
+        method: POST
+        description: Amazon Proton Get Environment Template Version
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetRepository'
+      path: /#X-Amz-Target=AwsProton20200720.GetRepository
+      operations:
+      - name: getrepository
+        method: POST
+        description: Amazon Proton Get Repository
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetRepositorySyncStatus'
+      path: /#X-Amz-Target=AwsProton20200720.GetRepositorySyncStatus
+      operations:
+      - name: getrepositorysyncstatus
+        method: POST
+        description: Amazon Proton Get Repository Sync Status
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetResourcesSummary'
+      path: /#X-Amz-Target=AwsProton20200720.GetResourcesSummary
+      operations:
+      - name: getresourcessummary
+        method: POST
+        description: Amazon Proton Get Resources Summary
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetService'
+      path: /#X-Amz-Target=AwsProton20200720.GetService
+      operations:
+      - name: getservice
+        method: POST
+        description: Amazon Proton Get Service
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetServiceInstance'
+      path: /#X-Amz-Target=AwsProton20200720.GetServiceInstance
+      operations:
+      - name: getserviceinstance
+        method: POST
+        description: Amazon Proton Get Service Instance
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetServiceInstanceSyncStatus'
+      path: /#X-Amz-Target=AwsProton20200720.GetServiceInstanceSyncStatus
+      operations:
+      - name: getserviceinstancesyncstatus
+        method: POST
+        description: Amazon Proton Get Service Instance Sync Status
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetServiceSyncBlockerSummary'
+      path: /#X-Amz-Target=AwsProton20200720.GetServiceSyncBlockerSummary
+      operations:
+      - name: getservicesyncblockersummary
+        method: POST
+        description: Amazon Proton Get Service Sync Blocker Summary
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetServiceSyncConfig'
+      path: /#X-Amz-Target=AwsProton20200720.GetServiceSyncConfig
+      operations:
+      - name: getservicesyncconfig
+        method: POST
+        description: Amazon Proton Get Service Sync Config
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetServiceTemplate'
+      path: /#X-Amz-Target=AwsProton20200720.GetServiceTemplate
+      operations:
+      - name: getservicetemplate
+        method: POST
+        description: Amazon Proton Get Service Template
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetServiceTemplateVersion'
+      path: /#X-Amz-Target=AwsProton20200720.GetServiceTemplateVersion
+      operations:
+      - name: getservicetemplateversion
+        method: POST
+        description: Amazon Proton Get Service Template Version
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetTemplateSyncConfig'
+      path: /#X-Amz-Target=AwsProton20200720.GetTemplateSyncConfig
+      operations:
+      - name: gettemplatesyncconfig
+        method: POST
+        description: Amazon Proton Get Template Sync Config
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.GetTemplateSyncStatus'
+      path: /#X-Amz-Target=AwsProton20200720.GetTemplateSyncStatus
+      operations:
+      - name: gettemplatesyncstatus
+        method: POST
+        description: Amazon Proton Get Template Sync Status
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListComponentOutputs'
+      path: /#X-Amz-Target=AwsProton20200720.ListComponentOutputs
+      operations:
+      - name: listcomponentoutputs
+        method: POST
+        description: Amazon Proton List Component Outputs
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListComponentProvisionedResources'
+      path: /#X-Amz-Target=AwsProton20200720.ListComponentProvisionedResources
+      operations:
+      - name: listcomponentprovisionedresources
+        method: POST
+        description: Amazon Proton List Component Provisioned Resources
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListComponents'
+      path: /#X-Amz-Target=AwsProton20200720.ListComponents
+      operations:
+      - name: listcomponents
+        method: POST
+        description: Amazon Proton List Components
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListEnvironmentAccountConnections'
+      path: /#X-Amz-Target=AwsProton20200720.ListEnvironmentAccountConnections
+      operations:
+      - name: listenvironmentaccountconnections
+        method: POST
+        description: Amazon Proton List Environment Account Connections
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListEnvironmentOutputs'
+      path: /#X-Amz-Target=AwsProton20200720.ListEnvironmentOutputs
+      operations:
+      - name: listenvironmentoutputs
+        method: POST
+        description: Amazon Proton List Environment Outputs
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListEnvironmentProvisionedResources'
+      path: /#X-Amz-Target=AwsProton20200720.ListEnvironmentProvisionedResources
+      operations:
+      - name: listenvironmentprovisionedresources
+        method: POST
+        description: Amazon Proton List Environment Provisioned Resources
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListEnvironmentTemplateVersions'
+      path: /#X-Amz-Target=AwsProton20200720.ListEnvironmentTemplateVersions
+      operations:
+      - name: listenvironmenttemplateversions
+        method: POST
+        description: Amazon Proton List Environment Template Versions
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListEnvironmentTemplates'
+      path: /#X-Amz-Target=AwsProton20200720.ListEnvironmentTemplates
+      operations:
+      - name: listenvironmenttemplates
+        method: POST
+        description: Amazon Proton List Environment Templates
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListEnvironments'
+      path: /#X-Amz-Target=AwsProton20200720.ListEnvironments
+      operations:
+      - name: listenvironments
+        method: POST
+        description: Amazon Proton List Environments
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListRepositories'
+      path: /#X-Amz-Target=AwsProton20200720.ListRepositories
+      operations:
+      - name: listrepositories
+        method: POST
+        description: Amazon Proton List Repositories
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListRepositorySyncDefinitions'
+      path: /#X-Amz-Target=AwsProton20200720.ListRepositorySyncDefinitions
+      operations:
+      - name: listrepositorysyncdefinitions
+        method: POST
+        description: Amazon Proton List Repository Sync Definitions
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListServiceInstanceOutputs'
+      path: /#X-Amz-Target=AwsProton20200720.ListServiceInstanceOutputs
+      operations:
+      - name: listserviceinstanceoutputs
+        method: POST
+        description: Amazon Proton List Service Instance Outputs
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListServiceInstanceProvisionedResources'
+      path: /#X-Amz-Target=AwsProton20200720.ListServiceInstanceProvisionedResources
+      operations:
+      - name: listserviceinstanceprovisionedresources
+        method: POST
+        description: Amazon Proton List Service Instance Provisioned Resources
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListServiceInstances'
+      path: /#X-Amz-Target=AwsProton20200720.ListServiceInstances
+      operations:
+      - name: listserviceinstances
+        method: POST
+        description: Amazon Proton List Service Instances
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListServicePipelineOutputs'
+      path: /#X-Amz-Target=AwsProton20200720.ListServicePipelineOutputs
+      operations:
+      - name: listservicepipelineoutputs
+        method: POST
+        description: Amazon Proton List Service Pipeline Outputs
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListServicePipelineProvisionedResources'
+      path: /#X-Amz-Target=AwsProton20200720.ListServicePipelineProvisionedResources
+      operations:
+      - name: listservicepipelineprovisionedresources
+        method: POST
+        description: Amazon Proton List Service Pipeline Provisioned Resources
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListServiceTemplateVersions'
+      path: /#X-Amz-Target=AwsProton20200720.ListServiceTemplateVersions
+      operations:
+      - name: listservicetemplateversions
+        method: POST
+        description: Amazon Proton List Service Template Versions
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListServiceTemplates'
+      path: /#X-Amz-Target=AwsProton20200720.ListServiceTemplates
+      operations:
+      - name: listservicetemplates
+        method: POST
+        description: Amazon Proton List Service Templates
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListServices'
+      path: /#X-Amz-Target=AwsProton20200720.ListServices
+      operations:
+      - name: listservices
+        method: POST
+        description: Amazon Proton List Services
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.ListTagsForResource'
+      path: /#X-Amz-Target=AwsProton20200720.ListTagsForResource
+      operations:
+      - name: listtagsforresource
+        method: POST
+        description: Amazon Proton List Tags For Resource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: maxResults
+          in: query
+          type: string
+          description: Pagination limit
+        - name: nextToken
+          in: query
+          type: string
+          description: Pagination token
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.NotifyResourceDeploymentStatusChange'
+      path: /#X-Amz-Target=AwsProton20200720.NotifyResourceDeploymentStatusChange
+      operations:
+      - name: notifyresourcedeploymentstatuschange
+        method: POST
+        description: Amazon Proton Notify Resource Deployment Status Change
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.RejectEnvironmentAccountConnection'
+      path: /#X-Amz-Target=AwsProton20200720.RejectEnvironmentAccountConnection
+      operations:
+      - name: rejectenvironmentaccountconnection
+        method: POST
+        description: Amazon Proton Reject Environment Account Connection
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.TagResource'
+      path: /#X-Amz-Target=AwsProton20200720.TagResource
+      operations:
+      - name: tagresource
+        method: POST
+        description: Amazon Proton Tag Resource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UntagResource'
+      path: /#X-Amz-Target=AwsProton20200720.UntagResource
+      operations:
+      - name: untagresource
+        method: POST
+        description: Amazon Proton Untag Resource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateAccountSettings'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateAccountSettings
+      operations:
+      - name: updateaccountsettings
+        method: POST
+        description: Amazon Proton Update Account Settings
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateComponent'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateComponent
+      operations:
+      - name: updatecomponent
+        method: POST
+        description: Amazon Proton Update Component
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateEnvironment'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateEnvironment
+      operations:
+      - name: updateenvironment
+        method: POST
+        description: Amazon Proton Update Environment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateEnvironmentAccountConnection'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateEnvironmentAccountConnection
+      operations:
+      - name: updateenvironmentaccountconnection
+        method: POST
+        description: Amazon Proton Update Environment Account Connection
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateEnvironmentTemplate'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateEnvironmentTemplate
+      operations:
+      - name: updateenvironmenttemplate
+        method: POST
+        description: Amazon Proton Update Environment Template
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateEnvironmentTemplateVersion'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateEnvironmentTemplateVersion
+      operations:
+      - name: updateenvironmenttemplateversion
+        method: POST
+        description: Amazon Proton Update Environment Template Version
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateService'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateService
+      operations:
+      - name: updateservice
+        method: POST
+        description: Amazon Proton Update Service
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateServiceInstance'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateServiceInstance
+      operations:
+      - name: updateserviceinstance
+        method: POST
+        description: Amazon Proton Update Service Instance
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateServicePipeline'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateServicePipeline
+      operations:
+      - name: updateservicepipeline
+        method: POST
+        description: Amazon Proton Update Service Pipeline
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateServiceSyncBlocker'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateServiceSyncBlocker
+      operations:
+      - name: updateservicesyncblocker
+        method: POST
+        description: Amazon Proton Update Service Sync Blocker
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateServiceSyncConfig'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateServiceSyncConfig
+      operations:
+      - name: updateservicesyncconfig
+        method: POST
+        description: Amazon Proton Update Service Sync Config
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateServiceTemplate'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateServiceTemplate
+      operations:
+      - name: updateservicetemplate
+        method: POST
+        description: Amazon Proton Update Service Template
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateServiceTemplateVersion'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateServiceTemplateVersion
+      operations:
+      - name: updateservicetemplateversion
+        method: POST
+        description: Amazon Proton Update Service Template Version
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    - name: '#X-Amz-Target=AwsProton20200720.UpdateTemplateSyncConfig'
+      path: /#X-Amz-Target=AwsProton20200720.UpdateTemplateSyncConfig
+      operations:
+      - name: updatetemplatesyncconfig
+        method: POST
+        description: Amazon Proton Update Template Sync Config
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: X-Amz-Target
+          in: header
+          type: string
+          required: true
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: true
+    authentication:
+      type: apikey
+      key: Authorization
+      value: '{{env.AMAZON_PROTON_API_KEY}}'
+      placement: header
+  exposes:
+  - type: rest
+    namespace: amazon-proton-rest
+    port: 8080
+    description: REST adapter for AWS Proton. One Spectral-compliant resource per consumed operation, prefixed with /v1.
+    resources:
+    - path: /v1/x-amz-target-awsproton20200720-acceptenvironmentaccountconnection
+      name: x-amz-target-awsproton20200720-acceptenvironmentaccountconnection
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.AcceptEnvironmentAccountConnection.'
+      operations:
+      - method: POST
+        name: acceptenvironmentaccountconnection
+        description: Amazon Proton Accept Environment Account Connection
+        call: amazon-proton.acceptenvironmentaccountconnection
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-cancelcomponentdeployment
+      name: x-amz-target-awsproton20200720-cancelcomponentdeployment
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CancelComponentDeployment.'
+      operations:
+      - method: POST
+        name: cancelcomponentdeployment
+        description: Amazon Proton Cancel Component Deployment
+        call: amazon-proton.cancelcomponentdeployment
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-cancelenvironmentdeployment
+      name: x-amz-target-awsproton20200720-cancelenvironmentdeployment
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CancelEnvironmentDeployment.'
+      operations:
+      - method: POST
+        name: cancelenvironmentdeployment
+        description: Amazon Proton Cancel Environment Deployment
+        call: amazon-proton.cancelenvironmentdeployment
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-cancelserviceinstancedeployment
+      name: x-amz-target-awsproton20200720-cancelserviceinstancedeployment
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CancelServiceInstanceDeployment.'
+      operations:
+      - method: POST
+        name: cancelserviceinstancedeployment
+        description: Amazon Proton Cancel Service Instance Deployment
+        call: amazon-proton.cancelserviceinstancedeployment
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-cancelservicepipelinedeployment
+      name: x-amz-target-awsproton20200720-cancelservicepipelinedeployment
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CancelServicePipelineDeployment.'
+      operations:
+      - method: POST
+        name: cancelservicepipelinedeployment
+        description: Amazon Proton Cancel Service Pipeline Deployment
+        call: amazon-proton.cancelservicepipelinedeployment
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createcomponent
+      name: x-amz-target-awsproton20200720-createcomponent
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateComponent.'
+      operations:
+      - method: POST
+        name: createcomponent
+        description: Amazon Proton Create Component
+        call: amazon-proton.createcomponent
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createenvironment
+      name: x-amz-target-awsproton20200720-createenvironment
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateEnvironment.'
+      operations:
+      - method: POST
+        name: createenvironment
+        description: Amazon Proton Create Environment
+        call: amazon-proton.createenvironment
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createenvironmentaccountconnection
+      name: x-amz-target-awsproton20200720-createenvironmentaccountconnection
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateEnvironmentAccountConnection.'
+      operations:
+      - method: POST
+        name: createenvironmentaccountconnection
+        description: Amazon Proton Create Environment Account Connection
+        call: amazon-proton.createenvironmentaccountconnection
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createenvironmenttemplate
+      name: x-amz-target-awsproton20200720-createenvironmenttemplate
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateEnvironmentTemplate.'
+      operations:
+      - method: POST
+        name: createenvironmenttemplate
+        description: Amazon Proton Create Environment Template
+        call: amazon-proton.createenvironmenttemplate
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createenvironmenttemplateversion
+      name: x-amz-target-awsproton20200720-createenvironmenttemplateversion
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateEnvironmentTemplateVersion.'
+      operations:
+      - method: POST
+        name: createenvironmenttemplateversion
+        description: Amazon Proton Create Environment Template Version
+        call: amazon-proton.createenvironmenttemplateversion
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createrepository
+      name: x-amz-target-awsproton20200720-createrepository
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateRepository.'
+      operations:
+      - method: POST
+        name: createrepository
+        description: Amazon Proton Create Repository
+        call: amazon-proton.createrepository
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createservice
+      name: x-amz-target-awsproton20200720-createservice
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateService.'
+      operations:
+      - method: POST
+        name: createservice
+        description: Amazon Proton Create Service
+        call: amazon-proton.createservice
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createserviceinstance
+      name: x-amz-target-awsproton20200720-createserviceinstance
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateServiceInstance.'
+      operations:
+      - method: POST
+        name: createserviceinstance
+        description: Amazon Proton Create Service Instance
+        call: amazon-proton.createserviceinstance
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createservicesyncconfig
+      name: x-amz-target-awsproton20200720-createservicesyncconfig
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateServiceSyncConfig.'
+      operations:
+      - method: POST
+        name: createservicesyncconfig
+        description: Amazon Proton Create Service Sync Config
+        call: amazon-proton.createservicesyncconfig
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createservicetemplate
+      name: x-amz-target-awsproton20200720-createservicetemplate
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateServiceTemplate.'
+      operations:
+      - method: POST
+        name: createservicetemplate
+        description: Amazon Proton Create Service Template
+        call: amazon-proton.createservicetemplate
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createservicetemplateversion
+      name: x-amz-target-awsproton20200720-createservicetemplateversion
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateServiceTemplateVersion.'
+      operations:
+      - method: POST
+        name: createservicetemplateversion
+        description: Amazon Proton Create Service Template Version
+        call: amazon-proton.createservicetemplateversion
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-createtemplatesyncconfig
+      name: x-amz-target-awsproton20200720-createtemplatesyncconfig
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.CreateTemplateSyncConfig.'
+      operations:
+      - method: POST
+        name: createtemplatesyncconfig
+        description: Amazon Proton Create Template Sync Config
+        call: amazon-proton.createtemplatesyncconfig
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deletecomponent
+      name: x-amz-target-awsproton20200720-deletecomponent
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteComponent.'
+      operations:
+      - method: POST
+        name: deletecomponent
+        description: Amazon Proton Delete Component
+        call: amazon-proton.deletecomponent
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleteenvironment
+      name: x-amz-target-awsproton20200720-deleteenvironment
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteEnvironment.'
+      operations:
+      - method: POST
+        name: deleteenvironment
+        description: Amazon Proton Delete Environment
+        call: amazon-proton.deleteenvironment
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleteenvironmentaccountconnection
+      name: x-amz-target-awsproton20200720-deleteenvironmentaccountconnection
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteEnvironmentAccountConnection.'
+      operations:
+      - method: POST
+        name: deleteenvironmentaccountconnection
+        description: Amazon Proton Delete Environment Account Connection
+        call: amazon-proton.deleteenvironmentaccountconnection
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleteenvironmenttemplate
+      name: x-amz-target-awsproton20200720-deleteenvironmenttemplate
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteEnvironmentTemplate.'
+      operations:
+      - method: POST
+        name: deleteenvironmenttemplate
+        description: Amazon Proton Delete Environment Template
+        call: amazon-proton.deleteenvironmenttemplate
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleteenvironmenttemplateversion
+      name: x-amz-target-awsproton20200720-deleteenvironmenttemplateversion
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteEnvironmentTemplateVersion.'
+      operations:
+      - method: POST
+        name: deleteenvironmenttemplateversion
+        description: Amazon Proton Delete Environment Template Version
+        call: amazon-proton.deleteenvironmenttemplateversion
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleterepository
+      name: x-amz-target-awsproton20200720-deleterepository
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteRepository.'
+      operations:
+      - method: POST
+        name: deleterepository
+        description: Amazon Proton Delete Repository
+        call: amazon-proton.deleterepository
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleteservice
+      name: x-amz-target-awsproton20200720-deleteservice
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteService.'
+      operations:
+      - method: POST
+        name: deleteservice
+        description: Amazon Proton Delete Service
+        call: amazon-proton.deleteservice
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleteservicesyncconfig
+      name: x-amz-target-awsproton20200720-deleteservicesyncconfig
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteServiceSyncConfig.'
+      operations:
+      - method: POST
+        name: deleteservicesyncconfig
+        description: Amazon Proton Delete Service Sync Config
+        call: amazon-proton.deleteservicesyncconfig
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleteservicetemplate
+      name: x-amz-target-awsproton20200720-deleteservicetemplate
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteServiceTemplate.'
+      operations:
+      - method: POST
+        name: deleteservicetemplate
+        description: Amazon Proton Delete Service Template
+        call: amazon-proton.deleteservicetemplate
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deleteservicetemplateversion
+      name: x-amz-target-awsproton20200720-deleteservicetemplateversion
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteServiceTemplateVersion.'
+      operations:
+      - method: POST
+        name: deleteservicetemplateversion
+        description: Amazon Proton Delete Service Template Version
+        call: amazon-proton.deleteservicetemplateversion
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-deletetemplatesyncconfig
+      name: x-amz-target-awsproton20200720-deletetemplatesyncconfig
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.DeleteTemplateSyncConfig.'
+      operations:
+      - method: POST
+        name: deletetemplatesyncconfig
+        description: Amazon Proton Delete Template Sync Config
+        call: amazon-proton.deletetemplatesyncconfig
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getaccountsettings
+      name: x-amz-target-awsproton20200720-getaccountsettings
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetAccountSettings.'
+      operations:
+      - method: POST
+        name: getaccountsettings
+        description: Amazon Proton Get Account Settings
+        call: amazon-proton.getaccountsettings
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getcomponent
+      name: x-amz-target-awsproton20200720-getcomponent
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetComponent.'
+      operations:
+      - method: POST
+        name: getcomponent
+        description: Amazon Proton Get Component
+        call: amazon-proton.getcomponent
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getenvironment
+      name: x-amz-target-awsproton20200720-getenvironment
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetEnvironment.'
+      operations:
+      - method: POST
+        name: getenvironment
+        description: Amazon Proton Get Environment
+        call: amazon-proton.getenvironment
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getenvironmentaccountconnection
+      name: x-amz-target-awsproton20200720-getenvironmentaccountconnection
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetEnvironmentAccountConnection.'
+      operations:
+      - method: POST
+        name: getenvironmentaccountconnection
+        description: Amazon Proton Get Environment Account Connection
+        call: amazon-proton.getenvironmentaccountconnection
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getenvironmenttemplate
+      name: x-amz-target-awsproton20200720-getenvironmenttemplate
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetEnvironmentTemplate.'
+      operations:
+      - method: POST
+        name: getenvironmenttemplate
+        description: Amazon Proton Get Environment Template
+        call: amazon-proton.getenvironmenttemplate
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getenvironmenttemplateversion
+      name: x-amz-target-awsproton20200720-getenvironmenttemplateversion
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetEnvironmentTemplateVersion.'
+      operations:
+      - method: POST
+        name: getenvironmenttemplateversion
+        description: Amazon Proton Get Environment Template Version
+        call: amazon-proton.getenvironmenttemplateversion
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getrepository
+      name: x-amz-target-awsproton20200720-getrepository
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetRepository.'
+      operations:
+      - method: POST
+        name: getrepository
+        description: Amazon Proton Get Repository
+        call: amazon-proton.getrepository
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getrepositorysyncstatus
+      name: x-amz-target-awsproton20200720-getrepositorysyncstatus
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetRepositorySyncStatus.'
+      operations:
+      - method: POST
+        name: getrepositorysyncstatus
+        description: Amazon Proton Get Repository Sync Status
+        call: amazon-proton.getrepositorysyncstatus
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getresourcessummary
+      name: x-amz-target-awsproton20200720-getresourcessummary
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetResourcesSummary.'
+      operations:
+      - method: POST
+        name: getresourcessummary
+        description: Amazon Proton Get Resources Summary
+        call: amazon-proton.getresourcessummary
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getservice
+      name: x-amz-target-awsproton20200720-getservice
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetService.'
+      operations:
+      - method: POST
+        name: getservice
+        description: Amazon Proton Get Service
+        call: amazon-proton.getservice
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getserviceinstance
+      name: x-amz-target-awsproton20200720-getserviceinstance
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetServiceInstance.'
+      operations:
+      - method: POST
+        name: getserviceinstance
+        description: Amazon Proton Get Service Instance
+        call: amazon-proton.getserviceinstance
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getserviceinstancesyncstatus
+      name: x-amz-target-awsproton20200720-getserviceinstancesyncstatus
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetServiceInstanceSyncStatus.'
+      operations:
+      - method: POST
+        name: getserviceinstancesyncstatus
+        description: Amazon Proton Get Service Instance Sync Status
+        call: amazon-proton.getserviceinstancesyncstatus
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getservicesyncblockersummary
+      name: x-amz-target-awsproton20200720-getservicesyncblockersummary
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetServiceSyncBlockerSummary.'
+      operations:
+      - method: POST
+        name: getservicesyncblockersummary
+        description: Amazon Proton Get Service Sync Blocker Summary
+        call: amazon-proton.getservicesyncblockersummary
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getservicesyncconfig
+      name: x-amz-target-awsproton20200720-getservicesyncconfig
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetServiceSyncConfig.'
+      operations:
+      - method: POST
+        name: getservicesyncconfig
+        description: Amazon Proton Get Service Sync Config
+        call: amazon-proton.getservicesyncconfig
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getservicetemplate
+      name: x-amz-target-awsproton20200720-getservicetemplate
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetServiceTemplate.'
+      operations:
+      - method: POST
+        name: getservicetemplate
+        description: Amazon Proton Get Service Template
+        call: amazon-proton.getservicetemplate
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-getservicetemplateversion
+      name: x-amz-target-awsproton20200720-getservicetemplateversion
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetServiceTemplateVersion.'
+      operations:
+      - method: POST
+        name: getservicetemplateversion
+        description: Amazon Proton Get Service Template Version
+        call: amazon-proton.getservicetemplateversion
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-gettemplatesyncconfig
+      name: x-amz-target-awsproton20200720-gettemplatesyncconfig
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetTemplateSyncConfig.'
+      operations:
+      - method: POST
+        name: gettemplatesyncconfig
+        description: Amazon Proton Get Template Sync Config
+        call: amazon-proton.gettemplatesyncconfig
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-gettemplatesyncstatus
+      name: x-amz-target-awsproton20200720-gettemplatesyncstatus
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.GetTemplateSyncStatus.'
+      operations:
+      - method: POST
+        name: gettemplatesyncstatus
+        description: Amazon Proton Get Template Sync Status
+        call: amazon-proton.gettemplatesyncstatus
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listcomponentoutputs
+      name: x-amz-target-awsproton20200720-listcomponentoutputs
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListComponentOutputs.'
+      operations:
+      - method: POST
+        name: listcomponentoutputs
+        description: Amazon Proton List Component Outputs
+        call: amazon-proton.listcomponentoutputs
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listcomponentprovisionedresources
+      name: x-amz-target-awsproton20200720-listcomponentprovisionedresources
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListComponentProvisionedResources.'
+      operations:
+      - method: POST
+        name: listcomponentprovisionedresources
+        description: Amazon Proton List Component Provisioned Resources
+        call: amazon-proton.listcomponentprovisionedresources
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listcomponents
+      name: x-amz-target-awsproton20200720-listcomponents
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListComponents.'
+      operations:
+      - method: POST
+        name: listcomponents
+        description: Amazon Proton List Components
+        call: amazon-proton.listcomponents
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listenvironmentaccountconnections
+      name: x-amz-target-awsproton20200720-listenvironmentaccountconnections
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListEnvironmentAccountConnections.'
+      operations:
+      - method: POST
+        name: listenvironmentaccountconnections
+        description: Amazon Proton List Environment Account Connections
+        call: amazon-proton.listenvironmentaccountconnections
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listenvironmentoutputs
+      name: x-amz-target-awsproton20200720-listenvironmentoutputs
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListEnvironmentOutputs.'
+      operations:
+      - method: POST
+        name: listenvironmentoutputs
+        description: Amazon Proton List Environment Outputs
+        call: amazon-proton.listenvironmentoutputs
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listenvironmentprovisionedresources
+      name: x-amz-target-awsproton20200720-listenvironmentprovisionedresources
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListEnvironmentProvisionedResources.'
+      operations:
+      - method: POST
+        name: listenvironmentprovisionedresources
+        description: Amazon Proton List Environment Provisioned Resources
+        call: amazon-proton.listenvironmentprovisionedresources
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listenvironmenttemplateversions
+      name: x-amz-target-awsproton20200720-listenvironmenttemplateversions
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListEnvironmentTemplateVersions.'
+      operations:
+      - method: POST
+        name: listenvironmenttemplateversions
+        description: Amazon Proton List Environment Template Versions
+        call: amazon-proton.listenvironmenttemplateversions
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listenvironmenttemplates
+      name: x-amz-target-awsproton20200720-listenvironmenttemplates
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListEnvironmentTemplates.'
+      operations:
+      - method: POST
+        name: listenvironmenttemplates
+        description: Amazon Proton List Environment Templates
+        call: amazon-proton.listenvironmenttemplates
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listenvironments
+      name: x-amz-target-awsproton20200720-listenvironments
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListEnvironments.'
+      operations:
+      - method: POST
+        name: listenvironments
+        description: Amazon Proton List Environments
+        call: amazon-proton.listenvironments
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listrepositories
+      name: x-amz-target-awsproton20200720-listrepositories
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListRepositories.'
+      operations:
+      - method: POST
+        name: listrepositories
+        description: Amazon Proton List Repositories
+        call: amazon-proton.listrepositories
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listrepositorysyncdefinitions
+      name: x-amz-target-awsproton20200720-listrepositorysyncdefinitions
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListRepositorySyncDefinitions.'
+      operations:
+      - method: POST
+        name: listrepositorysyncdefinitions
+        description: Amazon Proton List Repository Sync Definitions
+        call: amazon-proton.listrepositorysyncdefinitions
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listserviceinstanceoutputs
+      name: x-amz-target-awsproton20200720-listserviceinstanceoutputs
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListServiceInstanceOutputs.'
+      operations:
+      - method: POST
+        name: listserviceinstanceoutputs
+        description: Amazon Proton List Service Instance Outputs
+        call: amazon-proton.listserviceinstanceoutputs
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources
+      name: x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListServiceInstanceProvisionedResources.'
+      operations:
+      - method: POST
+        name: listserviceinstanceprovisionedresources
+        description: Amazon Proton List Service Instance Provisioned Resources
+        call: amazon-proton.listserviceinstanceprovisionedresources
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listserviceinstances
+      name: x-amz-target-awsproton20200720-listserviceinstances
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListServiceInstances.'
+      operations:
+      - method: POST
+        name: listserviceinstances
+        description: Amazon Proton List Service Instances
+        call: amazon-proton.listserviceinstances
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listservicepipelineoutputs
+      name: x-amz-target-awsproton20200720-listservicepipelineoutputs
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListServicePipelineOutputs.'
+      operations:
+      - method: POST
+        name: listservicepipelineoutputs
+        description: Amazon Proton List Service Pipeline Outputs
+        call: amazon-proton.listservicepipelineoutputs
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listservicepipelineprovisionedresources
+      name: x-amz-target-awsproton20200720-listservicepipelineprovisionedresources
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListServicePipelineProvisionedResources.'
+      operations:
+      - method: POST
+        name: listservicepipelineprovisionedresources
+        description: Amazon Proton List Service Pipeline Provisioned Resources
+        call: amazon-proton.listservicepipelineprovisionedresources
+        with:
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listservicetemplateversions
+      name: x-amz-target-awsproton20200720-listservicetemplateversions
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListServiceTemplateVersions.'
+      operations:
+      - method: POST
+        name: listservicetemplateversions
+        description: Amazon Proton List Service Template Versions
+        call: amazon-proton.listservicetemplateversions
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listservicetemplates
+      name: x-amz-target-awsproton20200720-listservicetemplates
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListServiceTemplates.'
+      operations:
+      - method: POST
+        name: listservicetemplates
+        description: Amazon Proton List Service Templates
+        call: amazon-proton.listservicetemplates
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listservices
+      name: x-amz-target-awsproton20200720-listservices
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListServices.'
+      operations:
+      - method: POST
+        name: listservices
+        description: Amazon Proton List Services
+        call: amazon-proton.listservices
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-listtagsforresource
+      name: x-amz-target-awsproton20200720-listtagsforresource
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.ListTagsForResource.'
+      operations:
+      - method: POST
+        name: listtagsforresource
+        description: Amazon Proton List Tags For Resource
+        call: amazon-proton.listtagsforresource
+        with:
+          maxResults: rest.maxResults
+          nextToken: rest.nextToken
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange
+      name: x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.NotifyResourceDeploymentStatusChange.'
+      operations:
+      - method: POST
+        name: notifyresourcedeploymentstatuschange
+        description: Amazon Proton Notify Resource Deployment Status Change
+        call: amazon-proton.notifyresourcedeploymentstatuschange
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-rejectenvironmentaccountconnection
+      name: x-amz-target-awsproton20200720-rejectenvironmentaccountconnection
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.RejectEnvironmentAccountConnection.'
+      operations:
+      - method: POST
+        name: rejectenvironmentaccountconnection
+        description: Amazon Proton Reject Environment Account Connection
+        call: amazon-proton.rejectenvironmentaccountconnection
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-tagresource
+      name: x-amz-target-awsproton20200720-tagresource
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.TagResource.'
+      operations:
+      - method: POST
+        name: tagresource
+        description: Amazon Proton Tag Resource
+        call: amazon-proton.tagresource
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-untagresource
+      name: x-amz-target-awsproton20200720-untagresource
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UntagResource.'
+      operations:
+      - method: POST
+        name: untagresource
+        description: Amazon Proton Untag Resource
+        call: amazon-proton.untagresource
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateaccountsettings
+      name: x-amz-target-awsproton20200720-updateaccountsettings
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateAccountSettings.'
+      operations:
+      - method: POST
+        name: updateaccountsettings
+        description: Amazon Proton Update Account Settings
+        call: amazon-proton.updateaccountsettings
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updatecomponent
+      name: x-amz-target-awsproton20200720-updatecomponent
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateComponent.'
+      operations:
+      - method: POST
+        name: updatecomponent
+        description: Amazon Proton Update Component
+        call: amazon-proton.updatecomponent
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateenvironment
+      name: x-amz-target-awsproton20200720-updateenvironment
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateEnvironment.'
+      operations:
+      - method: POST
+        name: updateenvironment
+        description: Amazon Proton Update Environment
+        call: amazon-proton.updateenvironment
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateenvironmentaccountconnection
+      name: x-amz-target-awsproton20200720-updateenvironmentaccountconnection
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateEnvironmentAccountConnection.'
+      operations:
+      - method: POST
+        name: updateenvironmentaccountconnection
+        description: Amazon Proton Update Environment Account Connection
+        call: amazon-proton.updateenvironmentaccountconnection
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateenvironmenttemplate
+      name: x-amz-target-awsproton20200720-updateenvironmenttemplate
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateEnvironmentTemplate.'
+      operations:
+      - method: POST
+        name: updateenvironmenttemplate
+        description: Amazon Proton Update Environment Template
+        call: amazon-proton.updateenvironmenttemplate
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateenvironmenttemplateversion
+      name: x-amz-target-awsproton20200720-updateenvironmenttemplateversion
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateEnvironmentTemplateVersion.'
+      operations:
+      - method: POST
+        name: updateenvironmenttemplateversion
+        description: Amazon Proton Update Environment Template Version
+        call: amazon-proton.updateenvironmenttemplateversion
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateservice
+      name: x-amz-target-awsproton20200720-updateservice
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateService.'
+      operations:
+      - method: POST
+        name: updateservice
+        description: Amazon Proton Update Service
+        call: amazon-proton.updateservice
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateserviceinstance
+      name: x-amz-target-awsproton20200720-updateserviceinstance
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateServiceInstance.'
+      operations:
+      - method: POST
+        name: updateserviceinstance
+        description: Amazon Proton Update Service Instance
+        call: amazon-proton.updateserviceinstance
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateservicepipeline
+      name: x-amz-target-awsproton20200720-updateservicepipeline
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateServicePipeline.'
+      operations:
+      - method: POST
+        name: updateservicepipeline
+        description: Amazon Proton Update Service Pipeline
+        call: amazon-proton.updateservicepipeline
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateservicesyncblocker
+      name: x-amz-target-awsproton20200720-updateservicesyncblocker
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateServiceSyncBlocker.'
+      operations:
+      - method: POST
+        name: updateservicesyncblocker
+        description: Amazon Proton Update Service Sync Blocker
+        call: amazon-proton.updateservicesyncblocker
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateservicesyncconfig
+      name: x-amz-target-awsproton20200720-updateservicesyncconfig
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateServiceSyncConfig.'
+      operations:
+      - method: POST
+        name: updateservicesyncconfig
+        description: Amazon Proton Update Service Sync Config
+        call: amazon-proton.updateservicesyncconfig
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateservicetemplate
+      name: x-amz-target-awsproton20200720-updateservicetemplate
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateServiceTemplate.'
+      operations:
+      - method: POST
+        name: updateservicetemplate
+        description: Amazon Proton Update Service Template
+        call: amazon-proton.updateservicetemplate
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updateservicetemplateversion
+      name: x-amz-target-awsproton20200720-updateservicetemplateversion
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateServiceTemplateVersion.'
+      operations:
+      - method: POST
+        name: updateservicetemplateversion
+        description: Amazon Proton Update Service Template Version
+        call: amazon-proton.updateservicetemplateversion
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/x-amz-target-awsproton20200720-updatetemplatesyncconfig
+      name: x-amz-target-awsproton20200720-updatetemplatesyncconfig
+      description: 'REST surface for #X-Amz-Target=AwsProton20200720.UpdateTemplateSyncConfig.'
+      operations:
+      - method: POST
+        name: updatetemplatesyncconfig
+        description: Amazon Proton Update Template Sync Config
+        call: amazon-proton.updatetemplatesyncconfig
+        with:
+          X-Amz-Target: rest.X-Amz-Target
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+  - type: mcp
+    namespace: amazon-proton-mcp
+    port: 9090
+    transport: http
+    description: MCP adapter for AWS Proton. One tool per consumed operation, routed inline through this capability's consumes
+      block.
+    tools:
+    - name: amazon-proton-accept-environment-account
+      description: Amazon Proton Accept Environment Account Connection
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.acceptenvironmentaccountconnection
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-cancel-component-deployment
+      description: Amazon Proton Cancel Component Deployment
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.cancelcomponentdeployment
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-cancel-environment-deployment
+      description: Amazon Proton Cancel Environment Deployment
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.cancelenvironmentdeployment
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-cancel-service-instance
+      description: Amazon Proton Cancel Service Instance Deployment
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.cancelserviceinstancedeployment
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-cancel-service-pipeline
+      description: Amazon Proton Cancel Service Pipeline Deployment
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.cancelservicepipelinedeployment
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-component
+      description: Amazon Proton Create Component
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createcomponent
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-environment
+      description: Amazon Proton Create Environment
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createenvironment
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-environment-account
+      description: Amazon Proton Create Environment Account Connection
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createenvironmentaccountconnection
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-environment-template
+      description: Amazon Proton Create Environment Template
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createenvironmenttemplate
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-environment-template-2
+      description: Amazon Proton Create Environment Template Version
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createenvironmenttemplateversion
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-repository
+      description: Amazon Proton Create Repository
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createrepository
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-service
+      description: Amazon Proton Create Service
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createservice
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-service-instance
+      description: Amazon Proton Create Service Instance
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createserviceinstance
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-service-sync
+      description: Amazon Proton Create Service Sync Config
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createservicesyncconfig
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-service-template
+      description: Amazon Proton Create Service Template
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createservicetemplate
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-service-template-2
+      description: Amazon Proton Create Service Template Version
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createservicetemplateversion
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-create-template-sync
+      description: Amazon Proton Create Template Sync Config
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.createtemplatesyncconfig
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-component
+      description: Amazon Proton Delete Component
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deletecomponent
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-environment
+      description: Amazon Proton Delete Environment
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleteenvironment
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-environment-account
+      description: Amazon Proton Delete Environment Account Connection
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleteenvironmentaccountconnection
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-environment-template
+      description: Amazon Proton Delete Environment Template
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleteenvironmenttemplate
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-environment-template-2
+      description: Amazon Proton Delete Environment Template Version
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleteenvironmenttemplateversion
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-repository
+      description: Amazon Proton Delete Repository
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleterepository
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-service
+      description: Amazon Proton Delete Service
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleteservice
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-service-sync
+      description: Amazon Proton Delete Service Sync Config
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleteservicesyncconfig
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-service-template
+      description: Amazon Proton Delete Service Template
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleteservicetemplate
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-service-template-2
+      description: Amazon Proton Delete Service Template Version
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deleteservicetemplateversion
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-delete-template-sync
+      description: Amazon Proton Delete Template Sync Config
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.deletetemplatesyncconfig
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-account-settings
+      description: Amazon Proton Get Account Settings
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getaccountsettings
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-component
+      description: Amazon Proton Get Component
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getcomponent
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-environment
+      description: Amazon Proton Get Environment
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getenvironment
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-environment-account
+      description: Amazon Proton Get Environment Account Connection
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getenvironmentaccountconnection
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-environment-template
+      description: Amazon Proton Get Environment Template
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getenvironmenttemplate
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-environment-template-2
+      description: Amazon Proton Get Environment Template Version
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getenvironmenttemplateversion
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-repository
+      description: Amazon Proton Get Repository
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getrepository
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-repository-sync
+      description: Amazon Proton Get Repository Sync Status
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getrepositorysyncstatus
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-resources-summary
+      description: Amazon Proton Get Resources Summary
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getresourcessummary
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-service
+      description: Amazon Proton Get Service
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getservice
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-service-instance
+      description: Amazon Proton Get Service Instance
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getserviceinstance
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-service-instance-2
+      description: Amazon Proton Get Service Instance Sync Status
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getserviceinstancesyncstatus
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-service-sync
+      description: Amazon Proton Get Service Sync Blocker Summary
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getservicesyncblockersummary
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-service-sync-2
+      description: Amazon Proton Get Service Sync Config
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getservicesyncconfig
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-service-template
+      description: Amazon Proton Get Service Template
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getservicetemplate
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-service-template-2
+      description: Amazon Proton Get Service Template Version
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.getservicetemplateversion
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-template-sync
+      description: Amazon Proton Get Template Sync Config
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.gettemplatesyncconfig
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-get-template-sync-2
+      description: Amazon Proton Get Template Sync Status
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.gettemplatesyncstatus
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-component-outputs
+      description: Amazon Proton List Component Outputs
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listcomponentoutputs
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-component-provisioned
+      description: Amazon Proton List Component Provisioned Resources
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listcomponentprovisionedresources
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-components
+      description: Amazon Proton List Components
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listcomponents
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-environment-account
+      description: Amazon Proton List Environment Account Connections
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listenvironmentaccountconnections
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-environment-outputs
+      description: Amazon Proton List Environment Outputs
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listenvironmentoutputs
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-environment-provisioned
+      description: Amazon Proton List Environment Provisioned Resources
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listenvironmentprovisionedresources
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-environment-template
+      description: Amazon Proton List Environment Template Versions
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listenvironmenttemplateversions
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-environment-templates
+      description: Amazon Proton List Environment Templates
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listenvironmenttemplates
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-environments
+      description: Amazon Proton List Environments
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listenvironments
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-repositories
+      description: Amazon Proton List Repositories
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listrepositories
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-repository-sync
+      description: Amazon Proton List Repository Sync Definitions
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listrepositorysyncdefinitions
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-service-instance
+      description: Amazon Proton List Service Instance Outputs
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listserviceinstanceoutputs
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-service-instance-2
+      description: Amazon Proton List Service Instance Provisioned Resources
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listserviceinstanceprovisionedresources
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-service-instances
+      description: Amazon Proton List Service Instances
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listserviceinstances
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-service-pipeline
+      description: Amazon Proton List Service Pipeline Outputs
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listservicepipelineoutputs
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-service-pipeline-2
+      description: Amazon Proton List Service Pipeline Provisioned Resources
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listservicepipelineprovisionedresources
+      with:
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-service-template
+      description: Amazon Proton List Service Template Versions
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listservicetemplateversions
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-service-templates
+      description: Amazon Proton List Service Templates
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listservicetemplates
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-services
+      description: Amazon Proton List Services
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listservices
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-list-tags-resource
+      description: Amazon Proton List Tags For Resource
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: false
+      call: amazon-proton.listtagsforresource
+      with:
+        maxResults: tools.maxResults
+        nextToken: tools.nextToken
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-notify-resource-deployment
+      description: Amazon Proton Notify Resource Deployment Status Change
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.notifyresourcedeploymentstatuschange
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-reject-environment-account
+      description: Amazon Proton Reject Environment Account Connection
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.rejectenvironmentaccountconnection
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-tag-resource
+      description: Amazon Proton Tag Resource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.tagresource
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-untag-resource
+      description: Amazon Proton Untag Resource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.untagresource
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-account-settings
+      description: Amazon Proton Update Account Settings
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateaccountsettings
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-component
+      description: Amazon Proton Update Component
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updatecomponent
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-environment
+      description: Amazon Proton Update Environment
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateenvironment
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-environment-account
+      description: Amazon Proton Update Environment Account Connection
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateenvironmentaccountconnection
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-environment-template
+      description: Amazon Proton Update Environment Template
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateenvironmenttemplate
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-environment-template-2
+      description: Amazon Proton Update Environment Template Version
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateenvironmenttemplateversion
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-service
+      description: Amazon Proton Update Service
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateservice
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-service-instance
+      description: Amazon Proton Update Service Instance
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateserviceinstance
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-service-pipeline
+      description: Amazon Proton Update Service Pipeline
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateservicepipeline
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-service-sync
+      description: Amazon Proton Update Service Sync Blocker
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateservicesyncblocker
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-service-sync-2
+      description: Amazon Proton Update Service Sync Config
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateservicesyncconfig
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-service-template
+      description: Amazon Proton Update Service Template
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateservicetemplate
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-service-template-2
+      description: Amazon Proton Update Service Template Version
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updateservicetemplateversion
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: amazon-proton-update-template-sync
+      description: Amazon Proton Update Template Sync Config
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-proton.updatetemplatesyncconfig
+      with:
+        X-Amz-Target: tools.X-Amz-Target
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
