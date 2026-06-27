@@ -45,7 +45,7 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: NaftikoCapability
+  - type: X-NaftikoCapability
     url: capabilities/amazon-proton.yaml
 common:
 - type: Portal
@@ -64,7 +64,7 @@ common:
   url: https://github.com/aws
 - type: Console
   url: https://console.aws.amazon.com/proton/
-- type: SignUp
+- type: Signup
   url: https://portal.aws.amazon.com/billing/signup
 - type: StatusPage
   url: https://health.aws.amazon.com/health/status
@@ -1037,151 +1037,151 @@ common:
   url: json-structure/amazon-proton-update-template-sync-config-input-structure.json
 - type: JSONStructure
   url: json-structure/amazon-proton-update-template-sync-config-output-structure.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-cancel-service-instance-deployment-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-compatible-environment-template-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-component-summary-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-create-component-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-create-environment-account-connection-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-create-environment-template-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-create-repository-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-create-service-instance-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-create-service-sync-config-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-create-service-sync-config-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-create-template-sync-config-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-delete-component-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-delete-environment-account-connection-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-delete-environment-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-delete-environment-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-delete-environment-template-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-delete-environment-template-version-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-delete-repository-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-delete-service-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-environment-account-connection-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-environment-template-summary-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-get-account-settings-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-get-component-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-get-environment-template-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-get-environment-template-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-get-environment-template-version-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-get-service-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-get-service-sync-blocker-summary-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-get-service-template-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-components-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-environment-account-connections-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-environment-outputs-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-environment-provisioned-resources-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-environment-provisioned-resources-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-environment-template-versions-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-repositories-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-repository-sync-definitions-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-repository-sync-definitions-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-service-instance-outputs-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-service-instance-provisioned-resources-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-service-instance-provisioned-resources-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-service-instances-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-service-pipeline-outputs-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-service-pipeline-outputs-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-service-pipeline-provisioned-resources-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-service-template-versions-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-list-services-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-reject-environment-account-connection-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-reject-environment-account-connection-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-repository-sync-attempt-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-repository-sync-definition-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-resource-counts-summary-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-resource-sync-attempt-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-resource-sync-event-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-service-instance-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-service-pipeline-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-service-summary-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-service-sync-config-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-service-template-version-summary-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-sync-blocker-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-tag-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-untag-resource-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-component-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-component-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-environment-account-connection-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-environment-template-version-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-service-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-service-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-service-sync-blocker-output-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-service-sync-config-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-service-template-input-example.json
-- type: Example
+- type: Examples
   url: examples/amazon-proton-update-service-template-version-input-example.json
 - type: Integrations
   url: https://aws.amazon.com/partners/
