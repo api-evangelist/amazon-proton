@@ -48,6 +48,14 @@ apis:
   - type: X-NaftikoCapability
     url: capabilities/amazon-proton.yaml
 common:
+- type: TrustCenter
+  url: security/amazon-proton-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/amazon-proton-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/amazon-proton-domain-security.yml
+- type: Authentication
+  url: authentication/amazon-proton-authentication.yml
 - type: Portal
   url: https://aws.amazon.com/proton/
 - type: Documentation
