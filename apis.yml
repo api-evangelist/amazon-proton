@@ -48,6 +48,8 @@ apis:
   - type: X-NaftikoCapability
     url: capabilities/amazon-proton.yaml
 common:
+- type: AgenticAccess
+  url: agentic-access/amazon-proton-agentic-access.yml
 - type: TrustCenter
   url: security/amazon-proton-trust-center.yml
 - type: VulnerabilityDisclosure
