@@ -56,8 +56,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelComponentDeployment API'
   description: >-
@@ -83,8 +81,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelEnvironmentDeployment API'
@@ -111,8 +107,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment API'
@@ -139,8 +133,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelServicePipelineDeployment API'
@@ -167,8 +159,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createcomponent-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateComponent API'
   description: >-
@@ -193,8 +183,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironment API'
   description: >-
@@ -219,8 +207,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection API'
@@ -247,8 +233,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentTemplate API'
   description: >-
@@ -274,8 +258,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion API'
@@ -302,8 +284,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createrepository-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateRepository API'
   description: >-
@@ -328,8 +308,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservice-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateService API'
   description: >-
@@ -354,8 +332,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceInstance API'
   description: >-
@@ -381,8 +357,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceSyncConfig API'
   description: >-
@@ -408,8 +382,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceTemplate API'
   description: >-
@@ -435,8 +407,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceTemplateVersion API'
@@ -463,8 +433,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateTemplateSyncConfig API'
   description: >-
@@ -490,8 +458,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteComponent API'
   description: >-
@@ -516,8 +482,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironment API'
   description: >-
@@ -542,8 +506,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection API'
@@ -570,8 +532,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate API'
   description: >-
@@ -597,8 +557,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion API'
@@ -625,8 +583,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleterepository-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteRepository API'
   description: >-
@@ -651,8 +607,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservice-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteService API'
   description: >-
@@ -677,8 +631,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceSyncConfig API'
   description: >-
@@ -704,8 +656,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceTemplate API'
   description: >-
@@ -731,8 +681,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion API'
@@ -759,8 +707,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig API'
   description: >-
@@ -786,8 +732,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetAccountSettings API'
   description: >-
@@ -812,8 +756,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getcomponent-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetComponent API'
   description: >-
@@ -838,8 +780,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironment API'
   description: >-
@@ -864,8 +804,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection API'
@@ -892,8 +830,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentTemplate API'
   description: >-
@@ -919,8 +855,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion API'
@@ -947,8 +881,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getrepository-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetRepository API'
   description: >-
@@ -973,8 +905,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetRepositorySyncStatus API'
   description: >-
@@ -1000,8 +930,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetResourcesSummary API'
   description: >-
@@ -1026,8 +954,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservice-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetService API'
   description: >-
@@ -1052,8 +978,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceInstance API'
   description: >-
@@ -1078,8 +1002,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus API'
@@ -1106,8 +1028,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary API'
@@ -1134,8 +1054,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceSyncConfig API'
   description: >-
@@ -1161,8 +1079,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceTemplate API'
   description: >-
@@ -1187,8 +1103,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceTemplateVersion API'
   description: >-
@@ -1214,8 +1128,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetTemplateSyncConfig API'
   description: >-
@@ -1241,8 +1153,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetTemplateSyncStatus API'
   description: >-
@@ -1268,8 +1178,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponentOutputs API'
   description: >-
@@ -1295,8 +1203,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponentProvisionedResources API'
@@ -1323,8 +1229,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listcomponents-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponents API'
   description: >-
@@ -1349,8 +1253,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections API'
@@ -1377,8 +1279,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentOutputs API'
   description: >-
@@ -1404,8 +1304,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources API'
@@ -1432,8 +1330,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironments-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironments API'
   description: >-
@@ -1458,8 +1354,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentTemplates API'
   description: >-
@@ -1485,8 +1379,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions API'
@@ -1513,8 +1405,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listrepositories-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListRepositories API'
   description: >-
@@ -1539,8 +1429,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions API'
@@ -1567,8 +1455,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstanceOutputs API'
@@ -1595,8 +1481,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api
   name: >-
@@ -1624,8 +1508,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstances API'
   description: >-
@@ -1651,8 +1533,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServicePipelineOutputs API'
@@ -1679,8 +1559,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api
   name: >-
@@ -1708,8 +1586,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservices-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServices API'
   description: >-
@@ -1734,8 +1610,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceTemplates API'
   description: >-
@@ -1761,8 +1635,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceTemplateVersions API'
@@ -1789,8 +1661,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListTagsForResource API'
   description: >-
@@ -1815,8 +1685,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange API'
@@ -1843,8 +1711,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection API'
@@ -1871,8 +1737,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-tagresource-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.TagResource API'
   description: >-
@@ -1897,8 +1761,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-untagresource-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UntagResource API'
   description: >-
@@ -1923,8 +1785,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateAccountSettings API'
   description: >-
@@ -1950,8 +1810,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateComponent API'
   description: >-
@@ -1976,8 +1834,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironment API'
   description: >-
@@ -2002,8 +1858,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection API'
@@ -2030,8 +1884,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate API'
   description: >-
@@ -2057,8 +1909,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion API'
@@ -2085,8 +1935,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservice-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateService API'
   description: >-
@@ -2111,8 +1959,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceInstance API'
   description: >-
@@ -2138,8 +1984,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServicePipeline API'
   description: >-
@@ -2165,8 +2009,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker API'
   description: >-
@@ -2192,8 +2034,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceSyncConfig API'
   description: >-
@@ -2219,8 +2059,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceTemplate API'
   description: >-
@@ -2246,8 +2084,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: >-
     amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion API'
@@ -2274,8 +2110,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API'
   description: >-
@@ -2301,8 +2135,6 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-  - type: X-NaftikoCapability
-    url: capabilities/amazon-proton.yaml
 common:
 - type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-proton/overview
