@@ -39,7 +39,8 @@ apis:
     operation(s) for #x amz target=awsproton20200720.acceptenvironmentaccountconnection.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
@@ -116,7 +117,8 @@ apis:
     for #x amz target=awsproton20200720.cancelserviceinstancedeployment.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment'
   properties:
   - type: OpenAPI
@@ -142,7 +144,8 @@ apis:
     for #x amz target=awsproton20200720.cancelservicepipelinedeployment.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.CancelServicePipelineDeployment'
   properties:
   - type: OpenAPI
@@ -216,7 +219,8 @@ apis:
     operation(s) for #x amz target=awsproton20200720.createenvironmentaccountconnection.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
@@ -267,7 +271,8 @@ apis:
     for #x amz target=awsproton20200720.createenvironmenttemplateversion.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion'
   properties:
   - type: OpenAPI
@@ -515,7 +520,8 @@ apis:
     operation(s) for #x amz target=awsproton20200720.deleteenvironmentaccountconnection.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
@@ -566,7 +572,8 @@ apis:
     for #x amz target=awsproton20200720.deleteenvironmenttemplateversion.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion'
   properties:
   - type: OpenAPI
@@ -813,7 +820,8 @@ apis:
     for #x amz target=awsproton20200720.getenvironmentaccountconnection.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
@@ -864,7 +872,8 @@ apis:
     for #x amz target=awsproton20200720.getenvironmenttemplateversion.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion'
   properties:
   - type: OpenAPI
@@ -1212,7 +1221,8 @@ apis:
     for #x amz target=awsproton20200720.listcomponentprovisionedresources.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.ListComponentProvisionedResources'
   properties:
   - type: OpenAPI
@@ -1262,7 +1272,8 @@ apis:
     for #x amz target=awsproton20200720.listenvironmentaccountconnections.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections'
   properties:
   - type: OpenAPI
@@ -1313,7 +1324,8 @@ apis:
     operation(s) for #x amz target=awsproton20200720.listenvironmentprovisionedresources.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources'
   properties:
   - type: OpenAPI
@@ -1388,7 +1400,8 @@ apis:
     for #x amz target=awsproton20200720.listenvironmenttemplateversions.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions'
   properties:
   - type: OpenAPI
@@ -1438,7 +1451,8 @@ apis:
     for #x amz target=awsproton20200720.listrepositorysyncdefinitions.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions'
   properties:
   - type: OpenAPI
@@ -1491,7 +1505,8 @@ apis:
     — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstanceprovisionedresources.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources'
   properties:
   - type: OpenAPI
@@ -1569,7 +1584,8 @@ apis:
     — 1 operation(s) for #x amz target=awsproton20200720.listservicepipelineprovisionedresources.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources'
   properties:
   - type: OpenAPI
@@ -1694,7 +1710,8 @@ apis:
     1 operation(s) for #x amz target=awsproton20200720.notifyresourcedeploymentstatuschange.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange'
   properties:
   - type: OpenAPI
@@ -1720,7 +1737,8 @@ apis:
     operation(s) for #x amz target=awsproton20200720.rejectenvironmentaccountconnection.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
@@ -1867,7 +1885,8 @@ apis:
     operation(s) for #x amz target=awsproton20200720.updateenvironmentaccountconnection.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
@@ -1918,7 +1937,8 @@ apis:
     for #x amz target=awsproton20200720.updateenvironmenttemplateversion.
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
-  tags:
+  tags: []
+  tags_raw:
   - '#X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion'
   properties:
   - type: OpenAPI
