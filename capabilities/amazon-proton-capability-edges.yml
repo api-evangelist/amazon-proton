@@ -1,0 +1,56 @@
+slug: amazon-proton
+provider: Amazon Proton
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 4
+edges:
+- tag: '#X Amz Target=AwsProton20200720.CancelComponentDeployment'
+  spec_file: amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api-openapi.yml
+  capability_id: BC-4210.40
+  capability_id_l1: BC-4210
+  capability_name: Deployment Orchestration
+  confidence: 0.7
+  evidence: POST /#X-Amz-Target=AwsProton20200720.CancelComponentDeployment  CancelComponentDeployment;
+    schemas DeploymentStatus, Component
+  reason: Cancels an in-progress deployment of a component, i.e. control over delivery of changes to running
+    infrastructure — deployment orchestration on a platform-engineering service.
+- tag: '#X Amz Target=AwsProton20200720.CancelEnvironmentDeployment'
+  spec_file: amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api-openapi.yml
+  capability_id: BC-4210
+  capability_id_l1: BC-4210
+  capability_name: Software Release & Deployment Management
+  confidence: 0.7
+  evidence: POST /#X-Amz-Target=AwsProton20200720.CancelEnvironmentDeployment  CancelEnvironmentDeployment;
+    schemas Environment, DeploymentStatus, RepositoryBranch
+  reason: Cancels an in-flight environment deployment; clearly release/deployment tooling but ambiguous
+    between Environment Management and Deployment Orchestration, so L1 only.
+- tag: '#X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment'
+  spec_file: amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api-openapi.yml
+  capability_id: BC-4210.40
+  capability_id_l1: BC-4210
+  capability_name: Deployment Orchestration
+  confidence: 0.7
+  evidence: POST /#X-Amz-Target=AwsProton20200720.CancelServiceInstanceDeployment  CancelServiceInstanceDeployment;
+    schemas ServiceInstance, DeploymentStatus
+  reason: Cancels an in-progress deployment of a service instance — controlled delivery of software changes
+    to running services, i.e. deployment orchestration.
+- tag: '#X Amz Target=AwsProton20200720.DeleteEnvironment'
+  spec_file: amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api-openapi.yml
+  capability_id: BC-4210.20
+  capability_id_l1: BC-4210
+  capability_name: Environment Management
+  confidence: 0.7
+  evidence: DeleteEnvironment  Amazon Proton Delete Environment; schemas Environment, Provisioning, DeploymentStatus,
+    RepositoryBranch
+  reason: Proton environments are provisioned deployment environments into which services are deployed;
+    deleting one is stewardship of environments in the delivery pipeline. Mapped to Environment Management,
+    with moderate confidence since Proton environments can also host production.

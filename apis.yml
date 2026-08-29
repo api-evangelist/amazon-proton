@@ -2169,6 +2169,9 @@ apis:
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 common:
+- type: CapabilityMap
+  url: capabilities/amazon-proton-capability-edges.yml
+  name: Amazon Proton Business Capability Map
 - type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/amazon-proton/overview
 - type: AgenticAccess
