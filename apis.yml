@@ -1,7 +1,8 @@
 name: Amazon Proton
-description: AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless
-  application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipelines
-  for all your applications, enabling self-service developer workflows with platform-team guardrails.
+description: AWS Proton is a managed service for platform engineers that helps them publish standardized
+  container and serverless application templates to empower developers. It provides automated infrastructure
+  provisioning and manages deployment pipelines for all your applications, enabling self-service developer
+  workflows with platform-team guardrails.
 url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/apis.yml
 type: Index
 deliveryModel:
@@ -43,14 +44,12 @@ tags:
 - CI/CD
 - Developer Tools
 created: '2026-03-16'
-modified: '2026-05-19'
+modified: '2026-09-16'
 apis:
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API from Amazon Proton — 1
-    operation(s) for #x amz target=awsproton20200720.acceptenvironmentaccountconnection.
+  description: 'The #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.acceptenvironmentaccountconnection.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -58,8 +57,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -74,17 +72,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelComponentDeployment API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CancelComponentDeployment API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.cancelcomponentdeployment.
+  description: 'The #X Amz Target=AwsProton20200720.CancelComponentDeployment API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.cancelcomponentdeployment.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.CancelComponentDeployment'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -97,20 +93,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelEnvironmentDeployment API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CancelEnvironmentDeployment API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.cancelenvironmentdeployment.
+  description: 'The #X Amz Target=AwsProton20200720.CancelEnvironmentDeployment API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.cancelenvironmentdeployment.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.CancelEnvironmentDeployment'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -123,12 +116,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.cancelserviceinstancedeployment.
+  description: 'The #X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.cancelserviceinstancedeployment.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -136,8 +127,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -150,12 +140,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelServicePipelineDeployment API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CancelServicePipelineDeployment API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.cancelservicepipelinedeployment.
+  description: 'The #X Amz Target=AwsProton20200720.CancelServicePipelineDeployment API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.cancelservicepipelinedeployment.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -163,8 +151,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.CancelServicePipelineDeployment'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -179,9 +166,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createcomponent-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateComponent API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateComponent API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.createcomponent.
+  description: 'The #X Amz Target=AwsProton20200720.CreateComponent API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.createcomponent.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -203,9 +189,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironment API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateEnvironment API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.createenvironment.
+  description: 'The #X Amz Target=AwsProton20200720.CreateEnvironment API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.createenvironment.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -225,12 +210,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection API from Amazon Proton — 1
-    operation(s) for #x amz target=awsproton20200720.createenvironmentaccountconnection.
+  description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironmentaccountconnection.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -238,8 +221,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -254,17 +236,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentTemplate API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateEnvironmentTemplate API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.createenvironmenttemplate.
+  description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentTemplate API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.createenvironmenttemplate.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.CreateEnvironmentTemplate'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -277,12 +257,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.createenvironmenttemplateversion.
+  description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.createenvironmenttemplateversion.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -290,8 +268,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -306,9 +283,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createrepository-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateRepository API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateRepository API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.createrepository.
+  description: 'The #X Amz Target=AwsProton20200720.CreateRepository API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.createrepository.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -330,9 +306,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservice-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateService API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateService API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.createservice.
+  description: 'The #X Amz Target=AwsProton20200720.CreateService API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.createservice.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -354,17 +329,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceInstance API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateServiceInstance API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.createserviceinstance.
+  description: 'The #X Amz Target=AwsProton20200720.CreateServiceInstance API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.createserviceinstance.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.CreateServiceInstance'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -379,17 +352,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceSyncConfig API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateServiceSyncConfig API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.createservicesyncconfig.
+  description: 'The #X Amz Target=AwsProton20200720.CreateServiceSyncConfig API from Amazon Proton — 1
+    operation(s) for #x amz target=awsproton20200720.createservicesyncconfig.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.CreateServiceSyncConfig'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -404,17 +375,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceTemplate API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateServiceTemplate API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.createservicetemplate.
+  description: 'The #X Amz Target=AwsProton20200720.CreateServiceTemplate API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.createservicetemplate.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.CreateServiceTemplate'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -427,20 +396,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceTemplateVersion API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateServiceTemplateVersion API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.createservicetemplateversion.
+  description: 'The #X Amz Target=AwsProton20200720.CreateServiceTemplateVersion API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.createservicetemplateversion.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.CreateServiceTemplateVersion'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -455,17 +421,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateTemplateSyncConfig API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.CreateTemplateSyncConfig API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.createtemplatesyncconfig.
+  description: 'The #X Amz Target=AwsProton20200720.CreateTemplateSyncConfig API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.createtemplatesyncconfig.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.CreateTemplateSyncConfig'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -480,9 +444,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteComponent API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteComponent API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.deletecomponent.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteComponent API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.deletecomponent.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -504,9 +467,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironment API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteEnvironment API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.deleteenvironment.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironment API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.deleteenvironment.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -526,12 +488,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection API from Amazon Proton — 1
-    operation(s) for #x amz target=awsproton20200720.deleteenvironmentaccountconnection.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironmentaccountconnection.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -539,8 +499,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -555,17 +514,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.deleteenvironmenttemplate.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.deleteenvironmenttemplate.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -578,12 +535,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.deleteenvironmenttemplateversion.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironmenttemplateversion.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -591,8 +546,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -607,9 +561,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleterepository-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteRepository API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteRepository API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.deleterepository.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteRepository API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.deleterepository.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -631,9 +584,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservice-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteService API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteService API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.deleteservice.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteService API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.deleteservice.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -655,17 +607,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceSyncConfig API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteServiceSyncConfig API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.deleteservicesyncconfig.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteServiceSyncConfig API from Amazon Proton — 1
+    operation(s) for #x amz target=awsproton20200720.deleteservicesyncconfig.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.DeleteServiceSyncConfig'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -680,17 +630,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceTemplate API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteServiceTemplate API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.deleteservicetemplate.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteServiceTemplate API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.deleteservicetemplate.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.DeleteServiceTemplate'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -703,20 +651,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.deleteservicetemplateversion.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.deleteservicetemplateversion.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -731,17 +676,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.deletetemplatesyncconfig.
+  description: 'The #X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.deletetemplatesyncconfig.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -756,9 +699,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetAccountSettings API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetAccountSettings API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.getaccountsettings.
+  description: 'The #X Amz Target=AwsProton20200720.GetAccountSettings API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getaccountsettings.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -780,9 +722,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getcomponent-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetComponent API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetComponent API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.getcomponent.
+  description: 'The #X Amz Target=AwsProton20200720.GetComponent API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getcomponent.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -804,9 +745,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironment API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetEnvironment API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.getenvironment.
+  description: 'The #X Amz Target=AwsProton20200720.GetEnvironment API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getenvironment.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -826,12 +766,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.getenvironmentaccountconnection.
+  description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.getenvironmentaccountconnection.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -839,8 +777,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -855,17 +792,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentTemplate API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetEnvironmentTemplate API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.getenvironmenttemplate.
+  description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentTemplate API from Amazon Proton — 1
+    operation(s) for #x amz target=awsproton20200720.getenvironmenttemplate.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.GetEnvironmentTemplate'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -878,12 +813,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.getenvironmenttemplateversion.
+  description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.getenvironmenttemplateversion.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -891,8 +824,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -907,9 +839,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getrepository-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetRepository API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetRepository API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.getrepository.
+  description: 'The #X Amz Target=AwsProton20200720.GetRepository API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getrepository.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -931,17 +862,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetRepositorySyncStatus API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetRepositorySyncStatus API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.getrepositorysyncstatus.
+  description: 'The #X Amz Target=AwsProton20200720.GetRepositorySyncStatus API from Amazon Proton — 1
+    operation(s) for #x amz target=awsproton20200720.getrepositorysyncstatus.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.GetRepositorySyncStatus'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -956,9 +885,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetResourcesSummary API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetResourcesSummary API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.getresourcessummary.
+  description: 'The #X Amz Target=AwsProton20200720.GetResourcesSummary API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getresourcessummary.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -980,9 +908,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservice-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetService API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetService API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.getservice.
+  description: 'The #X Amz Target=AwsProton20200720.GetService API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getservice.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1004,9 +931,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceInstance API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetServiceInstance API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.getserviceinstance.
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceInstance API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getserviceinstance.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1026,20 +952,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.getserviceinstancesyncstatus.
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.getserviceinstancesyncstatus.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1052,20 +975,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.getservicesyncblockersummary.
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.getservicesyncblockersummary.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1080,17 +1000,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceSyncConfig API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetServiceSyncConfig API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.getservicesyncconfig.
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceSyncConfig API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getservicesyncconfig.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.GetServiceSyncConfig'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1105,9 +1023,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceTemplate API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetServiceTemplate API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.getservicetemplate.
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceTemplate API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.getservicetemplate.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1129,17 +1046,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceTemplateVersion API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetServiceTemplateVersion API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.getservicetemplateversion.
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceTemplateVersion API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.getservicetemplateversion.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.GetServiceTemplateVersion'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1154,17 +1069,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetTemplateSyncConfig API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetTemplateSyncConfig API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.gettemplatesyncconfig.
+  description: 'The #X Amz Target=AwsProton20200720.GetTemplateSyncConfig API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.gettemplatesyncconfig.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.GetTemplateSyncConfig'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1179,17 +1092,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetTemplateSyncStatus API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.GetTemplateSyncStatus API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.gettemplatesyncstatus.
+  description: 'The #X Amz Target=AwsProton20200720.GetTemplateSyncStatus API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.gettemplatesyncstatus.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.GetTemplateSyncStatus'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1204,17 +1115,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponentOutputs API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListComponentOutputs API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.listcomponentoutputs.
+  description: 'The #X Amz Target=AwsProton20200720.ListComponentOutputs API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.listcomponentoutputs.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.ListComponentOutputs'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1227,12 +1136,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponentProvisionedResources API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListComponentProvisionedResources API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listcomponentprovisionedresources.
+  description: 'The #X Amz Target=AwsProton20200720.ListComponentProvisionedResources API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.listcomponentprovisionedresources.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1240,8 +1147,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.ListComponentProvisionedResources'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1256,9 +1162,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listcomponents-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponents API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListComponents API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.listcomponents.
+  description: 'The #X Amz Target=AwsProton20200720.ListComponents API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.listcomponents.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1278,12 +1183,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listenvironmentaccountconnections.
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmentaccountconnections.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1291,8 +1194,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1307,17 +1209,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentOutputs API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListEnvironmentOutputs API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listenvironmentoutputs.
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentOutputs API from Amazon Proton — 1
+    operation(s) for #x amz target=awsproton20200720.listenvironmentoutputs.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.ListEnvironmentOutputs'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1330,12 +1230,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources API from Amazon Proton — 1
-    operation(s) for #x amz target=awsproton20200720.listenvironmentprovisionedresources.
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmentprovisionedresources.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1343,8 +1241,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1359,9 +1256,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironments-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironments API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListEnvironments API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.listenvironments.
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironments API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.listenvironments.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1383,17 +1279,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentTemplates API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListEnvironmentTemplates API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listenvironmenttemplates.
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentTemplates API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.listenvironmenttemplates.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.ListEnvironmentTemplates'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1406,12 +1300,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listenvironmenttemplateversions.
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.listenvironmenttemplateversions.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1419,8 +1311,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1435,9 +1326,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listrepositories-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListRepositories API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListRepositories API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.listrepositories.
+  description: 'The #X Amz Target=AwsProton20200720.ListRepositories API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.listrepositories.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1457,12 +1347,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listrepositorysyncdefinitions.
+  description: 'The #X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.listrepositorysyncdefinitions.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1470,8 +1358,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1484,20 +1371,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstanceOutputs API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListServiceInstanceOutputs API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listserviceinstanceoutputs.
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceInstanceOutputs API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstanceoutputs.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.ListServiceInstanceOutputs'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1510,13 +1394,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api
-  name: >-
-    Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources API
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources API from Amazon Proton
-    — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstanceprovisionedresources.
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api
+  name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources API'
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstanceprovisionedresources.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1524,8 +1405,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1540,17 +1420,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstances API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListServiceInstances API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.listserviceinstances.
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceInstances API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.listserviceinstances.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.ListServiceInstances'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1563,20 +1441,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServicePipelineOutputs API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListServicePipelineOutputs API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listservicepipelineoutputs.
+  description: 'The #X Amz Target=AwsProton20200720.ListServicePipelineOutputs API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.listservicepipelineoutputs.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.ListServicePipelineOutputs'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1589,13 +1464,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api
-  name: >-
-    Amazon Proton #X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources API
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources API from Amazon Proton
-    — 1 operation(s) for #x amz target=awsproton20200720.listservicepipelineprovisionedresources.
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api
+  name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources API'
+  description: 'The #X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicepipelineprovisionedresources.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1603,8 +1475,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1619,9 +1490,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservices-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServices API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListServices API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.listservices.
+  description: 'The #X Amz Target=AwsProton20200720.ListServices API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.listservices.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1643,17 +1513,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceTemplates API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListServiceTemplates API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.listservicetemplates.
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceTemplates API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.listservicetemplates.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.ListServiceTemplates'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1666,20 +1534,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceTemplateVersions API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListServiceTemplateVersions API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.listservicetemplateversions.
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceTemplateVersions API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.listservicetemplateversions.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.ListServiceTemplateVersions'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1694,9 +1559,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListTagsForResource API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.ListTagsForResource API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.listtagsforresource.
+  description: 'The #X Amz Target=AwsProton20200720.ListTagsForResource API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.listtagsforresource.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1716,12 +1580,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange API from Amazon Proton —
-    1 operation(s) for #x amz target=awsproton20200720.notifyresourcedeploymentstatuschange.
+  description: 'The #X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.notifyresourcedeploymentstatuschange.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1729,8 +1591,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1743,12 +1604,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection API from Amazon Proton — 1
-    operation(s) for #x amz target=awsproton20200720.rejectenvironmentaccountconnection.
+  description: 'The #X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.rejectenvironmentaccountconnection.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1756,8 +1615,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1772,9 +1630,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-tagresource-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.TagResource API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.TagResource API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.tagresource.
+  description: 'The #X Amz Target=AwsProton20200720.TagResource API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.tagresource.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1796,9 +1653,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-untagresource-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UntagResource API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UntagResource API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.untagresource.
+  description: 'The #X Amz Target=AwsProton20200720.UntagResource API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.untagresource.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1820,17 +1676,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateAccountSettings API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateAccountSettings API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateaccountsettings.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateAccountSettings API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.updateaccountsettings.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateAccountSettings'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1845,9 +1699,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateComponent API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateComponent API from Amazon Proton — 1 operation(s) for #x
-    amz target=awsproton20200720.updatecomponent.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateComponent API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.updatecomponent.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1869,9 +1722,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironment API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateEnvironment API from Amazon Proton — 1 operation(s) for
-    #x amz target=awsproton20200720.updateenvironment.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironment API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.updateenvironment.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1891,12 +1743,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection API from Amazon Proton — 1
-    operation(s) for #x amz target=awsproton20200720.updateenvironmentaccountconnection.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection API from Amazon
+    Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironmentaccountconnection.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1904,8 +1754,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1920,17 +1769,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateenvironmenttemplate.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.updateenvironmenttemplate.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1943,12 +1790,10 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateenvironmenttemplateversion.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.updateenvironmenttemplateversion.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags: []
@@ -1956,8 +1801,7 @@ apis:
   - '#X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -1972,9 +1816,8 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservice-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateService API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateService API from Amazon Proton — 1 operation(s) for #x amz
-    target=awsproton20200720.updateservice.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateService API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.updateservice.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
@@ -1996,17 +1839,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceInstance API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateServiceInstance API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateserviceinstance.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceInstance API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.updateserviceinstance.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateServiceInstance'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -2021,17 +1862,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServicePipeline API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateServicePipeline API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateservicepipeline.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServicePipeline API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.updateservicepipeline.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateServicePipeline'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -2046,17 +1885,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateservicesyncblocker.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.updateservicesyncblocker.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -2071,17 +1908,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceSyncConfig API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateServiceSyncConfig API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateservicesyncconfig.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceSyncConfig API from Amazon Proton — 1
+    operation(s) for #x amz target=awsproton20200720.updateservicesyncconfig.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateServiceSyncConfig'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -2096,17 +1931,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceTemplate API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateServiceTemplate API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateservicetemplate.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceTemplate API from Amazon Proton — 1 operation(s)
+    for #x amz target=awsproton20200720.updateservicetemplate.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateServiceTemplate'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -2119,20 +1952,17 @@ apis:
     url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
-- aid: >-
-    amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api
+- aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updateservicetemplateversion.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion API from Amazon Proton
+    — 1 operation(s) for #x amz target=awsproton20200720.updateservicetemplateversion.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -2147,17 +1977,15 @@ apis:
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 - aid: amazon-proton:amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API'
-  description: >-
-    The #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API from Amazon Proton — 1 operation(s)
-    for #x amz target=awsproton20200720.updatetemplatesyncconfig.
+  description: 'The #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API from Amazon Proton —
+    1 operation(s) for #x amz target=awsproton20200720.updatetemplatesyncconfig.'
   humanURL: https://aws.amazon.com/proton/
   baseURL: https://proton.amazonaws.com
   tags:
   - '#X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig'
   properties:
   - type: OpenAPI
-    url: >-
-      openapi/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api-openapi.yml
+    url: openapi/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html
   - type: GettingStarted
@@ -2171,6 +1999,8 @@ apis:
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 common:
+- type: Website
+  url: https://amazon.com
 - type: CapabilityMap
   url: capabilities/amazon-proton-capability-edges.yml
   name: Amazon Proton Business Capability Map
@@ -2213,12 +2043,14 @@ common:
 - type: Features
   data:
   - name: Environment Templates
-    description: Create standardized environment templates with infrastructure-as-code definitions for platform engineers
-      to publish.
+    description: Create standardized environment templates with infrastructure-as-code definitions for
+      platform engineers to publish.
   - name: Service Templates
-    description: Define reusable service templates that developers can use for self-service application deployments.
+    description: Define reusable service templates that developers can use for self-service application
+      deployments.
   - name: Automated Provisioning
-    description: Automatically provision and manage infrastructure for environments and services using CloudFormation or Terraform.
+    description: Automatically provision and manage infrastructure for environments and services using
+      CloudFormation or Terraform.
   - name: CI/CD Pipeline Management
     description: Manage deployment pipelines for services with automatic updates when templates change.
   - name: Template Versioning
@@ -2226,15 +2058,18 @@ common:
   - name: Components
     description: Create infrastructure components that can be shared across services and environments.
   - name: Repository Connections
-    description: Connect to GitHub and Bitbucket repositories for template source and service pipeline definitions.
+    description: Connect to GitHub and Bitbucket repositories for template source and service pipeline
+      definitions.
   - name: Drift Detection
     description: Detect and remediate configuration drift in deployed environments and services.
 - type: UseCases
   data:
   - name: Developer Self-Service
-    description: Enable developers to deploy containerized and serverless applications without deep infrastructure knowledge.
+    description: Enable developers to deploy containerized and serverless applications without deep infrastructure
+      knowledge.
   - name: Platform Standardization
-    description: Enforce organizational standards for infrastructure, security, and compliance through templates.
+    description: Enforce organizational standards for infrastructure, security, and compliance through
+      templates.
   - name: Multi-Account Deployment
     description: Deploy standardized environments and services across multiple AWS accounts.
   - name: Microservices Orchestration
@@ -2250,7 +2085,8 @@ common:
   - name: AWS CodePipeline
     description: Automatically create CI/CD pipelines for services using CodePipeline.
   - name: GitHub
-    description: Connect GitHub repositories as sources for environment templates and service pipeline definitions.
+    description: Connect GitHub repositories as sources for environment templates and service pipeline
+      definitions.
   - name: AWS CodeCommit
     description: Use CodeCommit repositories for template and configuration management.
 - type: JSONLD
