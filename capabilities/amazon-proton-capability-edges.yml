@@ -11,7 +11,7 @@ capability_model:
   attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
     CC BY 4.0
   notice: NOTICE
-edge_count: 4
+edge_count: 5
 edges:
 - tag: '#X Amz Target=AwsProton20200720.CancelComponentDeployment'
   spec_file: amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api-openapi.yml
@@ -54,3 +54,14 @@ edges:
   reason: Proton environments are provisioned deployment environments into which services are deployed;
     deleting one is stewardship of environments in the delivery pipeline. Mapped to Environment Management,
     with moderate confidence since Proton environments can also host production.
+- tag: AWS Proton
+  spec_file: amazon-proton-aws-proton-api-openapi.yml
+  capability_id: BC-4210
+  capability_id_l1: BC-4210
+  capability_name: Software Release & Deployment Management
+  confidence: 0.7
+  evidence: CreateEnvironment, CreateEnvironmentTemplate, CancelServicePipelineDeployment, CreateRepository
+    — "automated infrastructure provisioning and manages deployment pipelines for all your applications"
+  reason: Operations provision environments from templates and orchestrate/cancel service and pipeline
+    deployments, i.e. software release and deployment management (environment management plus deployment
+    orchestration); spans several L2s so L1 only.
