@@ -69,6 +69,12 @@ apis:
   - type: RateLimits
     url: https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html
 common:
+- type: Plans
+  url: plans/amazon-proton-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/amazon-proton-rate-limits.yml
+- type: FinOps
+  url: finops/amazon-proton-finops.yml
 - type: Website
   url: https://aws.amazon.com/proton/
 - type: CapabilityMap
