@@ -13,509 +13,509 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createcomponent-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createcomponent-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createcomponent-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createcomponent-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createenvironment-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createenvironment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createrepository-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createrepository-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createrepository-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createrepository-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createservice-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleterepository-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleterepository-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleterepository-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleterepository-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteservice-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getcomponent-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getcomponent-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getcomponent-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getcomponent-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getenvironment-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getenvironment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getrepository-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getrepository-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getrepository-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getrepository-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservice-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listcomponents-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponents-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listcomponents-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponents-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironments-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironments-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironments-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironments-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listrepositories-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositories-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listrepositories-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositories-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   ? collections/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api.postman_collection.json
-  : method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api
+  : method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   ? collections/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api.postman_collection.json
-  : method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api
+  : method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservices-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservices-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservices-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservices-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-tagresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-tagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-tagresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-tagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-untagresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-untagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-untagresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-untagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservice-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   examples/amazon-proton-cancel-service-instance-deployment-input-example.json:
     method: unknown
     evidence: no authorship recorded
@@ -2124,127 +2124,7 @@ artifacts:
   json-structure/amazon-proton-update-template-sync-config-output-structure.json:
     method: unknown
     evidence: no authorship recorded
-  kin/checks-2026-09-24T161608.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-25T125852.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-25T133943.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-25T143147.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-25T154045.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-26T215308.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-27T094438.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-27T103455.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-27T123021.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-27T132314.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-27T140727.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-28T221322.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-29T213958.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-29T230545.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-30T203505.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-30T220315.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-31T223420.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-01T063623.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-01T210448.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-01T222808.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-02T211804.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-02T224043.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-03T161828.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-03T174231.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-04T062714.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-04T212454.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-04T224856.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-05T055819.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-05T072335.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-05T144739.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-05T195450.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-05T211839.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-06T011047.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-06T211804.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-06T224210.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-07T200636.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-07T213054.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-08T214843.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-08T232836.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-10T204815.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-09-10T222408.yml:
+  kin/checks-2026-10-11T110117.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-09-12T062655.yml:
@@ -2328,517 +2208,283 @@ artifacts:
   kin/score-2026-09-24T161608.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-25T210408.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-25T232841.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-10-03T000835.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-10-03T024842.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-10-11T110117.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
   openapi/_original/amazon-proton-openapi-original.yaml:
     method: harvested
     evidence: found in openapi/_original/; the fetch URL and bytes were not recorded, so byte-identity
       to the provider's source is unverified
-  openapi/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createcomponent-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironment-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createrepository-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createservice-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleterepository-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservice-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getcomponent-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironment-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getrepository-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getservice-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponents-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironments-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositories-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listservices-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-tagresource-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-untagresource-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateservice-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api-openapi.yml:
-    method: derived
-    evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
-  openapi/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api-openapi.yml:
+  openapi/amazon-proton-aws-proton-api-openapi.yml:
     method: derived
     evidence: paths are a subset of openapi/_original/ (split from the harvested spec)
   plans/amazon-proton-plans-pricing.yml:
     method: generated
     evidence: declared in the artifact
   postman/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createcomponent-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createcomponent-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createenvironment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createrepository-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createrepository-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservice-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleterepository-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleterepository-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleteservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservice-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getcomponent-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getcomponent-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getenvironment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getrepository-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getrepository-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservice-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listcomponents-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listcomponents-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listenvironments-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironments-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listrepositories-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositories-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listservices-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservices-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-tagresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-tagresource-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-untagresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-untagresource-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservice-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api
+    method: unknown
+    evidence: no authorship recorded
   postman/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
+    method: unknown
+    evidence: no authorship recorded
   rate-limits/amazon-proton-rate-limits.yml:
     method: generated
     evidence: declared in the artifact
