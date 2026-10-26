@@ -1,0 +1,765 @@
+# Amazon Proton
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
+AWS Proton is a managed service for platform engineers that helps them publish standardized container and serverless application templates to empower developers. It provides automated infrastructure provisioning and manages deployment pipelines for all your applications, enabling self-service developer workflows with platform-team guardrails.
+
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/apis.yml)
+
+**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+
+## Tags:
+
+ - AWS, DevOps, Infrastructure as Code, Platform Engineering, Serverless, Templates, Self-Service, CI/CD
+
+## Timestamps
+
+- **Created:** 2026-03-16
+- **Modified:** 2026-04-19
+
+## APIs
+
+### AWS Proton API
+The AWS Proton API provides programmatic access to create and manage environment templates, service templates, environments, services, components, and deployment pipelines for standardized application deployments with automated infrastructure provisioning.
+
+**Human URL:** [https://aws.amazon.com/proton/](https://aws.amazon.com/proton/)
+
+#### Tags:
+
+ - DevOps, Infrastructure as Code, Platform Engineering, Templates, Environments, Services
+
+#### Properties
+
+- [Documentation](https://docs.aws.amazon.com/proton/latest/APIReference/Welcome.html)
+- [OpenAPI](openapi/amazon-proton-openapi-original.yaml)
+- [GettingStarted](https://aws.amazon.com/proton/getting-started/)
+- [Pricing](https://aws.amazon.com/proton/pricing/)
+- [FAQ](https://aws.amazon.com/proton/faqs/)
+- [Authentication](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html)
+- [RateLimits](https://docs.aws.amazon.com/proton/latest/userguide/ag-limits.html)
+
+## Common Properties
+
+- [Portal](https://aws.amazon.com/proton/)
+- [Documentation](https://docs.aws.amazon.com/proton/)
+- [TermsOfService](https://aws.amazon.com/service-terms/)
+- [PrivacyPolicy](https://aws.amazon.com/privacy/)
+- [Support](https://aws.amazon.com/premiumsupport/)
+- [Blog](https://aws.amazon.com/blogs/containers/tag/aws-proton/)
+- [GitHubOrganization](https://github.com/aws)
+- [Console](https://console.aws.amazon.com/proton/)
+- [SignUp](https://portal.aws.amazon.com/billing/signup)
+- [StatusPage](https://health.aws.amazon.com/health/status)
+- [SpectralRules](rules/amazon-proton-spectral-rules.yml)
+- [NaftikoCapability](capabilities/platform-engineering.yaml)
+- [Vocabulary](vocabulary/amazon-proton-vocabulary.yaml)
+- [JSON-LD](json-ld/amazon-proton-context.jsonld)
+- [JSONSchema](json-schema/amazon-proton-accept-environment-account-connection-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-accept-environment-account-connection-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-account-settings-schema.json)
+- [JSONSchema](json-schema/amazon-proton-blocker-status-schema.json)
+- [JSONSchema](json-schema/amazon-proton-blocker-type-schema.json)
+- [JSONSchema](json-schema/amazon-proton-cancel-component-deployment-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-cancel-component-deployment-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-cancel-environment-deployment-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-cancel-environment-deployment-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-cancel-service-instance-deployment-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-cancel-service-instance-deployment-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-cancel-service-pipeline-deployment-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-cancel-service-pipeline-deployment-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-compatible-environment-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-compatible-environment-template-schema.json)
+- [JSONSchema](json-schema/amazon-proton-component-deployment-update-type-schema.json)
+- [JSONSchema](json-schema/amazon-proton-component-schema.json)
+- [JSONSchema](json-schema/amazon-proton-component-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-counts-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-component-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-component-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-environment-account-connection-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-environment-account-connection-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-environment-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-environment-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-environment-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-environment-template-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-environment-template-version-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-environment-template-version-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-repository-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-repository-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-instance-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-instance-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-sync-config-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-sync-config-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-template-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-template-version-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-service-template-version-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-template-sync-config-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-create-template-sync-config-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-component-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-component-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-environment-account-connection-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-environment-account-connection-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-environment-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-environment-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-environment-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-environment-template-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-environment-template-version-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-environment-template-version-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-repository-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-repository-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-service-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-service-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-service-sync-config-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-service-sync-config-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-service-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-service-template-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-service-template-version-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-service-template-version-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-template-sync-config-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-delete-template-sync-config-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-deployment-status-schema.json)
+- [JSONSchema](json-schema/amazon-proton-deployment-update-type-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-account-connection-requester-account-type-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-account-connection-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-account-connection-status-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-account-connection-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-template-filter-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-template-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-template-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-template-version-schema.json)
+- [JSONSchema](json-schema/amazon-proton-environment-template-version-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-account-settings-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-component-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-component-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-environment-account-connection-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-environment-account-connection-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-environment-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-environment-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-environment-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-environment-template-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-environment-template-version-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-environment-template-version-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-repository-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-repository-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-repository-sync-status-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-repository-sync-status-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-resources-summary-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-instance-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-instance-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-instance-sync-status-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-instance-sync-status-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-sync-blocker-summary-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-sync-blocker-summary-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-sync-config-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-sync-config-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-template-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-template-version-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-service-template-version-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-template-sync-config-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-template-sync-config-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-template-sync-status-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-get-template-sync-status-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-component-outputs-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-component-outputs-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-component-provisioned-resources-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-component-provisioned-resources-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-components-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-components-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-account-connections-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-account-connections-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-outputs-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-outputs-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-provisioned-resources-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-provisioned-resources-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-template-versions-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-template-versions-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-templates-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environment-templates-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environments-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-environments-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-repositories-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-repositories-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-repository-sync-definitions-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-repository-sync-definitions-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instance-outputs-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instance-outputs-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instance-provisioned-resources-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instance-provisioned-resources-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instances-filter-by-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instances-filter-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instances-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instances-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-instances-sort-by-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-pipeline-outputs-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-pipeline-outputs-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-pipeline-provisioned-resources-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-pipeline-provisioned-resources-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-template-versions-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-template-versions-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-templates-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-service-templates-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-services-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-services-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-tags-for-resource-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-list-tags-for-resource-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-notify-resource-deployment-status-change-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-provisioned-resource-engine-schema.json)
+- [JSONSchema](json-schema/amazon-proton-provisioned-resource-schema.json)
+- [JSONSchema](json-schema/amazon-proton-provisioning-schema.json)
+- [JSONSchema](json-schema/amazon-proton-reject-environment-account-connection-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-reject-environment-account-connection-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-branch-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-branch-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-provider-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-sync-attempt-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-sync-definition-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-sync-event-schema.json)
+- [JSONSchema](json-schema/amazon-proton-repository-sync-status-schema.json)
+- [JSONSchema](json-schema/amazon-proton-resource-counts-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-resource-deployment-status-schema.json)
+- [JSONSchema](json-schema/amazon-proton-resource-sync-attempt-schema.json)
+- [JSONSchema](json-schema/amazon-proton-resource-sync-event-schema.json)
+- [JSONSchema](json-schema/amazon-proton-resource-sync-status-schema.json)
+- [JSONSchema](json-schema/amazon-proton-revision-schema.json)
+- [JSONSchema](json-schema/amazon-proton-s3object-source-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-instance-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-instance-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-pipeline-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-status-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-sync-blocker-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-sync-config-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-template-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-template-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-template-supported-component-source-type-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-template-version-schema.json)
+- [JSONSchema](json-schema/amazon-proton-service-template-version-summary-schema.json)
+- [JSONSchema](json-schema/amazon-proton-sort-order-schema.json)
+- [JSONSchema](json-schema/amazon-proton-sync-blocker-context-schema.json)
+- [JSONSchema](json-schema/amazon-proton-sync-blocker-schema.json)
+- [JSONSchema](json-schema/amazon-proton-sync-type-schema.json)
+- [JSONSchema](json-schema/amazon-proton-tag-resource-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-tag-schema.json)
+- [JSONSchema](json-schema/amazon-proton-template-sync-config-schema.json)
+- [JSONSchema](json-schema/amazon-proton-template-type-schema.json)
+- [JSONSchema](json-schema/amazon-proton-template-version-source-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-template-version-status-schema.json)
+- [JSONSchema](json-schema/amazon-proton-untag-resource-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-account-settings-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-account-settings-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-component-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-component-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-environment-account-connection-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-environment-account-connection-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-environment-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-environment-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-environment-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-environment-template-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-environment-template-version-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-environment-template-version-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-instance-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-instance-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-pipeline-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-pipeline-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-sync-blocker-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-sync-blocker-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-sync-config-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-sync-config-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-template-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-template-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-template-version-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-service-template-version-output-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-template-sync-config-input-schema.json)
+- [JSONSchema](json-schema/amazon-proton-update-template-sync-config-output-schema.json)
+- [JSONStructure](json-structure/amazon-proton-accept-environment-account-connection-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-accept-environment-account-connection-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-account-settings-structure.json)
+- [JSONStructure](json-structure/amazon-proton-blocker-status-structure.json)
+- [JSONStructure](json-structure/amazon-proton-blocker-type-structure.json)
+- [JSONStructure](json-structure/amazon-proton-cancel-component-deployment-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-cancel-component-deployment-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-cancel-environment-deployment-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-cancel-environment-deployment-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-cancel-service-instance-deployment-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-cancel-service-instance-deployment-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-cancel-service-pipeline-deployment-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-cancel-service-pipeline-deployment-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-compatible-environment-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-compatible-environment-template-structure.json)
+- [JSONStructure](json-structure/amazon-proton-component-deployment-update-type-structure.json)
+- [JSONStructure](json-structure/amazon-proton-component-structure.json)
+- [JSONStructure](json-structure/amazon-proton-component-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-counts-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-component-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-component-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-environment-account-connection-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-environment-account-connection-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-environment-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-environment-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-environment-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-environment-template-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-environment-template-version-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-environment-template-version-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-repository-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-repository-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-instance-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-instance-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-sync-config-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-sync-config-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-template-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-template-version-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-service-template-version-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-template-sync-config-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-create-template-sync-config-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-component-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-component-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-environment-account-connection-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-environment-account-connection-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-environment-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-environment-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-environment-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-environment-template-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-environment-template-version-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-environment-template-version-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-repository-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-repository-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-service-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-service-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-service-sync-config-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-service-sync-config-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-service-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-service-template-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-service-template-version-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-service-template-version-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-template-sync-config-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-delete-template-sync-config-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-deployment-status-structure.json)
+- [JSONStructure](json-structure/amazon-proton-deployment-update-type-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-account-connection-requester-account-type-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-account-connection-status-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-account-connection-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-account-connection-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-template-filter-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-template-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-template-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-template-version-structure.json)
+- [JSONStructure](json-structure/amazon-proton-environment-template-version-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-account-settings-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-component-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-component-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-environment-account-connection-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-environment-account-connection-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-environment-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-environment-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-environment-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-environment-template-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-environment-template-version-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-environment-template-version-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-repository-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-repository-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-repository-sync-status-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-repository-sync-status-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-resources-summary-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-instance-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-instance-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-instance-sync-status-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-instance-sync-status-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-sync-blocker-summary-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-sync-blocker-summary-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-sync-config-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-sync-config-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-template-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-template-version-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-service-template-version-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-template-sync-config-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-template-sync-config-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-template-sync-status-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-get-template-sync-status-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-component-outputs-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-component-outputs-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-component-provisioned-resources-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-component-provisioned-resources-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-components-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-components-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-account-connections-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-account-connections-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-outputs-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-outputs-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-provisioned-resources-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-provisioned-resources-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-template-versions-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-template-versions-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-templates-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environment-templates-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environments-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-environments-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-repositories-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-repositories-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-repository-sync-definitions-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-repository-sync-definitions-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instance-outputs-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instance-outputs-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instance-provisioned-resources-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instance-provisioned-resources-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instances-filter-by-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instances-filter-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instances-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instances-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-instances-sort-by-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-pipeline-outputs-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-pipeline-outputs-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-pipeline-provisioned-resources-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-pipeline-provisioned-resources-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-template-versions-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-template-versions-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-templates-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-service-templates-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-services-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-services-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-tags-for-resource-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-list-tags-for-resource-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-notify-resource-deployment-status-change-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-provisioned-resource-engine-structure.json)
+- [JSONStructure](json-structure/amazon-proton-provisioned-resource-structure.json)
+- [JSONStructure](json-structure/amazon-proton-provisioning-structure.json)
+- [JSONStructure](json-structure/amazon-proton-reject-environment-account-connection-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-reject-environment-account-connection-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-branch-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-branch-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-provider-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-sync-attempt-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-sync-definition-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-sync-event-structure.json)
+- [JSONStructure](json-structure/amazon-proton-repository-sync-status-structure.json)
+- [JSONStructure](json-structure/amazon-proton-resource-counts-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-resource-deployment-status-structure.json)
+- [JSONStructure](json-structure/amazon-proton-resource-sync-attempt-structure.json)
+- [JSONStructure](json-structure/amazon-proton-resource-sync-event-structure.json)
+- [JSONStructure](json-structure/amazon-proton-resource-sync-status-structure.json)
+- [JSONStructure](json-structure/amazon-proton-revision-structure.json)
+- [JSONStructure](json-structure/amazon-proton-s3object-source-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-instance-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-instance-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-pipeline-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-status-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-sync-blocker-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-sync-config-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-template-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-template-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-template-supported-component-source-type-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-template-version-structure.json)
+- [JSONStructure](json-structure/amazon-proton-service-template-version-summary-structure.json)
+- [JSONStructure](json-structure/amazon-proton-sort-order-structure.json)
+- [JSONStructure](json-structure/amazon-proton-sync-blocker-context-structure.json)
+- [JSONStructure](json-structure/amazon-proton-sync-blocker-structure.json)
+- [JSONStructure](json-structure/amazon-proton-sync-type-structure.json)
+- [JSONStructure](json-structure/amazon-proton-tag-resource-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-tag-structure.json)
+- [JSONStructure](json-structure/amazon-proton-template-sync-config-structure.json)
+- [JSONStructure](json-structure/amazon-proton-template-type-structure.json)
+- [JSONStructure](json-structure/amazon-proton-template-version-source-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-template-version-status-structure.json)
+- [JSONStructure](json-structure/amazon-proton-untag-resource-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-account-settings-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-account-settings-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-component-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-component-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-environment-account-connection-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-environment-account-connection-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-environment-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-environment-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-environment-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-environment-template-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-environment-template-version-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-environment-template-version-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-instance-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-instance-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-pipeline-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-pipeline-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-sync-blocker-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-sync-blocker-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-sync-config-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-sync-config-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-template-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-template-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-template-version-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-service-template-version-output-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-template-sync-config-input-structure.json)
+- [JSONStructure](json-structure/amazon-proton-update-template-sync-config-output-structure.json)
+- [Example](examples/amazon-proton-cancel-service-instance-deployment-input-example.json)
+- [Example](examples/amazon-proton-compatible-environment-template-example.json)
+- [Example](examples/amazon-proton-component-summary-example.json)
+- [Example](examples/amazon-proton-create-component-input-example.json)
+- [Example](examples/amazon-proton-create-environment-account-connection-input-example.json)
+- [Example](examples/amazon-proton-create-environment-template-output-example.json)
+- [Example](examples/amazon-proton-create-repository-input-example.json)
+- [Example](examples/amazon-proton-create-service-instance-output-example.json)
+- [Example](examples/amazon-proton-create-service-sync-config-input-example.json)
+- [Example](examples/amazon-proton-create-service-sync-config-output-example.json)
+- [Example](examples/amazon-proton-create-template-sync-config-input-example.json)
+- [Example](examples/amazon-proton-delete-component-output-example.json)
+- [Example](examples/amazon-proton-delete-environment-account-connection-input-example.json)
+- [Example](examples/amazon-proton-delete-environment-input-example.json)
+- [Example](examples/amazon-proton-delete-environment-output-example.json)
+- [Example](examples/amazon-proton-delete-environment-template-input-example.json)
+- [Example](examples/amazon-proton-delete-environment-template-version-input-example.json)
+- [Example](examples/amazon-proton-delete-repository-output-example.json)
+- [Example](examples/amazon-proton-delete-service-input-example.json)
+- [Example](examples/amazon-proton-environment-account-connection-example.json)
+- [Example](examples/amazon-proton-environment-template-summary-example.json)
+- [Example](examples/amazon-proton-get-account-settings-output-example.json)
+- [Example](examples/amazon-proton-get-component-input-example.json)
+- [Example](examples/amazon-proton-get-environment-template-input-example.json)
+- [Example](examples/amazon-proton-get-environment-template-output-example.json)
+- [Example](examples/amazon-proton-get-environment-template-version-output-example.json)
+- [Example](examples/amazon-proton-get-service-output-example.json)
+- [Example](examples/amazon-proton-get-service-sync-blocker-summary-output-example.json)
+- [Example](examples/amazon-proton-get-service-template-output-example.json)
+- [Example](examples/amazon-proton-list-components-output-example.json)
+- [Example](examples/amazon-proton-list-environment-account-connections-output-example.json)
+- [Example](examples/amazon-proton-list-environment-outputs-input-example.json)
+- [Example](examples/amazon-proton-list-environment-provisioned-resources-input-example.json)
+- [Example](examples/amazon-proton-list-environment-provisioned-resources-output-example.json)
+- [Example](examples/amazon-proton-list-environment-template-versions-input-example.json)
+- [Example](examples/amazon-proton-list-repositories-output-example.json)
+- [Example](examples/amazon-proton-list-repository-sync-definitions-input-example.json)
+- [Example](examples/amazon-proton-list-repository-sync-definitions-output-example.json)
+- [Example](examples/amazon-proton-list-service-instance-outputs-output-example.json)
+- [Example](examples/amazon-proton-list-service-instance-provisioned-resources-input-example.json)
+- [Example](examples/amazon-proton-list-service-instance-provisioned-resources-output-example.json)
+- [Example](examples/amazon-proton-list-service-instances-input-example.json)
+- [Example](examples/amazon-proton-list-service-pipeline-outputs-input-example.json)
+- [Example](examples/amazon-proton-list-service-pipeline-outputs-output-example.json)
+- [Example](examples/amazon-proton-list-service-pipeline-provisioned-resources-output-example.json)
+- [Example](examples/amazon-proton-list-service-template-versions-input-example.json)
+- [Example](examples/amazon-proton-list-services-output-example.json)
+- [Example](examples/amazon-proton-output-example.json)
+- [Example](examples/amazon-proton-reject-environment-account-connection-input-example.json)
+- [Example](examples/amazon-proton-reject-environment-account-connection-output-example.json)
+- [Example](examples/amazon-proton-repository-sync-attempt-example.json)
+- [Example](examples/amazon-proton-repository-sync-definition-example.json)
+- [Example](examples/amazon-proton-resource-counts-summary-example.json)
+- [Example](examples/amazon-proton-resource-sync-attempt-example.json)
+- [Example](examples/amazon-proton-resource-sync-event-example.json)
+- [Example](examples/amazon-proton-service-instance-example.json)
+- [Example](examples/amazon-proton-service-pipeline-example.json)
+- [Example](examples/amazon-proton-service-summary-example.json)
+- [Example](examples/amazon-proton-service-sync-config-example.json)
+- [Example](examples/amazon-proton-service-template-version-summary-example.json)
+- [Example](examples/amazon-proton-sync-blocker-example.json)
+- [Example](examples/amazon-proton-tag-example.json)
+- [Example](examples/amazon-proton-untag-resource-input-example.json)
+- [Example](examples/amazon-proton-update-component-input-example.json)
+- [Example](examples/amazon-proton-update-component-output-example.json)
+- [Example](examples/amazon-proton-update-environment-account-connection-input-example.json)
+- [Example](examples/amazon-proton-update-environment-template-version-input-example.json)
+- [Example](examples/amazon-proton-update-service-input-example.json)
+- [Example](examples/amazon-proton-update-service-output-example.json)
+- [Example](examples/amazon-proton-update-service-sync-blocker-output-example.json)
+- [Example](examples/amazon-proton-update-service-sync-config-input-example.json)
+- [Example](examples/amazon-proton-update-service-template-input-example.json)
+- [Example](examples/amazon-proton-update-service-template-version-input-example.json)
+- [NaftikoCapability](capabilities/shared/amazon-proton.yaml)
+
+## Features
+
+| Name | Description |
+|------|-------------|
+| Environment Templates | Create standardized environment templates with infrastructure-as-code definitions for platform engineers to publish. |
+| Service Templates | Define reusable service templates that developers can use for self-service application deployments. |
+| Automated Provisioning | Automatically provision and manage infrastructure for environments and services using CloudFormation or Terraform. |
+| CI/CD Pipeline Management | Manage deployment pipelines for services with automatic updates when templates change. |
+| Template Versioning | Version control environment and service templates with major and minor version support. |
+| Components | Create infrastructure components that can be shared across services and environments. |
+| Repository Connections | Connect to GitHub and Bitbucket repositories for template source and service pipeline definitions. |
+| Drift Detection | Detect and remediate configuration drift in deployed environments and services. |
+
+## Use Cases
+
+| Name | Description |
+|------|-------------|
+| Developer Self-Service | Enable developers to deploy containerized and serverless applications without deep infrastructure knowledge. |
+| Platform Standardization | Enforce organizational standards for infrastructure, security, and compliance through templates. |
+| Multi-Account Deployment | Deploy standardized environments and services across multiple AWS accounts. |
+| Microservices Orchestration | Manage the infrastructure for complex microservices architectures with consistent templates. |
+| Serverless Workflows | Deploy Lambda-based serverless applications with standardized infrastructure patterns. |
+
+## Integrations
+
+| Name | Description |
+|------|-------------|
+| AWS CloudFormation | Use CloudFormation as the IaC engine for provisioning environment and service infrastructure. |
+| HashiCorp Terraform | Use Terraform as an alternative IaC engine for environment and service provisioning. |
+| AWS CodePipeline | Automatically create CI/CD pipelines for services using CodePipeline. |
+| GitHub | Connect GitHub repositories as sources for environment templates and service pipeline definitions. |
+| AWS CodeCommit | Use CodeCommit repositories for template and configuration management. |
+
+## Artifacts
+
+Machine-readable API specifications organized by format.
+
+### OpenAPI
+
+- [amazon-proton-openapi-original.yaml](openapi/amazon-proton-openapi-original.yaml)
+
+### JSON Schema
+
+- [amazon-proton-accept-environment-account-connection-input-schema.json](json-schema/amazon-proton-accept-environment-account-connection-input-schema.json)
+- [amazon-proton-accept-environment-account-connection-output-schema.json](json-schema/amazon-proton-accept-environment-account-connection-output-schema.json)
+- [amazon-proton-account-settings-schema.json](json-schema/amazon-proton-account-settings-schema.json)
+- [amazon-proton-blocker-status-schema.json](json-schema/amazon-proton-blocker-status-schema.json)
+- [amazon-proton-blocker-type-schema.json](json-schema/amazon-proton-blocker-type-schema.json)
+- [amazon-proton-cancel-component-deployment-input-schema.json](json-schema/amazon-proton-cancel-component-deployment-input-schema.json)
+- [amazon-proton-cancel-component-deployment-output-schema.json](json-schema/amazon-proton-cancel-component-deployment-output-schema.json)
+- [amazon-proton-cancel-environment-deployment-input-schema.json](json-schema/amazon-proton-cancel-environment-deployment-input-schema.json)
+- [amazon-proton-cancel-environment-deployment-output-schema.json](json-schema/amazon-proton-cancel-environment-deployment-output-schema.json)
+- [amazon-proton-cancel-service-instance-deployment-input-schema.json](json-schema/amazon-proton-cancel-service-instance-deployment-input-schema.json)
+- ...and 220 more
+
+### JSON Structure
+
+- [amazon-proton-accept-environment-account-connection-input-structure.json](json-structure/amazon-proton-accept-environment-account-connection-input-structure.json)
+- [amazon-proton-accept-environment-account-connection-output-structure.json](json-structure/amazon-proton-accept-environment-account-connection-output-structure.json)
+- [amazon-proton-account-settings-structure.json](json-structure/amazon-proton-account-settings-structure.json)
+- [amazon-proton-blocker-status-structure.json](json-structure/amazon-proton-blocker-status-structure.json)
+- [amazon-proton-blocker-type-structure.json](json-structure/amazon-proton-blocker-type-structure.json)
+- [amazon-proton-cancel-component-deployment-input-structure.json](json-structure/amazon-proton-cancel-component-deployment-input-structure.json)
+- [amazon-proton-cancel-component-deployment-output-structure.json](json-structure/amazon-proton-cancel-component-deployment-output-structure.json)
+- [amazon-proton-cancel-environment-deployment-input-structure.json](json-structure/amazon-proton-cancel-environment-deployment-input-structure.json)
+- [amazon-proton-cancel-environment-deployment-output-structure.json](json-structure/amazon-proton-cancel-environment-deployment-output-structure.json)
+- [amazon-proton-cancel-service-instance-deployment-input-structure.json](json-structure/amazon-proton-cancel-service-instance-deployment-input-structure.json)
+- ...and 220 more
+
+### JSON-LD
+
+- [amazon-proton-context.jsonld](json-ld/amazon-proton-context.jsonld)
+
+### Examples
+
+- [amazon-proton-cancel-service-instance-deployment-input-example.json](examples/amazon-proton-cancel-service-instance-deployment-input-example.json)
+- [amazon-proton-compatible-environment-template-example.json](examples/amazon-proton-compatible-environment-template-example.json)
+- [amazon-proton-component-summary-example.json](examples/amazon-proton-component-summary-example.json)
+- [amazon-proton-create-component-input-example.json](examples/amazon-proton-create-component-input-example.json)
+- [amazon-proton-create-environment-account-connection-input-example.json](examples/amazon-proton-create-environment-account-connection-input-example.json)
+- [amazon-proton-create-environment-template-output-example.json](examples/amazon-proton-create-environment-template-output-example.json)
+- [amazon-proton-create-repository-input-example.json](examples/amazon-proton-create-repository-input-example.json)
+- [amazon-proton-create-service-instance-output-example.json](examples/amazon-proton-create-service-instance-output-example.json)
+- [amazon-proton-create-service-sync-config-input-example.json](examples/amazon-proton-create-service-sync-config-input-example.json)
+- [amazon-proton-create-service-sync-config-output-example.json](examples/amazon-proton-create-service-sync-config-output-example.json)
+- ...and 63 more
+
+## Capabilities
+
+Naftiko capabilities organized as shared per-API definitions composed into customer-facing workflows.
+
+### Shared Per-API Definitions
+
+- [amazon-proton.yaml](capabilities/shared/amazon-proton.yaml)
+
+### Workflow Capabilities
+
+- [platform-engineering.yaml](capabilities/platform-engineering.yaml)
+
+## Vocabulary
+
+- [amazon-proton-vocabulary.yaml](vocabulary/amazon-proton-vocabulary.yaml)
+
+## Rules
+
+- [amazon-proton-spectral-rules.yml](rules/amazon-proton-spectral-rules.yml)
+
+## Maintainers
+
+**FN:** Kin Lane
+
+**Email:** kin@apievangelist.com
