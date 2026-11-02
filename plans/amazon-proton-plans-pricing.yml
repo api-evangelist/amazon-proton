@@ -1,0 +1,38 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-28'
+method: searched
+source: https://aws.amazon.com/proton/pricing/
+sources:
+- https://aws.amazon.com/proton/pricing/
+provenance:
+  tool: engine/economics/harvest_pricing.py
+  run: 20261028T141238
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: free
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-28'
+published: false
+note: Page states no additional charge for AWS Proton, with no numeric prices; only underlying AWS resource
+  costs apply. Also offers 'Request a pricing quote'.
+plan_count: 1
+plans:
+- name: AWS Proton
+  price_text: There is no additional charge for AWS Proton.
+  period: none
+  included_quota: You only pay for the AWS resources that you create to store and run your application.
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: AWS Proton
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
